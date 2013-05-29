@@ -1,0 +1,7 @@
+2011-11-21 20:05:06.029 ButtonTest[1728:903] Should be here.
+2011-11-21 20:05:06.119 ButtonTest[1728:903] SBSetAccelerometerClientEventsEnabled failed: (ipc/send) invalid destination port
+2011-11-21 20:05:06.230 ButtonTest[1728:903] Handle event.
+2011-11-21 20:05:06.234 ButtonTest[1728:903] NSStreamEventErrorOccurred
+2011-11-21 20:05:06.355 ButtonTest[1728:903] The operation couldn’t be completed. Connection refused
+2011-11-21 20:05:07.117 ButtonTest[1728:903] Performing guitar commands: (null)
+2011-11-21 20:05:07.120 ButtonTest[1728:903] Waiting for an action...

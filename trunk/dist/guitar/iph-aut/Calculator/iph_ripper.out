@@ -1,0 +1,22 @@
+Build settings from command line:
+    SDKROOT = iphonesimulator5.1
+
+=== BUILD NATIVE TARGET TestScriptRunner OF PROJECT Calculator WITH CONFIGURATION Debug ===
+Check dependencies
+2013-05-29 08:12:33.907 xcodebuild[43488:510f] error: Error Domain=NSPOSIXErrorDomain Code=2 "Non-zero exit code 127 returned from shell command: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -v -E -dM -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -x objective-c -c /dev/null 2>&1" UserInfo=0x401463ec0 {NSLocalizedDescription=Non-zero exit code 127 returned from shell command: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -v -E -dM -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -x objective-c -c /dev/null 2>&1, NSLocalizedFailureReason=No such file or directory}
+2013-05-29 08:12:33.908 xcodebuild[43488:510f] Warning:  Couldn't discover the 'gcc-4.2' compiler's built-in search paths and preprocessor definitions for language dialect 'objective-c'.
+Compiler: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2
+Reason:   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -v -E -dM -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -x objective-c -c /dev/null 2>&1
+2013-05-29 08:12:33.945 xcodebuild[43488:510f] error: Error Domain=NSPOSIXErrorDomain Code=2 "Non-zero exit code 127 returned from shell command: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -v -E -dM -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -x c -c /dev/null 2>&1" UserInfo=0x4014f07a0 {NSLocalizedDescription=Non-zero exit code 127 returned from shell command: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -v -E -dM -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -x c -c /dev/null 2>&1, NSLocalizedFailureReason=No such file or directory}
+2013-05-29 08:12:33.946 xcodebuild[43488:510f] Warning:  Couldn't discover the 'gcc-4.2' compiler's built-in search paths and preprocessor definitions for language dialect 'c'.
+Compiler: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2
+Reason:   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -v -E -dM -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -x c -c /dev/null 2>&1
+Unsupported compiler 'GCC 4.2' selected for architecture 'i386'
+
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)

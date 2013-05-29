@@ -1,0 +1,11 @@
+[main] ERROR javax.xml.bind.UnmarshalException
+ - with linked exception:
+[java.io.FileNotFoundException: /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/Demo.GUI (No such file or directory)]
+[main] INFO  Unknown ERROR
+[main] INFO  ===========================================
+[main] INFO  GUIStructure2GraphConverter
+[main] INFO  	Plugin: 	EFGConverter
+[main] INFO  	Input GUI: 	/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/Demo.GUI
+[main] INFO  	Output EFG: 	/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/Demo.EFG
+[main] INFO  ===========================================
+[main] INFO  

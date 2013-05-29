@@ -30,4 +30,10 @@ public class IphObject implements GObject{
 		return null;
 	}
 
+	@Override
+	public List<PropertyType> getIDProperties() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

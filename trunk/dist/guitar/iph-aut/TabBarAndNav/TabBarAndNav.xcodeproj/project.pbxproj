@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* TabBarAndNavAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* TabBarAndNavAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
+		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
+		F637A56F14F21B9900CDA4E9 /* ScriptRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = F637A56814F21B9900CDA4E9 /* ScriptRunner.m */; };
+		F637A57014F21B9900CDA4E9 /* TouchSynthesis.m in Sources */ = {isa = PBXBuildFile; fileRef = F637A56A14F21B9900CDA4E9 /* TouchSynthesis.m */; };
+		F637A57114F21B9900CDA4E9 /* UIView+FullDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = F637A56C14F21B9900CDA4E9 /* UIView+FullDescription.m */; };
+		F637A57214F21B9900CDA4E9 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = F637A56E14F21B9900CDA4E9 /* XPathQuery.m */; };
+		F637A57314F21BBA00CDA4E9 /* ScriptRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = F637A56814F21B9900CDA4E9 /* ScriptRunner.m */; };
+		F637A57414F21BBA00CDA4E9 /* TouchSynthesis.m in Sources */ = {isa = PBXBuildFile; fileRef = F637A56A14F21B9900CDA4E9 /* TouchSynthesis.m */; };
+		F637A57514F21BBA00CDA4E9 /* UIView+FullDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = F637A56C14F21B9900CDA4E9 /* UIView+FullDescription.m */; };
+		F637A57614F21BBA00CDA4E9 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = F637A56E14F21B9900CDA4E9 /* XPathQuery.m */; };
+		F640DBDF14F1FC4F00B41194 /* MovieDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F640DBDD14F1FC4F00B41194 /* MovieDetailViewController.m */; };
+		F640DBE014F1FC4F00B41194 /* MovieDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F640DBDE14F1FC4F00B41194 /* MovieDetailViewController.xib */; };
+		F640DC0314F2000900B41194 /* 45-movie-1.png in Resources */ = {isa = PBXBuildFile; fileRef = F640DC0214F2000900B41194 /* 45-movie-1.png */; };
+		F640DC2C14F202A900B41194 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F640DC2A14F202A900B41194 /* HomeViewController.m */; };
+		F640DC2D14F202A900B41194 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F640DC2B14F202A900B41194 /* HomeViewController.xib */; };
+		F689992C14F2153C00FD20FC /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
+		F689992D14F2153C00FD20FC /* MoviesListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F69A0FDD14F1F87200083C6F /* MoviesListViewController.xib */; };
+		F689992E14F2153C00FD20FC /* MovieDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F640DBDE14F1FC4F00B41194 /* MovieDetailViewController.xib */; };
+		F689992F14F2153C00FD20FC /* 45-movie-1.png in Resources */ = {isa = PBXBuildFile; fileRef = F640DC0214F2000900B41194 /* 45-movie-1.png */; };
+		F689993014F2153C00FD20FC /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F640DC2B14F202A900B41194 /* HomeViewController.xib */; };
+		F689993314F2153C00FD20FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		F689993414F2153C00FD20FC /* TabBarAndNavAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* TabBarAndNavAppDelegate.m */; };
+		F689993514F2153C00FD20FC /* MoviesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F69A0FDC14F1F87200083C6F /* MoviesListViewController.m */; };
+		F689993614F2153C00FD20FC /* MovieDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F640DBDD14F1FC4F00B41194 /* MovieDetailViewController.m */; };
+		F689993714F2153C00FD20FC /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F640DC2A14F202A900B41194 /* HomeViewController.m */; };
+		F689993914F2153C00FD20FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		F689993A14F2153C00FD20FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		F689993B14F2153C00FD20FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
+		F69A0FDE14F1F87200083C6F /* MoviesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F69A0FDC14F1F87200083C6F /* MoviesListViewController.m */; };
+		F69A0FDF14F1F87200083C6F /* MoviesListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F69A0FDD14F1F87200083C6F /* MoviesListViewController.xib */; };
+		F6B8516314F2269300F32C5E /* libxml2.2.7.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B8516214F2269300F32C5E /* libxml2.2.7.3.dylib */; };
+		F6B8516F14F2270D00F32C5E /* libxml2.2.7.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B8516214F2269300F32C5E /* libxml2.2.7.3.dylib */; };
+		F6B9E9E514F21CE900D6B85E /* 111-user.png in Resources */ = {isa = PBXBuildFile; fileRef = F6B9E9E414F21CE900D6B85E /* 111-user.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* TabBarAndNavAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarAndNavAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* TabBarAndNavAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarAndNavAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* TabBarAndNav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarAndNav.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AB4B0D9B1048005BE974 /* TabBarAndNav_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarAndNav_Prefix.pch; sourceTree = "<group>"; };
+		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* TabBarAndNav-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TabBarAndNav-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		F637A56714F21B9900CDA4E9 /* ScriptRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScriptRunner.h; path = ../TestingClasses/ScriptRunner.h; sourceTree = "<group>"; };
+		F637A56814F21B9900CDA4E9 /* ScriptRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScriptRunner.m; path = ../TestingClasses/ScriptRunner.m; sourceTree = "<group>"; };
+		F637A56914F21B9900CDA4E9 /* TouchSynthesis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TouchSynthesis.h; path = ../TestingClasses/TouchSynthesis.h; sourceTree = "<group>"; };
+		F637A56A14F21B9900CDA4E9 /* TouchSynthesis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TouchSynthesis.m; path = ../TestingClasses/TouchSynthesis.m; sourceTree = "<group>"; };
+		F637A56B14F21B9900CDA4E9 /* UIView+FullDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+FullDescription.h"; path = "../TestingClasses/UIView+FullDescription.h"; sourceTree = "<group>"; };
+		F637A56C14F21B9900CDA4E9 /* UIView+FullDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+FullDescription.m"; path = "../TestingClasses/UIView+FullDescription.m"; sourceTree = "<group>"; };
+		F637A56D14F21B9900CDA4E9 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XPathQuery.h; path = ../TestingClasses/XPathQuery.h; sourceTree = "<group>"; };
+		F637A56E14F21B9900CDA4E9 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XPathQuery.m; path = ../TestingClasses/XPathQuery.m; sourceTree = "<group>"; };
+		F640DBDC14F1FC4F00B41194 /* MovieDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieDetailViewController.h; sourceTree = "<group>"; };
+		F640DBDD14F1FC4F00B41194 /* MovieDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieDetailViewController.m; sourceTree = "<group>"; };
+		F640DBDE14F1FC4F00B41194 /* MovieDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieDetailViewController.xib; sourceTree = "<group>"; };
+		F640DC0214F2000900B41194 /* 45-movie-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "45-movie-1.png"; sourceTree = "<group>"; };
+		F640DC2914F202A900B41194 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		F640DC2A14F202A900B41194 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		F640DC2B14F202A900B41194 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		F689994014F2153C00FD20FC /* TabBarAndNav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarAndNav.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69A0FDB14F1F87200083C6F /* MoviesListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviesListViewController.h; sourceTree = "<group>"; };
+		F69A0FDC14F1F87200083C6F /* MoviesListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviesListViewController.m; sourceTree = "<group>"; };
+		F69A0FDD14F1F87200083C6F /* MoviesListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoviesListViewController.xib; sourceTree = "<group>"; };
+		F6B8516214F2269300F32C5E /* libxml2.2.7.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.7.3.dylib; path = usr/lib/libxml2.2.7.3.dylib; sourceTree = SDKROOT; };
+		F6B9E9E314F21CBC00D6B85E /* TestScriptRunner-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TestScriptRunner-Info.plist"; sourceTree = "<group>"; };
+		F6B9E9E414F21CE900D6B85E /* 111-user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "111-user.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
+				F6B8516314F2269300F32C5E /* libxml2.2.7.3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F689993814F2153C00FD20FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F689993914F2153C00FD20FC /* Foundation.framework in Frameworks */,
+				F689993A14F2153C00FD20FC /* UIKit.framework in Frameworks */,
+				F689993B14F2153C00FD20FC /* CoreGraphics.framework in Frameworks */,
+				F6B8516F14F2270D00F32C5E /* libxml2.2.7.3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F6B8513514F2217900F32C5E /* Classes */,
+				F6B8512C14F2214700F32C5E /* TestingClasses */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* TabBarAndNav.app */,
+				F689994014F2153C00FD20FC /* TabBarAndNav.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* TabBarAndNav */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = TabBarAndNav;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AB4B0D9B1048005BE974 /* TabBarAndNav_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F6B9E9E414F21CE900D6B85E /* 111-user.png */,
+				F6B9E9E314F21CBC00D6B85E /* TestScriptRunner-Info.plist */,
+				F640DC0214F2000900B41194 /* 45-movie-1.png */,
+				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* TabBarAndNav-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765070DF74369002DB57D /* CoreGraphics.framework */,
+				F6B8516214F2269300F32C5E /* libxml2.2.7.3.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6B8512C14F2214700F32C5E /* TestingClasses */ = {
+			isa = PBXGroup;
+			children = (
+				F637A56714F21B9900CDA4E9 /* ScriptRunner.h */,
+				F637A56914F21B9900CDA4E9 /* TouchSynthesis.h */,
+				F637A56B14F21B9900CDA4E9 /* UIView+FullDescription.h */,
+				F637A56D14F21B9900CDA4E9 /* XPathQuery.h */,
+				F637A56814F21B9900CDA4E9 /* ScriptRunner.m */,
+				F637A56A14F21B9900CDA4E9 /* TouchSynthesis.m */,
+				F637A56C14F21B9900CDA4E9 /* UIView+FullDescription.m */,
+				F637A56E14F21B9900CDA4E9 /* XPathQuery.m */,
+			);
+			name = TestingClasses;
+			sourceTree = "<group>";
+		};
+		F6B8513514F2217900F32C5E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* TabBarAndNavAppDelegate.h */,
+				1D3623250D0F684500981E51 /* TabBarAndNavAppDelegate.m */,
+				F69A0FDB14F1F87200083C6F /* MoviesListViewController.h */,
+				F69A0FDC14F1F87200083C6F /* MoviesListViewController.m */,
+				F69A0FDD14F1F87200083C6F /* MoviesListViewController.xib */,
+				F640DBDC14F1FC4F00B41194 /* MovieDetailViewController.h */,
+				F640DBDD14F1FC4F00B41194 /* MovieDetailViewController.m */,
+				F640DBDE14F1FC4F00B41194 /* MovieDetailViewController.xib */,
+				F640DC2914F202A900B41194 /* HomeViewController.h */,
+				F640DC2A14F202A900B41194 /* HomeViewController.m */,
+				F640DC2B14F202A900B41194 /* HomeViewController.xib */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* TabBarAndNav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TabBarAndNav" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabBarAndNav;
+			productName = TabBarAndNav;
+			productReference = 1D6058910D05DD3D006BFB54 /* TabBarAndNav.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F689992A14F2153C00FD20FC /* TestScriptRunner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F689993D14F2153C00FD20FC /* Build configuration list for PBXNativeTarget "TestScriptRunner" */;
+			buildPhases = (
+				F689992B14F2153C00FD20FC /* Resources */,
+				F689993214F2153C00FD20FC /* Sources */,
+				F689993814F2153C00FD20FC /* Frameworks */,
+				F689995F14F217A600FD20FC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestScriptRunner;
+			productName = TabBarAndNav;
+			productReference = F689994014F2153C00FD20FC /* TabBarAndNav.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TabBarAndNav" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* TabBarAndNav */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* TabBarAndNav */,
+				F689992A14F2153C00FD20FC /* TestScriptRunner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
+				F69A0FDF14F1F87200083C6F /* MoviesListViewController.xib in Resources */,
+				F640DBE014F1FC4F00B41194 /* MovieDetailViewController.xib in Resources */,
+				F640DC0314F2000900B41194 /* 45-movie-1.png in Resources */,
+				F640DC2D14F202A900B41194 /* HomeViewController.xib in Resources */,
+				F6B9E9E514F21CE900D6B85E /* 111-user.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F689992B14F2153C00FD20FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F689992C14F2153C00FD20FC /* MainWindow.xib in Resources */,
+				F689992D14F2153C00FD20FC /* MoviesListViewController.xib in Resources */,
+				F689992E14F2153C00FD20FC /* MovieDetailViewController.xib in Resources */,
+				F689992F14F2153C00FD20FC /* 45-movie-1.png in Resources */,
+				F689993014F2153C00FD20FC /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F689995F14F217A600FD20FC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export DYLD_ROOT_PATH=\"$SDKROOT\"\nexport DYLD_FRAMEWORK_PATH=\"$CONFIGURATION_BUILD_DIR\"\nexport IPHONE_SIMULATOR_ROOT=\"$SDKROOT\"\nexport CFFIXED_USER_HOME=\"$USER_LIBRARY_DIR/Application Support/iPhone Simulator/User\"\n\"$TARGET_BUILD_DIR/$EXECUTABLE_PATH\" -RegisterForSystemEvents 2> \"$PROJECT_DIR/errorLogFromLastBuild.txt\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* TabBarAndNavAppDelegate.m in Sources */,
+				F69A0FDE14F1F87200083C6F /* MoviesListViewController.m in Sources */,
+				F640DBDF14F1FC4F00B41194 /* MovieDetailViewController.m in Sources */,
+				F640DC2C14F202A900B41194 /* HomeViewController.m in Sources */,
+				F637A56F14F21B9900CDA4E9 /* ScriptRunner.m in Sources */,
+				F637A57014F21B9900CDA4E9 /* TouchSynthesis.m in Sources */,
+				F637A57114F21B9900CDA4E9 /* UIView+FullDescription.m in Sources */,
+				F637A57214F21B9900CDA4E9 /* XPathQuery.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F689993214F2153C00FD20FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F637A57314F21BBA00CDA4E9 /* ScriptRunner.m in Sources */,
+				F637A57414F21BBA00CDA4E9 /* TouchSynthesis.m in Sources */,
+				F637A57514F21BBA00CDA4E9 /* UIView+FullDescription.m in Sources */,
+				F637A57614F21BBA00CDA4E9 /* XPathQuery.m in Sources */,
+				F689993314F2153C00FD20FC /* main.m in Sources */,
+				F689993414F2153C00FD20FC /* TabBarAndNavAppDelegate.m in Sources */,
+				F689993514F2153C00FD20FC /* MoviesListViewController.m in Sources */,
+				F689993614F2153C00FD20FC /* MovieDetailViewController.m in Sources */,
+				F689993714F2153C00FD20FC /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TabBarAndNav_Prefix.pch;
+				INFOPLIST_FILE = "TabBarAndNav-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Classes\"",
+				);
+				PRODUCT_NAME = TabBarAndNav;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TabBarAndNav_Prefix.pch;
+				INFOPLIST_FILE = "TabBarAndNav-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Classes\"",
+				);
+				PRODUCT_NAME = TabBarAndNav;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		F689993E14F2153C00FD20FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TabBarAndNav_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = SCRIPT_DRIVEN_TEST_MODE_ENABLED;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				INFOPLIST_FILE = "TestScriptRunner-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Classes\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lgcov";
+				PRODUCT_NAME = TabBarAndNav;
+			};
+			name = Debug;
+		};
+		F689993F14F2153C00FD20FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TabBarAndNav_Prefix.pch;
+				INFOPLIST_FILE = "TabBarAndNav-Info copy.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Classes\"",
+				);
+				PRODUCT_NAME = TabBarAndNav;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TabBarAndNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TabBarAndNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F689993D14F2153C00FD20FC /* Build configuration list for PBXNativeTarget "TestScriptRunner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F689993E14F2153C00FD20FC /* Debug */,
+				F689993F14F2153C00FD20FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

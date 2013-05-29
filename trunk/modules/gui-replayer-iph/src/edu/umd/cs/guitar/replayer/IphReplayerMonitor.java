@@ -40,6 +40,7 @@ import edu.umd.cs.guitar.exception.ApplicationConnectException;
 import edu.umd.cs.guitar.model.GUITARConstants;
 import edu.umd.cs.guitar.model.GWindow;
 import edu.umd.cs.guitar.model.GComponent;
+import edu.umd.cs.guitar.model.GObject;
 import edu.umd.cs.guitar.model.IphApplication;
 import edu.umd.cs.guitar.model.IphConstants;
 
@@ -242,7 +243,7 @@ public class IphReplayerMonitor extends GReplayerMonitor{
     */
    @Override
    public void
-   writeMatchedComponents(GComponent replayComponent,
+   writeMatchedComponents(GObject replayComponent,
                           String sRipImageFilePath)
    throws IOException
    {

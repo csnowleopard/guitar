@@ -128,6 +128,12 @@ public class IphWindow extends GWindow {
 	}
 
 	@Override
+	public List<PropertyType> getIDProperties() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;

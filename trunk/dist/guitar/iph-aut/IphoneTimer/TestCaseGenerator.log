@@ -1,0 +1,6 @@
+0      [main] INFO  edu.umd.cs.guitar.util.GUITARLog - ================================
+1      [main] INFO  edu.umd.cs.guitar.util.GUITARLog - EFG File: ./Demo/Demo.EFG
+1      [main] INFO  edu.umd.cs.guitar.util.GUITARLog - Plugin: SequenceLengthCoverage
+1      [main] INFO  edu.umd.cs.guitar.util.GUITARLog - Test cases #: 0
+1      [main] INFO  edu.umd.cs.guitar.util.GUITARLog - Output dir: ./Demo/testcases
+1      [main] INFO  edu.umd.cs.guitar.util.GUITARLog - ================================

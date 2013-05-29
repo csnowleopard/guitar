@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* IphoneTimerAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {629, 411}}";
+			sepNavSelRange = "{195, 0}";
+			sepNavVisRange = "{0, 580}";
+			sepNavWindowFrame = "{{15, 248}, {973, 493}}";
+		};
+	};
+	1D3623250D0F684500981E51 /* IphoneTimerAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1235}}";
+			sepNavSelRange = "{437, 0}";
+			sepNavVisRange = "{245, 1040}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* IphoneTimer */ = {
+		activeExec = 0;
+		executables = (
+			3011B5251468A88E00D752EE /* IphoneTimer */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* IphoneTimerViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {733, 572}}";
+			sepNavSelRange = "{525, 0}";
+			sepNavVisRange = "{234, 758}";
+			sepNavWindowFrame = "{{38, 227}, {973, 493}}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* IphoneTimerViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 4238}}";
+			sepNavSelRange = "{8756, 0}";
+			sepNavVisRange = "{8356, 398}";
+			sepNavWindowFrame = "{{15, 248}, {973, 493}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 3011B5251468A88E00D752EE /* IphoneTimer */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* IphoneTimer */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* IphoneTimer */,
+			30F7E893146F1CB900E09DFD /* TestScriptRunner */,
+		);
+		codeSenseManager = 3011B52A1468A8B200D752EE /* Code sense */;
+		executables = (
+			3011B5251468A88E00D752EE /* IphoneTimer */,
+			30F7E895146F1CB900E09DFD /* TestScriptRunner */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					451,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					411,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 344764807;
+			PBXWorkspaceStateSaveDate = 344764807;
+		};
+		perUserProjectItems = {
+			3011B5B1146C712F00D752EE /* PlistBookmark */ = 3011B5B1146C712F00D752EE /* PlistBookmark */;
+			3011B5B4146C712F00D752EE /* PBXTextBookmark */ = 3011B5B4146C712F00D752EE /* PBXTextBookmark */;
+			3011B606146CE14200D752EE /* PBXTextBookmark */ = 3011B606146CE14200D752EE /* PBXTextBookmark */;
+			306C50061493BF0100C4D7F7 /* PBXTextBookmark */ = 306C50061493BF0100C4D7F7 /* PBXTextBookmark */;
+			306C50071493BF0100C4D7F7 /* PBXTextBookmark */ = 306C50071493BF0100C4D7F7 /* PBXTextBookmark */;
+			306C50081493BF0100C4D7F7 /* PBXTextBookmark */ = 306C50081493BF0100C4D7F7 /* PBXTextBookmark */;
+			306C50091493BF0100C4D7F7 /* PBXTextBookmark */ = 306C50091493BF0100C4D7F7 /* PBXTextBookmark */;
+			306C500A1493BF0100C4D7F7 /* PBXTextBookmark */ = 306C500A1493BF0100C4D7F7 /* PBXTextBookmark */;
+			306C500B1493BF0100C4D7F7 /* PlistBookmark */ = 306C500B1493BF0100C4D7F7 /* PlistBookmark */;
+			306C500C1493BF0100C4D7F7 /* PlistBookmark */ = 306C500C1493BF0100C4D7F7 /* PlistBookmark */;
+			30F7E98D146F1FE200E09DFD /* PBXTextBookmark */ = 30F7E98D146F1FE200E09DFD /* PBXTextBookmark */;
+			30F7E98E146F1FE200E09DFD /* PlistBookmark */ = 30F7E98E146F1FE200E09DFD /* PlistBookmark */;
+			30F7E98F146F1FE200E09DFD /* PBXTextBookmark */ = 30F7E98F146F1FE200E09DFD /* PBXTextBookmark */;
+			30F7E990146F1FE200E09DFD /* PBXTextBookmark */ = 30F7E990146F1FE200E09DFD /* PBXTextBookmark */;
+			30F7E991146F1FE200E09DFD /* PBXTextBookmark */ = 30F7E991146F1FE200E09DFD /* PBXTextBookmark */;
+			30F7E992146F1FE200E09DFD /* PlistBookmark */ = 30F7E992146F1FE200E09DFD /* PlistBookmark */;
+		};
+		sourceControlManager = 3011B5291468A8B200D752EE /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {659, 428}}";
+			sepNavSelRange = "{290, 0}";
+			sepNavVisRange = "{0, 383}";
+		};
+	};
+	3011B5251468A88E00D752EE /* IphoneTimer */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = IphoneTimer;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	3011B5291468A8B200D752EE /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	3011B52A1468A8B200D752EE /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	3011B5B1146C712F00D752EE /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* IphoneTimer-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/rongjianlan/Documents/IphoneTimer/IphoneTimer-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	3011B5B4146C712F00D752EE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 14";
+		rLen = 0;
+		rLoc = 290;
+		rType = 0;
+		vrLen = 383;
+		vrLoc = 0;
+	};
+	3011B606146CE14200D752EE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* IphoneTimer_Prefix.pch */;
+		name = "IphoneTimer_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 191;
+		vrLoc = 0;
+	};
+	306C50061493BF0100C4D7F7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 30F7E88A146F1C4500E09DFD /* TouchSynthesis.h */;
+		name = "TouchSynthesis.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 805;
+		vrLoc = 0;
+	};
+	306C50071493BF0100C4D7F7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* IphoneTimerAppDelegate.m */;
+		name = "IphoneTimerAppDelegate.m: 20";
+		rLen = 0;
+		rLoc = 437;
+		rType = 0;
+		vrLen = 1040;
+		vrLoc = 245;
+	};
+	306C50081493BF0100C4D7F7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* IphoneTimerViewController.h */;
+		name = "IphoneTimerViewController.h: 19";
+		rLen = 0;
+		rLoc = 525;
+		rType = 0;
+		vrLen = 758;
+		vrLoc = 234;
+	};
+	306C50091493BF0100C4D7F7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* IphoneTimerViewController.m */;
+		name = "IphoneTimerViewController.m: 14";
+		rLen = 0;
+		rLoc = 329;
+		rType = 0;
+		vrLen = 827;
+		vrLoc = 0;
+	};
+	306C500A1493BF0100C4D7F7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* IphoneTimerAppDelegate.h */;
+		name = "IphoneTimerAppDelegate.h: 9";
+		rLen = 0;
+		rLoc = 195;
+		rType = 0;
+		vrLen = 580;
+		vrLoc = 0;
+	};
+	306C500B1493BF0100C4D7F7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 306C4FFF1493BCF000C4D7F7 /* settings.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/settings.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	306C500C1493BF0100C4D7F7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 306C4FFF1493BCF000C4D7F7 /* settings.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			soundAndVibration,
+		);
+		name = "/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/settings.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	30F7E885146F1C4500E09DFD /* UIView+FullDescription.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {852, 4693}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 934}";
+		};
+	};
+	30F7E887146F1C4500E09DFD /* XPathQuery.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {733, 1924}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1044}";
+		};
+	};
+	30F7E888146F1C4500E09DFD /* ScriptRunner.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {629, 609}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 937}";
+		};
+	};
+	30F7E88A146F1C4500E09DFD /* TouchSynthesis.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {629, 494}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 805}";
+		};
+	};
+	30F7E88F146F1C9A00E09DFD /* TestWithCodeCoverage.xcconfig */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {629, 417}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 176}";
+		};
+	};
+	30F7E893146F1CB900E09DFD /* TestScriptRunner */ = {
+		activeExec = 0;
+		executables = (
+			30F7E895146F1CB900E09DFD /* TestScriptRunner */,
+		);
+	};
+	30F7E895146F1CB900E09DFD /* TestScriptRunner */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = TestScriptRunner;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	30F7E98D146F1FE200E09DFD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 30F7E888146F1C4500E09DFD /* ScriptRunner.h */;
+		name = "ScriptRunner.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 937;
+		vrLoc = 0;
+	};
+	30F7E98E146F1FE200E09DFD /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 30F7E88E146F1C7B00E09DFD /* TestScript.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/rongjianlan/Documents/IphoneTimer/TestScript.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	30F7E98F146F1FE200E09DFD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 30F7E88F146F1C9A00E09DFD /* TestWithCodeCoverage.xcconfig */;
+		name = "TestWithCodeCoverage.xcconfig: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 176;
+		vrLoc = 0;
+	};
+	30F7E990146F1FE200E09DFD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 30F7E887146F1C4500E09DFD /* XPathQuery.m */;
+		name = "XPathQuery.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1044;
+		vrLoc = 0;
+	};
+	30F7E991146F1FE200E09DFD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 30F7E885146F1C4500E09DFD /* UIView+FullDescription.m */;
+		name = "UIView+FullDescription.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 934;
+		vrLoc = 0;
+	};
+	30F7E992146F1FE200E09DFD /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 30F7E88D146F1C6100E09DFD /* TestScriptRunner-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/rongjianlan/Documents/IphoneTimer/TestScriptRunner-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	32CA4F630368D1EE00C91783 /* IphoneTimer_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {761, 609}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 191}";
+		};
+	};
+}

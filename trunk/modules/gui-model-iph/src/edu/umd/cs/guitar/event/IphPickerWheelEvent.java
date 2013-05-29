@@ -4,13 +4,14 @@ import java.util.Hashtable;
 import java.util.List;
 
 import edu.umd.cs.guitar.model.GComponent;
+import edu.umd.cs.guitar.model.GObject;
 import edu.umd.cs.guitar.model.IphCommServer;
 import edu.umd.cs.guitar.model.IphComponent;
 import edu.umd.cs.guitar.model.data.PropertyType;
 
 public class IphPickerWheelEvent implements GEvent{
 
-	public void perform(GComponent gComponent, List<String> parameters,
+	public void perform(GObject gComponent, List<String> parameters,
 			Hashtable<String, List<String>> optionalData) {
 		System.out.println("Send PICKER_WHEEL message w/ parameters to iphone client.");
 		if (!(gComponent instanceof IphComponent)) {
@@ -24,7 +25,7 @@ public class IphPickerWheelEvent implements GEvent{
 		IphCommServer.requestAndHear("INVOKE PICKER_WHEEL " + comp.getClassVal() + " " + comp.getX() + " " + comp.getY());// comp.getAddress());
 	}
 
-	public void perform(GComponent gComponent,
+	public void perform(GObject gComponent,
 			Hashtable<String, List<String>> optionalData) {
 		System.out.println("Send PICKER_WHEEL message to iphone client.");
 		if (!(gComponent instanceof IphComponent)) {
@@ -38,7 +39,7 @@ public class IphPickerWheelEvent implements GEvent{
 		IphCommServer.requestAndHear("INVOKE PICKER_WHEEL " + comp.getClassVal() + " " + comp.getX() + " " + comp.getY()); //comp.getAddress());
 	}
 
-	public boolean isSupportedBy(GComponent gComponent) {
+	public boolean isSupportedBy(GObject gComponent) {
 		if (!(gComponent instanceof IphComponent)) {
 			return false;
 		}

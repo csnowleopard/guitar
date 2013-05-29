@@ -110,6 +110,12 @@ public class IphComponent extends GComponent {
 	}
 
 	@Override
+	public List<PropertyType> getIDProperties() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
 	public List<GEvent> getEventList() {
 		List<GEvent> eventList = new ArrayList<GEvent>();
 		for (PropertyType property : this.getGUIProperties()) {

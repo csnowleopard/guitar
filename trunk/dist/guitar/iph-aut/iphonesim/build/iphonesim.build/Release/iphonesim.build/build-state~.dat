@@ -1,0 +1,262 @@
+Tiphonesim
+v5
+r1
+cCheck dependencies
+cProcessPCH /var/folders/sd/284rxfz927zcxwcpfc_h9wph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iphonesim_Prefix-gqcqxzheivxfazeqyhhpiupfiauh/iphonesim_Prefix.pch.pth iphonesim_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/sd/284rxfz927zcxwcpfc_h9wph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iphonesim_Prefix-fibxpfsehdgvmzderxsuxbxldwco/iphonesim_Prefix.pch.pth iphonesim_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/iphonesim.build/Release/iphonesim.build/Objects-normal/x86_64/iPhoneSimulator.o /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/Source/iPhoneSimulator.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/iphonesim.build/Release/iphonesim.build/Objects-normal/x86_64/main.o /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/Source/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/iphonesim.build/Release/iphonesim.build/Objects-normal/x86_64/nsprintf.o /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/Source/nsprintf.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/iphonesim.build/Release/iphonesim.build/Objects-normal/i386/iPhoneSimulator.o /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/Source/iPhoneSimulator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/iphonesim.build/Release/iphonesim.build/Objects-normal/i386/nsprintf.o /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/Source/nsprintf.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/iphonesim.build/Release/iphonesim.build/Objects-normal/i386/main.o /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/Source/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/Objects-normal/i386/iphonesim normal i386
+cLd /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/Objects-normal/x86_64/iphonesim normal x86_64
+cCreateUniversalBinary /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/Release/iphonesim normal "x86_64 i386"
+cGenerateDSYMFile /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/Release/iphonesim.dSYM /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/Release/iphonesim
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk
+c000000004FD6447400000000000000EE
+t1339442292
+s238
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004FF4F2B900000000000013E6
+t1341452985
+s5094
+
+N/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000506E87750000000000942520
+t1349420917
+s9708832
+
+N/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/Source/iPhoneSimulator.m
+c0000000051A5A6040000000000001914
+t1369810436
+s6420
+
+N/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/Source/main.m
+c0000000051A5A6040000000000000726
+t1369810436
+s1830
+
+N/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/Source/nsprintf.m
+c0000000051A5A604000000000000033B
+t1369810436
+s827
+
+N/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/Release/iphonesim
+t2
+s0
+
+N/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/Release/iphonesim.dSYM
+t2
+s0
+
+N/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/Objects-normal/i386/iPhoneSimulator.o
+t2
+s0
+
+N/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/Objects-normal/i386/iphonesim
+t2
+s0
+
+N/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/Objects-normal/i386/iphonesim.LinkFileList
+c0000000051A5CFCC00000000000001A7
+t1369821132
+s423
+
+N/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/Objects-normal/i386/nsprintf.o
+t2
+s0
+
+N/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/Objects-normal/x86_64/iPhoneSimulator.o
+t2
+s0
+
+N/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/Objects-normal/x86_64/iphonesim
+t2
+s0
+
+N/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/Objects-normal/x86_64/iphonesim.LinkFileList
+c0000000051A5CFCC00000000000001AD
+t1369821132
+s429
+
+N/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/Objects-normal/x86_64/nsprintf.o
+t2
+s0
+
+N/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/iphonesim_Prefix.pch
+c0000000051A5A60400000000000000A0
+t1369810436
+s160
+i<Foundation/Foundation.h>
+
+N/var/folders/sd/284rxfz927zcxwcpfc_h9wph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iphonesim_Prefix-fibxpfsehdgvmzderxsuxbxldwco/iphonesim_Prefix.pch.pth
+t2
+s0
+
+N/var/folders/sd/284rxfz927zcxwcpfc_h9wph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iphonesim_Prefix-gqcqxzheivxfazeqyhhpiupfiauh/iphonesim_Prefix.pch.pth
+t2
+s0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies971fe44b0756b741^a647134c0756b741^---0#1#0#--18"Check dependencies36"6831C89E-DE2C-4248-8EFD-31F9547BEA7E-
+
+CCompileC build/iphonesim.build/Release/iphonesim.build/Objects-normal/i386/iPhoneSimulator.o /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/Source/iPhoneSimulator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391513937.207889
+e391513938.806051
+r1
+xCompileC
+xbuild/iphonesim.build/Release/iphonesim.build/Objects-normal/i386/iPhoneSimulator.o
+x/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/Source/iPhoneSimulator.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/Source/iPhoneSimulator.m17a035510756b741^a27bce520756b741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/Source/iPhoneSimulator.m0000000000000000^3349"CompileC build/iphonesim.build/Release/iphonesim.build/Objects-normal/i386/iPhoneSimulator.o Source/iPhoneSimulator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/iphonesim-generated-files.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/iphonesim-own-target-headers.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/iphonesim-all-target-headers.hmap -iquote /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/iphonesim-project-headers.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/Release/include -I. -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/DerivedSources/i386 -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/DerivedSources -F/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/Release -F/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks -include /var/folders/sd/284rxfz927zcxwcpfc_h9wph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iphonesim_Prefix-fibxpfsehdgvmzderxsuxbxldwco/iphonesim_Prefix.pch -MMD -MT dependencies -MF /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/Objects-normal/i386/iPhoneSimulator.d --serialize-diagnostics /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/Objects-normal/i386/iPhoneSimulator.dia -c /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/Source/iPhoneSimulator.m -o /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/Objects-normal/i386/iPhoneSimulator.o36"D2C389F3-9F59-4F80-8EA8-5E1A70EA95B7-
+
+CCompileC build/iphonesim.build/Release/iphonesim.build/Objects-normal/i386/main.o /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/Source/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391513937.207906
+e391513938.779419
+r1
+xCompileC
+xbuild/iphonesim.build/Release/iphonesim.build/Objects-normal/i386/main.o
+x/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/Source/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/Source/main.maa9935510756b741^8f8ac7520756b741^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/Source/main.m0000000000000000^3283"CompileC build/iphonesim.build/Release/iphonesim.build/Objects-normal/i386/main.o Source/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/iphonesim-generated-files.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/iphonesim-own-target-headers.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/iphonesim-all-target-headers.hmap -iquote /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/iphonesim-project-headers.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/Release/include -I. -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/DerivedSources/i386 -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/DerivedSources -F/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/Release -F/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks -include /var/folders/sd/284rxfz927zcxwcpfc_h9wph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iphonesim_Prefix-fibxpfsehdgvmzderxsuxbxldwco/iphonesim_Prefix.pch -MMD -MT dependencies -MF /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/Objects-normal/i386/main.dia -c /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/Source/main.m -o /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/Objects-normal/i386/main.o36"CAC4BC86-CB26-4428-A87D-378E88312376-
+
+CCompileC build/iphonesim.build/Release/iphonesim.build/Objects-normal/i386/nsprintf.o /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/Source/nsprintf.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391513937.207866
+e391513937.906071
+r1
+xCompileC
+xbuild/iphonesim.build/Release/iphonesim.build/Objects-normal/i386/nsprintf.o
+x/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/Source/nsprintf.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/Source/nsprintf.m889d35510756b741^77f4e7510756b741^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/Source/nsprintf.m0000000000000000^3307"CompileC build/iphonesim.build/Release/iphonesim.build/Objects-normal/i386/nsprintf.o Source/nsprintf.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/iphonesim-generated-files.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/iphonesim-own-target-headers.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/iphonesim-all-target-headers.hmap -iquote /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/iphonesim-project-headers.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/Release/include -I. -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/DerivedSources/i386 -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/DerivedSources -F/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/Release -F/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks -include /var/folders/sd/284rxfz927zcxwcpfc_h9wph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iphonesim_Prefix-fibxpfsehdgvmzderxsuxbxldwco/iphonesim_Prefix.pch -MMD -MT dependencies -MF /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/Objects-normal/i386/nsprintf.d --serialize-diagnostics /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/Objects-normal/i386/nsprintf.dia -c /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/Source/nsprintf.m -o /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/Objects-normal/i386/nsprintf.o36"193A2BE5-4A0C-4A75-B208-E3BDF4917F73-
+
+CCompileC build/iphonesim.build/Release/iphonesim.build/Objects-normal/x86_64/iPhoneSimulator.o /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/Source/iPhoneSimulator.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391513937.207010
+e391513938.806048
+r1
+xCompileC
+xbuild/iphonesim.build/Release/iphonesim.build/Objects-normal/x86_64/iPhoneSimulator.o
+x/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/Source/iPhoneSimulator.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/Source/iPhoneSimulator.m278535510756b741^5c59ce520756b741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/Source/iPhoneSimulator.m0000000000000000^3363"CompileC build/iphonesim.build/Release/iphonesim.build/Objects-normal/x86_64/iPhoneSimulator.o Source/iPhoneSimulator.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/iphonesim-generated-files.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/iphonesim-own-target-headers.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/iphonesim-all-target-headers.hmap -iquote /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/iphonesim-project-headers.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/Release/include -I. -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/DerivedSources/x86_64 -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/DerivedSources -F/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/Release -F/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks -include /var/folders/sd/284rxfz927zcxwcpfc_h9wph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iphonesim_Prefix-gqcqxzheivxfazeqyhhpiupfiauh/iphonesim_Prefix.pch -MMD -MT dependencies -MF /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/Objects-normal/x86_64/iPhoneSimulator.d --serialize-diagnostics /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/Objects-normal/x86_64/iPhoneSimulator.dia -c /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/Source/iPhoneSimulator.m -o /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/Objects-normal/x86_64/iPhoneSimulator.o36"0C447CFA-1638-4A71-8D48-5F14C08057F5-
+
+CCompileC build/iphonesim.build/Release/iphonesim.build/Objects-normal/x86_64/main.o /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/Source/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391513937.207408
+e391513938.769417
+r1
+xCompileC
+xbuild/iphonesim.build/Release/iphonesim.build/Objects-normal/x86_64/main.o
+x/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/Source/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/Source/main.m018635510756b741^7bfac4520756b741^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/Source/main.m0000000000000000^3297"CompileC build/iphonesim.build/Release/iphonesim.build/Objects-normal/x86_64/main.o Source/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/iphonesim-generated-files.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/iphonesim-own-target-headers.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/iphonesim-all-target-headers.hmap -iquote /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/iphonesim-project-headers.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/Release/include -I. -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/DerivedSources/x86_64 -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/DerivedSources -F/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/Release -F/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks -include /var/folders/sd/284rxfz927zcxwcpfc_h9wph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iphonesim_Prefix-gqcqxzheivxfazeqyhhpiupfiauh/iphonesim_Prefix.pch -MMD -MT dependencies -MF /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/Objects-normal/x86_64/main.dia -c /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/Source/main.m -o /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/Objects-normal/x86_64/main.o36"F1002067-CAE3-435E-B1A1-1BBD620B6066-
+
+CCompileC build/iphonesim.build/Release/iphonesim.build/Objects-normal/x86_64/nsprintf.o /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/Source/nsprintf.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391513937.207849
+e391513937.904654
+r1
+xCompileC
+xbuild/iphonesim.build/Release/iphonesim.build/Objects-normal/x86_64/nsprintf.o
+x/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/Source/nsprintf.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/Source/nsprintf.ma29735510756b741^7897e7510756b741^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/Source/nsprintf.m0000000000000000^3321"CompileC build/iphonesim.build/Release/iphonesim.build/Objects-normal/x86_64/nsprintf.o Source/nsprintf.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/iphonesim-generated-files.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/iphonesim-own-target-headers.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/iphonesim-all-target-headers.hmap -iquote /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/iphonesim-project-headers.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/Release/include -I. -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/DerivedSources/x86_64 -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/DerivedSources -F/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/Release -F/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks -include /var/folders/sd/284rxfz927zcxwcpfc_h9wph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iphonesim_Prefix-gqcqxzheivxfazeqyhhpiupfiauh/iphonesim_Prefix.pch -MMD -MT dependencies -MF /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/Objects-normal/x86_64/nsprintf.d --serialize-diagnostics /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/Objects-normal/x86_64/nsprintf.dia -c /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/Source/nsprintf.m -o /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/Objects-normal/x86_64/nsprintf.o36"3F743C66-E813-4B44-8765-4462CA46303E-
+
+CCreateUniversalBinary /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/Release/iphonesim normal "x86_64 i386"
+s391513939.794082
+e391513939.882989
+r1
+xCreateUniversalBinary
+x/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/Release/iphonesim
+xnormal
+xx86_64 i386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Create universal binary /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/Release/iphonesim9b59cb530756b741^a20be2530756b741^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/Release/iphonesim000000e51c051042^538"CreateUniversalBinary build/Release/iphonesim normal "x86_64 i386"    cd /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim    /usr/bin/lipo -create /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/Objects-normal/x86_64/iphonesim /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/Objects-normal/i386/iphonesim -output /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/Release/iphonesim36"5EBCDD32-3EFB-49C2-8075-1D18C7D1A19F-
+
+CGenerateDSYMFile /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/Release/iphonesim.dSYM /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/Release/iphonesim
+s391513939.890349
+e391513940.070025
+r1
+xGenerateDSYMFile
+x/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/Release/iphonesim.dSYM
+x/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/Release/iphonesim
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Generating /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/Release/iphonesim.dSYM4cfee3530756b741^9eed11540756b741^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/Release/iphonesim.dSYM000000000080d041^386"GenerateDSYMFile build/Release/iphonesim.dSYM build/Release/iphonesim    cd /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim    /Applications/Xcode.app/Contents/Developer/usr/bin/dsymutil /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/Release/iphonesim -o /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/Release/iphonesim.dSYM36"38AB8953-85F5-43C3-8257-7F1575C6D35C-
+
+CLd /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/Objects-normal/i386/iphonesim normal i386
+s391513938.813512
+e391513939.787015
+r1
+xLd
+x/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/Objects-normal/i386/iphonesim
+xnormal
+xi386
+old: warning: directory not found for option '-F/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks'
+old: warning: directory not found for option '-F/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection143"Link /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/Objects-normal/i386/iphonesim6858d0520756b741^5b7dc9530756b741^-260"ld: warning: directory not found for option '-F/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks'ld: warning: directory not found for option '-F/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks'2(21%IDEActivityLogMessage2@116"Directory not found for option '-F/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks'-391513938#0#130#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@116"Directory not found for option '-F/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks'-391513938#130#130#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#0#--1367"Ld build/iphonesim.build/Release/iphonesim.build/Objects-normal/i386/iphonesim normal i386    cd /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -L/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/Release -F/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/Release -F/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks -filelist /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/Objects-normal/i386/iphonesim.LinkFileList -mmacosx-version-min=10.6 -framework AppKit -F/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks -framework iPhoneSimulatorRemoteClient -Wl,-rpath -Wl,/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks -framework Foundation -o /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/Objects-normal/i386/iphonesim36"EF5AA648-ED38-4589-BDC8-CB7588066AB8-
+
+CLd /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/Objects-normal/x86_64/iphonesim normal x86_64
+s391513938.813519
+e391513939.787229
+r1
+xLd
+x/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/Objects-normal/x86_64/iphonesim
+xnormal
+xx86_64
+old: warning: directory not found for option '-F/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks'
+old: warning: directory not found for option '-F/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection145"Link /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/Objects-normal/x86_64/iphonesimef58d0520756b741^c98ec9530756b741^-260"ld: warning: directory not found for option '-F/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks'ld: warning: directory not found for option '-F/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks'2(21%IDEActivityLogMessage2@116"Directory not found for option '-F/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks'-391513938#0#130#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@116"Directory not found for option '-F/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks'-391513938#130#130#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#0#--1377"Ld build/iphonesim.build/Release/iphonesim.build/Objects-normal/x86_64/iphonesim normal x86_64    cd /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -L/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/Release -F/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/Release -F/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks -filelist /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/Objects-normal/x86_64/iphonesim.LinkFileList -mmacosx-version-min=10.6 -framework AppKit -F/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks -framework iPhoneSimulatorRemoteClient -Wl,-rpath -Wl,/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks -framework Foundation -o /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/Objects-normal/x86_64/iphonesim36"36F78923-5EF8-4BDA-BACD-BA78764A68DB-
+
+CProcessPCH /var/folders/sd/284rxfz927zcxwcpfc_h9wph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iphonesim_Prefix-fibxpfsehdgvmzderxsuxbxldwco/iphonesim_Prefix.pch.pth iphonesim_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391513932.087215
+e391513937.199773
+r1
+xProcessPCH
+x/var/folders/sd/284rxfz927zcxwcpfc_h9wph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iphonesim_Prefix-fibxpfsehdgvmzderxsuxbxldwco/iphonesim_Prefix.pch.pth
+xiphonesim_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile iphonesim_Prefix.pch3884164c0756b741^bc5d33510756b741^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/iphonesim_Prefix.pch0000000000000000^3311"ProcessPCH /var/folders/sd/284rxfz927zcxwcpfc_h9wph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iphonesim_Prefix-fibxpfsehdgvmzderxsuxbxldwco/iphonesim_Prefix.pch.pth iphonesim_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/iphonesim-generated-files.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/iphonesim-own-target-headers.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/iphonesim-all-target-headers.hmap -iquote /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/iphonesim-project-headers.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/Release/include -I. -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/DerivedSources/i386 -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/DerivedSources -F/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/Release -F/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks --serialize-diagnostics /var/folders/sd/284rxfz927zcxwcpfc_h9wph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iphonesim_Prefix-fibxpfsehdgvmzderxsuxbxldwco/iphonesim_Prefix.pch.dia -c /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/iphonesim_Prefix.pch -o /var/folders/sd/284rxfz927zcxwcpfc_h9wph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iphonesim_Prefix-fibxpfsehdgvmzderxsuxbxldwco/iphonesim_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/sd/284rxfz927zcxwcpfc_h9wph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iphonesim_Prefix-fibxpfsehdgvmzderxsuxbxldwco/iphonesim_Prefix.pch.d36"49C46F9A-0D7C-4F18-A96B-847DA5758E65-
+
+CProcessPCH /var/folders/sd/284rxfz927zcxwcpfc_h9wph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iphonesim_Prefix-gqcqxzheivxfazeqyhhpiupfiauh/iphonesim_Prefix.pch.pth iphonesim_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391513932.086557
+e391513937.199765
+r1
+xProcessPCH
+x/var/folders/sd/284rxfz927zcxwcpfc_h9wph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iphonesim_Prefix-gqcqxzheivxfazeqyhhpiupfiauh/iphonesim_Prefix.pch.pth
+xiphonesim_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile iphonesim_Prefix.pchb75f164c0756b741^da2033510756b741^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/iphonesim_Prefix.pch0000000000000000^3317"ProcessPCH /var/folders/sd/284rxfz927zcxwcpfc_h9wph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iphonesim_Prefix-gqcqxzheivxfazeqyhhpiupfiauh/iphonesim_Prefix.pch.pth iphonesim_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/iphonesim-generated-files.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/iphonesim-own-target-headers.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/iphonesim-all-target-headers.hmap -iquote /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/iphonesim-project-headers.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/Release/include -I. -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/DerivedSources/x86_64 -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/iphonesim.build/Release/iphonesim.build/DerivedSources -F/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/build/Release -F/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks --serialize-diagnostics /var/folders/sd/284rxfz927zcxwcpfc_h9wph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iphonesim_Prefix-gqcqxzheivxfazeqyhhpiupfiauh/iphonesim_Prefix.pch.dia -c /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/iphonesim/iphonesim_Prefix.pch -o /var/folders/sd/284rxfz927zcxwcpfc_h9wph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iphonesim_Prefix-gqcqxzheivxfazeqyhhpiupfiauh/iphonesim_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/sd/284rxfz927zcxwcpfc_h9wph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iphonesim_Prefix-gqcqxzheivxfazeqyhhpiupfiauh/iphonesim_Prefix.pch.d36"F769248F-7062-4260-96D0-1C72883CE866-
+
