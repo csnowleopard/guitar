@@ -1,0 +1,10 @@
+* Download Mediawiki from http://www.mediawiki.org/wiki/Download
+* Installation guide for Mediawiki can be found here: http://www.mediawiki.org/wiki/Manual:Installation_guide
+* Download webguitar source code from SVN
+* Run 'ant' and 'ant sel.dist' to compile the source code 
+* cp -r webguitar/modules/gui-model-sel/resources/faultpages mediawiki/maintenance
+* cd webguitar/dist/guitar
+* chmod 755 *.sh
+* ./sel-sample-workflow.sh
+* ./fault_seeder.sh
+* Fault matrix can be seen in fault.matrix

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/TextViewA"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="60dip"
+        android:text="This is A_Activity"
+        android:textSize="20sp" />
+    
+    <Button
+        android:id="@+id/ButtonA1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Call Activity A1" >
+    </Button>
+    
+        <Button
+        android:id="@+id/ButtonA2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Call Activity A2" >
+    </Button>
+    
+            <Button
+        android:id="@+id/ButtonA3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Call Activity A3" >
+    </Button>
+    
+                <Button
+        android:id="@+id/ButtonA4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Call Activity A4" >
+    </Button>
+
+</LinearLayout>

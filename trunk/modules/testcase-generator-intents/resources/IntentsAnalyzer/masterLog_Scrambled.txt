@@ -1,0 +1,48 @@
+Date & Time | Intent Action | Intent Category | Flag | Launching Component 
+INTENT: 03-19 18:41:44.039 android.intent.action.MAIN [android.intent.category.HOME]  -   -   flg=0x10000000 com.android.sdksetup/.DefaultActivity  -   -    - 
+INTENT: 03-19 18:41:44.039 android.intent.action.VIEW [android.intent.category.HOME]  -   -   flg=0x10000000 rohan.makes.intents/.AActivity  -   -    - 
+INTENT: 03-19 18:41:51.638 android.intent.action.MAIN [android.intent.category.HOME]  -   -   flg=0x10000000 com.android.launcher/com.android.launcher2.Launcher  -   -    - 
+INTENT: 03-19 18:42:39.883  -   -   -   -   flg=0x10000000 rohan.makes.intents/.LotsoIntentsFourActivitiesActivity  -   -    - 
+GUITAR: 03-19 18:42:43.336 getContainer: android.widget.FrameLayout@43ea8f90
+GUITAR: 03-19 18:42:43.433 getChildren: android.widget.FrameLayout@43ea8f90
+GUITAR: 03-19 18:42:43.433 child: android.widget.LinearLayout@43ea9480
+GUITAR: 03-19 18:42:43.535 getChildren: android.widget.LinearLayout@43ea9480
+GUITAR: 03-19 18:42:43.535 child: android.widget.TextView@43ea96e8
+GUITAR: 03-19 18:42:43.535 child: android.widget.Button@43ea9dd0
+GUITAR: 03-19 18:42:43.535 child: android.widget.Button@43eaa770
+GUITAR: 03-19 18:42:43.535 child: android.widget.Button@43eaafe0
+GUITAR: 03-19 18:42:43.535 child: android.widget.Button@43eab850
+GUITAR: 03-19 18:42:44.875 click: Call Activity A
+INTENT: 03-19 18:42:47.086  -   -   -   -   -  rohan.makes.intents/.AActivity  -   -    - 
+GUITAR: 03-19 18:42:48.151 getContainer: android.widget.FrameLayout@43e8de88
+GUITAR: 03-19 18:42:48.704 getContainer: android.widget.FrameLayout@43e8de88
+GUITAR: 03-19 18:42:48.764 getChildren: android.widget.FrameLayout@43e8de88
+GUITAR: 03-19 18:42:48.774 child: android.widget.LinearLayout@43e418f0
+GUITAR: 03-19 18:42:48.834 getChildren: android.widget.LinearLayout@43e418f0
+GUITAR: 03-19 18:42:48.834 child: android.widget.TextView@43e8cf90
+GUITAR: 03-19 18:42:51.204 click: Call Activity B
+INTENT: 03-19 18:42:53.285  -   -   -   -   -  rohan.makes.intents/.BActivity  -   -    - 
+GUITAR: 03-19 18:42:54.644 getContainer: android.widget.FrameLayout@43e57f50
+GUITAR: 03-19 18:42:55.253 getContainer: android.widget.FrameLayout@43e57f50
+GUITAR: 03-19 18:42:55.314 getChildren: android.widget.FrameLayout@43e57f50
+GUITAR: 03-19 18:42:55.314 child: android.widget.LinearLayout@43e5c8d8
+GUITAR: 03-19 18:42:55.362 getChildren: android.widget.LinearLayout@43e5c8d8
+GUITAR: 03-19 18:42:55.374 child: android.widget.TextView@43e56be0
+GUITAR: 03-19 18:42:57.774 click: Call Activity C
+INTENT: 03-19 18:42:59.877 android.intent.action.VIEW   -   -   -   -  rohan.makes.intents/.CActivity  -   -    - 
+GUITAR: 03-19 18:43:01.057 getContainer: android.widget.FrameLayout@43e4f3e0
+GUITAR: 03-19 18:43:01.617 getContainer: android.widget.FrameLayout@43e4f3e0
+GUITAR: 03-19 18:43:01.677 getChildren: android.widget.FrameLayout@43e4f3e0
+GUITAR: 03-19 18:43:01.697 child: android.widget.LinearLayout@43e966f8
+GUITAR: 03-19 18:43:01.762 getChildren: android.widget.LinearLayout@43e966f8
+GUITAR: 03-19 18:43:01.777 child: android.widget.TextView@43e48b98
+GUITAR: 03-19 18:43:04.147 click: Call Activity D
+INTENT: 03-19 18:43:06.243 android.intent.action.MAIN   -   -   -   -  rohan.makes.intents/.DActivity  -   -    - 
+GUITAR: 03-19 18:43:07.407 getContainer: android.widget.FrameLayout@43e7b208
+GUITAR: 03-19 18:43:07.967 getContainer: android.widget.FrameLayout@43e7b208
+GUITAR: 03-19 18:43:08.032 getChildren: android.widget.FrameLayout@43e7b208
+GUITAR: 03-19 18:43:08.047 child: android.widget.LinearLayout@43e51330
+GUITAR: 03-19 18:43:08.113 getChildren: android.widget.LinearLayout@43e51330
+GUITAR: 03-19 18:43:08.137 child: android.widget.TextView@43e4ee90
+INTENT: 03-19 18:43:17.064  -   -   -   -   flg=0x10000000 rohan.makes.intents/.LotsoIntentsFourActivitiesActivity  -   -    - 
+INTENT: 03-19 18:43:28.732  -   -   -   -   flg=0x10000000 rohan.makes.intents/.LotsoIntentsFourActivitiesActivity  -   -    - 

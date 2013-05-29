@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/gui-model-uno"/>
+	<classpathentry kind="lib" path="/home/bryanta/UMDCourseWork/Fall2011/737_SoftwareTesting/guitar/dist/guitar/jars/guitar-lib/gui-replayer-core.jar"/>
+	<classpathentry kind="lib" path="/home/bryanta/UMDCourseWork/Fall2011/737_SoftwareTesting/guitar/dist/guitar/jars/guitar-lib/gui-model-core.jar"/>
+	<classpathentry kind="lib" path="/home/bryanta/UMDCourseWork/Fall2011/737_SoftwareTesting/guitar/dist/guitar/jars/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="/home/bryanta/UMDCourseWork/Fall2011/737_SoftwareTesting/guitar/dist/guitar/jars/args4j-2.0.10.jar"/>
+	<classpathentry kind="lib" path="/home/bryanta/UMDCourseWork/Fall2011/737_SoftwareTesting/P2/UNO-GUITAR-clean/lib/java_uno.jar"/>
+	<classpathentry kind="lib" path="/home/bryanta/UMDCourseWork/Fall2011/737_SoftwareTesting/P2/UNO-GUITAR-clean/lib/juh.jar"/>
+	<classpathentry kind="lib" path="/home/bryanta/UMDCourseWork/Fall2011/737_SoftwareTesting/P2/UNO-GUITAR-clean/lib/jurt.jar"/>
+	<classpathentry kind="lib" path="/home/bryanta/UMDCourseWork/Fall2011/737_SoftwareTesting/P2/UNO-GUITAR-clean/lib/ridl.jar"/>
+	<classpathentry kind="lib" path="/home/bryanta/UMDCourseWork/Fall2011/737_SoftwareTesting/P2/UNO-GUITAR-clean/lib/sandbox.jar"/>
+	<classpathentry kind="lib" path="/home/bryanta/UMDCourseWork/Fall2011/737_SoftwareTesting/P2/UNO-GUITAR-clean/lib/unoil.jar"/>
+	<classpathentry kind="lib" path="/home/bryanta/UMDCourseWork/Fall2011/737_SoftwareTesting/P2/UNO-GUITAR-clean/lib/unoloader.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

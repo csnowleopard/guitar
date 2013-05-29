@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+  <xs:annotation>
+    <xs:documentation>
+      This is the formal description of the Event Flow Graph (EFG) used by GUITAR.
+      
+      Copyright (c) 2009. The GUITAR group at the University of Maryland. Names of owners of this group may be obtained by sending an e-mail to atif@cs.umd.edu 
+      
+      Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: 
+ 
+      The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. 
+ 
+      THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. 
+
+    </xs:documentation>
+	
+  </xs:annotation>
+  
+  <!-- definition of simple elements -->  
+  <xs:element name="Window" type="xs:string"/>
+  <xs:element name="Component" type="xs:string"/>
+  <xs:element name="Action" type="xs:string"/>  
+
+
+  <!-- definition of complex type -->
+  <xs:simpleType name="BooleanType">
+    <xs:restriction  base="xs:int">
+      <xs:enumeration value="0"/>
+      <xs:enumeration value="1"/> 
+    </xs:restriction>
+  </xs:simpleType>
+  
+  
+  <xs:complexType name="EventType">
+	<xs:sequence>
+      <xs:element name="Window" type="xs:string" minOccurs ="1" maxOccurs="1"/>
+      <xs:element name="Component" type="xs:string" minOccurs ="1" maxOccurs="1"/>
+      <xs:element name="Action" type="xs:string" minOccurs ="1" maxOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+  
+
+  <xs:complexType name="RowType">
+    <xs:sequence>
+      <xs:element name="E" type="BooleanType" minOccurs ="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- definition of complex elements -->
+  <xs:element name="E" type="BooleanType"/>
+  
+  <xs:element name="Event" type="EventType"/>
+  
+  <xs:element name="Events">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Event" type="EventType" minOccurs ="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="EventGraph">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Row" type="RowType" minOccurs ="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+    
+  <xs:element name="EFG">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Events" minOccurs="1" maxOccurs="1"/>
+        <xs:element name="EventGraph" minOccurs ="1" maxOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

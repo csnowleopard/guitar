@@ -1,0 +1,39 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>edu.umd.cs.guitar</groupId>
+	<artifactId>guitar-parent</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>GUITAR Parent</name>
+	<description>A parent project for all GUITAR modules</description>
+
+	<modules>
+		<module>../tool-jemmy</module>
+		<module>../gui-model-core</module>
+		<module>../gui-ripper-core</module>
+		<module>../gui-replayer-core</module>
+		<module>../gui-model-jfc</module>
+		<module>../gui-ripper-jfc</module>
+		<module>../gui-replayer-jfc</module>
+		<module>../guistructure2graph-core</module>
+		<module>../guistructure2graph-efg</module>
+		<module>../testcase-generator-core</module>
+		<module>../testcase-generator-random-sequence-length</module>
+		<module>../testcase-generator-sequence-length</module>
+	</modules>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.0</version>
+				<configuration>
+					<source>1.7</source>
+					<target>1.7</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

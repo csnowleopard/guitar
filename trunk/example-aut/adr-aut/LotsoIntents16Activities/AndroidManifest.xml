@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="rohan.makes.intents"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INJECT_EVENTS" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".LotsoIntents16ActivitiesActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="A_Activity"
+            android:label="A_Activity" >
+        </activity>
+        <activity
+            android:name="A1_Activity"
+            android:label="A1_Activity" >
+        </activity>
+        <activity
+            android:name="A2_Activity"
+            android:label="A2_Activity" >
+        </activity>
+        <activity
+            android:name="A3_Activity"
+            android:label="A3_Activity" >
+        </activity>
+        <activity
+            android:name="A4_Activity"
+            android:label="A4_Activity" >
+        </activity>
+        <activity
+            android:name="B_Activity"
+            android:label="B_Activity" >
+        </activity>
+        <activity
+            android:name="B1_Activity"
+            android:label="B1_Activity" >
+        </activity>
+        <activity
+            android:name="B2_Activity"
+            android:label="B2_Activity" >
+        </activity>
+        <activity
+            android:name="B3_Activity"
+            android:label="B3_Activity" >
+        </activity>
+        <activity
+            android:name="B4_Activity"
+            android:label="B4_Activity" >
+        </activity>
+        <activity
+            android:name="C_Activity"
+            android:label="C_Activity" >
+        </activity>
+        <activity
+            android:name="C1_Activity"
+            android:label="C1_Activity" >
+        </activity>
+        <activity
+            android:name="C2_Activity"
+            android:label="C2_Activity" >
+        </activity>
+        <activity
+            android:name="C3_Activity"
+            android:label="C3_Activity" >
+        </activity>
+        <activity
+            android:name="C4_Activity"
+            android:label="C4_Activity" >
+        </activity>
+        <activity
+            android:name="D_Activity"
+            android:label="D_Activity" >
+        </activity>
+        <activity
+            android:name="D1_Activity"
+            android:label="D1_Activity" >
+        </activity>
+        <activity
+            android:name="D2_Activity"
+            android:label="D2_Activity" >
+        </activity>
+        <activity
+            android:name="D3_Activity"
+            android:label="D3_Activity" >
+        </activity>
+        <activity
+            android:name="D4_Activity"
+            android:label="D4_Activity" >
+        </activity>
+    </application>
+
+</manifest>

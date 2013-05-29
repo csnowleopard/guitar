@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HelloAUT</string>
+    <string name="shapes">Select Shape</string>
+    <string name="shape">Shape</string><string name="shape1">Circle</string>
+    <string name="shape2">Square</string>
+    <string name="colors">Select Fill Color</string><string name="color">Color</string>
+    <string name="color0">None</string>
+    
+    <string name="create">Create Shape</string>
+    <string name="reset">Reset</string>
+    <string name="render">Rendered Shape</string>
+    <string name="about">About</string>
+    
+</resources>

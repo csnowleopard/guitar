@@ -1,0 +1,195 @@
+/* Global Styles */
+
+body {
+	background-color:#dfefff;
+	font: 1em "Times New Roman", Times, serif,sans-serif;
+	letter-spacing: normal;
+	line-height: 100%;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	color:#050;
+	font-weight:600;
+	}
+	
+h2 {
+	font-size:1.1em; 
+	line-height: 1.5;
+	color: #FF6;
+	background-color:#000;
+	text-align:center;
+	}
+
+li a {
+	list-style-type:disc;
+	letter-spacing:normal;
+	line-height: 18px;
+	text-align: left; 
+}
+
+ul {
+	list-style-type:disc;
+}
+
+button {
+	color:#000;
+	font-weight:bold;
+	background-color:#6F0;
+	width:100px;
+	text-align:center;
+	hover:
+}
+
+label {
+	margin:10px 1px 0px 1px;
+	padding:5px 0 5px 0;
+	width:200px;
+	text-align:center;
+	float:left;
+	margin-left:5;
+	background-color:#000;
+	color:#FF0;
+}
+
+/* ID Styles */	
+#mainContainer {
+	padding:0;
+	background-color:white;
+	text-align:left;
+	margin:20px 0px 0px 0px;
+	width:1400px;
+	height:1400px;
+	margin-top:20px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-bottom:0;
+	border: 2px solid #E0E0E0; 
+	clear:both;
+	}
+	
+#heading {
+	width:100%;
+	text-align:center;
+	clear:both;
+	background-color:transparent;
+	height:100px;
+	width:813px;
+	margin:0;
+	padding:0;
+	font-size:1.25em;
+	visibility:visible;
+	position:fixed;
+	top:15px;
+	left:15px;
+	}
+
+#graph {
+	width:100%;
+	padding:5px 0 10px 0;
+	height: 100%;
+	margin:0;
+	border:0;
+	float:left;
+	background-color:#999;	
+	letter-spacing:0;
+	line-height: 0;
+	text-decoration: none;
+	font-weight:bold;
+	font-size:.8em;
+	overflow:scroll;
+	}
+	
+#node {
+	padding:0;
+	margin:0;
+	border:0;
+	background-color:#000;	
+	letter-spacing:0;
+	line-height: 1;
+	text-decoration: none;
+	font-weight:bold;
+	font-size:1.2em;
+	position:fixed;
+	right:15px;
+	top:15px;
+	}
+	
+#content {
+	border-left:2px solid #30C;
+	height:60%
+}
+	
+#footer {
+	clear:both;
+	border-top:2px solid #30C;
+	padding:0 20px;
+	}
+	
+#authorName {
+	float:left;
+	}
+
+#copyright {
+	text-align:right;
+	}
+	
+#line1 {
+	clear:both;
+	position:relative;
+}
+
+#line2 {
+	clear:left;
+	position:relative;
+	bottom:9px;
+}
+#line3 {
+	clear:left;
+	position:relative;
+	bottom:18px;
+}
+
+#l1,#l2,#s1,#s2{
+	visibility:hidden;
+}
+
+#information{
+	width:200px;
+	height:300px;
+	font-weight:bold; 
+	font-size:80%;
+	line-height: 1;
+	color: #0F0;
+	background-color:#000;
+	text-align:left;
+	display:none;
+}
+
+/* Class Styles */
+.mark {
+	font-style:italic;
+}
+.validation {
+	position:fixed;
+	right:5px;
+	bottom:5px;
+}
+.validation img{
+	border:0;
+	width:88px;
+	height:31px;
+}
+
+/*Pseudo-Class*/
+
+label:hover{
+	color: #0F0;
+	background-color:#90C;
+	cursor:pointer;
+}
+
+button:hover,button:focus, button:active{
+	color: #0F0;
+	background-color:#90C;
+}
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ToDoManagerActivity!</string>
+    <string name="app_name">ToDoManager</string>
+    <string name="title">Title</string>
+    <string name="status">Status</string>
+    <string name="not_done">Not Done</string>
+    <string name="done">Done</string>
+    <string name="priority">Priority:</string>
+    <string name="low">Low</string>
+    <string name="medium">Medium</string>
+    <string name="high">High</string>
+    <string name="cancel">Cancel</string>
+    <string name="add">Add New ToDO</string>
+    <string name="done_txt">Done</string>
+    <string name="empty"></string>
+    <string name="reset">Reset</string>
+    <string name="submit">Submit</string>
+</resources>

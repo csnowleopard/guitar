@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified">
+
+	<xs:annotation>
+		<xs:documentation>
+
+			This is the formal description of the GUI Structure
+			used by GUITAR.
+
+			Copyright (c) 2009. The GUITAR group at the University
+			of Maryland. Names of owners of this group may be obtained by
+			sending
+			an e-mail to atif@cs.umd.edu
+
+			Permission is hereby granted, free of
+			charge, to any person
+			obtaining a copy of this software and associated
+			documentation files (the "Software"), to
+			deal in the Software without
+			restriction, including without limitation
+			the rights to use, copy,
+			modify, merge, publish, distribute,
+			sublicense, and/or sell copies of
+			the Software, and to
+			permit persons to whom the Software is furnished
+			to do so, subject to the following
+			conditions:
+
+			The above copyright
+			notice and this permission notice shall
+			be included in all copies or
+			substantial portions of the
+			Software.
+
+			THE SOFTWARE IS PROVIDED "AS IS",
+			WITHOUT WARRANTY OF ANY
+			KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+			LIMITED TO THE WARRANTIES OF
+			MERCHANTABILITY, FITNESS FOR A PARTICULAR
+			PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS
+			OR
+			COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+			OTHER LIABILITY,
+			WHETHER IN AN ACTION OF CONTRACT, TORT OR
+			OTHERWISE, ARISING FROM, OUT
+			OF OR IN CONNECTION WITH THE
+			SOFTWARE OR THE USE OR OTHER DEALINGS IN
+			THE SOFTWARE.
+		</xs:documentation>
+	</xs:annotation>
+
+	<!--++++++++++++++++++++++ GUIStructue ++++++++++++++++++++++ -->
+
+	<!-- GUIStructue root level -->
+	<xs:element name="GUIStructure">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" minOccurs="1" name="GUI"
+					type="GUIType" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- Individual GUI representing a window -->
+	<xs:complexType name="GUIType">
+		<xs:sequence>
+			<xs:element maxOccurs="1" minOccurs="1" name="Window"
+				type="ComponentType" />
+			<xs:element maxOccurs="1" minOccurs="1" name="Container"
+				type="ContainerType" />
+		</xs:sequence>
+	</xs:complexType>
+
+
+	<!-- A GUI container containing one or more children component -->
+	<xs:complexType name="ContainerType">
+		<xs:complexContent>
+			<xs:extension base="ComponentType">
+				<xs:sequence>
+					<xs:element name="Contents" type="ContentsType" />
+
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<!-- A set of GUI components under a Container -->
+	<xs:complexType name="ContentsType">
+		<xs:sequence>
+			<xs:choice maxOccurs="unbounded" minOccurs="1">
+				<xs:element name="Widget" type="ComponentType" />
+				<xs:element name="Container" type="ContainerType" />
+			</xs:choice>
+		</xs:sequence>
+	</xs:complexType>
+
+	<!-- A GUI container containing one or more children -->
+	<xs:complexType name="ComponentType">
+		<xs:sequence>
+			<xs:element maxOccurs="1" minOccurs="1" name="Attributes"
+				type="AttributesType" />
+			<xs:element maxOccurs="1" minOccurs="0" name="Optional"
+				type="AttributesType" />
+			<xs:element maxOccurs="unbounded" minOccurs="0" name="EventContext"
+				type="EventContextType" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<!-- Attributes of a GUI window/component, containing a set of key-values 
+		pair GUI properties -->
+	<xs:complexType name="AttributesType">
+		<xs:sequence>
+			<xs:element maxOccurs="unbounded" minOccurs="1" name="Property"
+				type="PropertyType" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<!-- Individual key-values pair GUI property -->
+	<xs:complexType name="PropertyType">
+		<xs:sequence>
+			<xs:element maxOccurs="1" minOccurs="1" name="Name" type="xs:string" />
+			<xs:element maxOccurs="unbounded" minOccurs="1" name="Value"
+				type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<!--+++++++++++++++++++++++++ EFG +++++++++++++++++++++++++ -->
+
+	<!-- EFG root level -->
+
+	<xs:element name="EFG">
+		<xs:complexType>
+			<xs:sequence>
+				<!-- Event information -->
+				<xs:element maxOccurs="1" minOccurs="1" name="Events"
+					type="EventsType" />
+
+				<!-- Edge Adjacency matrix -->
+				<xs:element maxOccurs="1" minOccurs="1" name="EventGraph"
+					type="EventGraphType" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- Set of events -->
+	<xs:complexType name="EventsType">
+		<xs:sequence>
+			<xs:element maxOccurs="unbounded" minOccurs="1" name="Event"
+				type="EventType" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<!-- Individual event information -->
+	<xs:complexType name="EventType">
+		<xs:sequence>
+			<!-- Event Identifier in the graph -->
+			<xs:element maxOccurs="1" minOccurs="1" name="EventId"
+				type="xs:string" />
+
+			<!-- The corresponding widget ID in the GUI file -->
+			<xs:element maxOccurs="1" minOccurs="1" name="WidgetId"
+				type="xs:string" />
+
+			<!-- Event type: there are 5 type of events considered in the EFG More 
+				details can be found in this paper http://www.cs.umd.edu/%7Eatif/papers/MemonWCRE2003.pdf -->
+			<xs:element maxOccurs="1" minOccurs="1" name="Type" type="xs:string" />
+
+			<!-- Initial event true if the event is available right after the application 
+				starts -->
+			<xs:element maxOccurs="1" minOccurs="1" name="Initial"
+				type="xs:boolean" />
+
+			<!-- Actual action can be performed on the event like click, type text -->
+			<xs:element maxOccurs="1" minOccurs="1" name="Action"
+				type="xs:string" />
+
+			<!-- Optional: Event Parameter -->
+			<xs:element maxOccurs="unbounded" minOccurs="0"
+				name="ParameterList" type="ParameterListType" />
+
+			<!-- Optional: Event name -->
+			<xs:element maxOccurs="1" minOccurs="1" name="Name" type="xs:string" />
+
+			<!-- Optional: Event listener -->
+			<xs:element maxOccurs="unbounded" minOccurs="0" name="Listeners"
+				type="xs:string" />
+
+			<!-- Optional: fields for events -->
+			<xs:element maxOccurs="1" minOccurs="0" name="Optional"
+				type="AttributesType" />
+
+		</xs:sequence>
+	</xs:complexType>
+
+	<!-- Event Parameters -->
+	<xs:complexType name="ParameterListType">
+		<xs:sequence>
+			<xs:element maxOccurs="unbounded" minOccurs="0" name="Parameter"
+				type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+	<!-- EFG edge Adjacency matrix -->
+
+	<xs:complexType name="EventGraphType">
+		<xs:sequence>
+			<xs:element maxOccurs="unbounded" minOccurs="1" name="Row"
+				type="RowType" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="RowType">
+		<xs:sequence>
+			<xs:element maxOccurs="unbounded" minOccurs="1" name="E"
+				type="BooleanType" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<!-- Value of row r_th and column c_th in the EFG edge's Adjacency matrix 
+		- value = 0: no edges - value > 0: there is an edge from event r_th to c_th 
+		in the graph (referred by their indices in the Event list) + 1: Normal edge 
+		+ 2: reaching edges: the edges that open a new window or reveal events hidden 
+		under the GUI's hierarchical structure (e.g, File -> New). Those edge are 
+		given a higher priority when finding path to reach an event. -->
+	<xs:simpleType name="BooleanType">
+		<xs:restriction base="xs:int">
+			<xs:enumeration value="0" />
+			<xs:enumeration value="1" />
+			<xs:enumeration value="2" />
+		</xs:restriction>
+	</xs:simpleType>
+
+
+	<!-- ++++++++++++++++++++ Test case ++++++++++++++++++++ -->
+	<!-- Test Case root level -->
+
+	<xs:element name="TestCase">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element maxOccurs="1" minOccurs="0" ref="GUIStructure" />
+				<xs:element maxOccurs="unbounded" minOccurs="1" name="Step"
+					type="StepType" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- Individual test step -->
+
+	<xs:complexType name="StepType">
+		<xs:sequence>
+			<!-- Event ID, referring to the EFG file -->
+			<xs:element maxOccurs="1" minOccurs="1" name="EventId"
+				type="xs:string" />
+
+			<!-- Reaching step, true if the event is just used to reach the event 
+				of interest and might not be counted in the coverage evaluation/test case 
+				generation -->
+			<xs:element maxOccurs="1" minOccurs="1" name="ReachingStep"
+				type="xs:boolean" />
+
+			<!-- Event parameters -->
+			<xs:element maxOccurs="unbounded" minOccurs="0" name="Parameter"
+				type="xs:string" />
+
+			<!-- Optional fields -->
+			<xs:element maxOccurs="1" minOccurs="0" name="Optional"
+				type="AttributesType" />
+
+			<!-- GUI states/oracles captured after each event -->
+			<xs:element maxOccurs="1" minOccurs="0" ref="GUIStructure" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<!-- ++++++++++++++++++++ Configuration ++++++++++++++++++++ -->
+
+	<!-- Root level -->
+	<xs:element name="Configuration">
+		<xs:complexType>
+			<xs:sequence>
+				<!-- List of components to ignore during ripping -->
+				<xs:element name="IgnoredComponents" type="ComponentListType" />
+
+				<!-- List of terminal components on the GUI -->
+				<xs:element name="TerminalComponents" type="ComponentListType" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- List of component -->
+	<xs:complexType name="ComponentListType">
+		<xs:sequence>
+			<xs:element maxOccurs="unbounded" minOccurs="0"
+				name="FullComponent" type="FullComponentType" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<!-- Individual full component which is represent by a pair of the containing 
+		Window signature and Component signature -->
+	<xs:complexType name="FullComponentType">
+		<xs:sequence>
+			<xs:element name="Window" type="ComponentType" />
+			<xs:element name="Component" type="ComponentType" />
+		</xs:sequence>
+	</xs:complexType>
+
+
+	<!-- ++++++++++++++++++++ Graph Mapping ++++++++++++++++++++ -->
+
+
+	<xs:complexType name="PathType">
+		<xs:sequence>
+			<xs:element maxOccurs="unbounded" minOccurs="1" name="EventId"
+				type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+
+
+	<xs:complexType name="EdgeMappingType">
+		<xs:sequence>
+			<xs:element maxOccurs="1" minOccurs="1" name="SourceId"
+				type="xs:string" />
+			<xs:element maxOccurs="1" minOccurs="1" name="TargetId"
+				type="xs:string" />
+			<xs:element maxOccurs="1" minOccurs="1" name="Path" type="PathType" />
+		</xs:sequence>
+	</xs:complexType>
+
+
+	<xs:complexType name="EdgeMappingListType">
+		<xs:sequence>
+			<xs:element maxOccurs="unbounded" minOccurs="0" name="EdgeMapping"
+				type="EdgeMappingType" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="InitialMappingType">
+		<xs:sequence>
+			<xs:element maxOccurs="1" minOccurs="1" name="EventId"
+				type="xs:string" />
+			<xs:element maxOccurs="1" minOccurs="1" name="Path" type="PathType" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="InitialMappingListType">
+		<xs:sequence>
+			<xs:element maxOccurs="unbounded" minOccurs="0"
+				name="IntialMapping" type="InitialMappingType" />
+		</xs:sequence>
+	</xs:complexType>
+
+
+	<xs:complexType name="MappingType">
+		<xs:sequence>
+			<xs:element maxOccurs="1" minOccurs="0" name="InitialMappingList"
+				type="InitialMappingListType" />
+			<xs:element maxOccurs="1" minOccurs="0" name="EdgeMappingList"
+				type="EdgeMappingListType" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:element name="Mapping">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element maxOccurs="1" minOccurs="0" name="InitialMappingList"
+					type="InitialMappingListType" />
+				<xs:element maxOccurs="1" minOccurs="0" name="EdgeMappingList"
+					type="EdgeMappingListType" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+
+
+	<xs:element name="LogWidget">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="OpenWindow" type="ComponentListType" />
+				<xs:element name="CloseWindow" type="ComponentListType" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+
+	<!-- ++++++++++++++++++++ Test Data ++++++++++++++++++++ -->
+
+	<xs:complexType name="TestDataElementType">
+		<xs:sequence>
+			<xs:element name="Window" type="ComponentType" />
+			<xs:element name="Component" type="ComponentType" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:element name="TestData">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="TestDataElement" type="TestDataElementType" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- ++++++++++++++++++++ Context-aware Ripper Configuration ++++++++++++++++++++ -->
+	<xs:element name="EventContextConfiguration">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="EventContextPattern" type="EventContextPatternType"
+					maxOccurs="unbounded" minOccurs="0" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="EventContextPatternType">
+		<xs:sequence>
+			<xs:element name="MainComponentList" type="ComponentListType" />
+			<xs:element name="ContextFullEventList" type="FullEventListType" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="EventContextType">
+		<xs:sequence>
+			<xs:element name="Invokelist" maxOccurs="unbounded" minOccurs="1" type="xs:string" />
+			<xs:element name="ContextFullEventList" type="FullEventListType" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="FullEventListType">
+		<xs:sequence>
+			<xs:element maxOccurs="unbounded" minOccurs="0" name="FullEvent"
+				type="FullEventType" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="FullEventType">
+		<xs:sequence>
+			<xs:element name="WidgetId" type="xs:string" />
+			<xs:element name="FullComponent" type="FullComponentType" />
+			<!-- Actual action can be performed on the event like click, type text -->
+			<xs:element maxOccurs="1" minOccurs="1" name="Action"
+				type="xs:string" />
+			<!-- Optional: Event Parameters -->
+			<xs:element maxOccurs="unbounded" minOccurs="0"
+				name="ParameterList" type="ParameterListType" />
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

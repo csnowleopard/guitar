@@ -1,0 +1,59 @@
+{"intent": [
+
+{"activity":"FileImportActivity","packageName":"cz.romario.opensudoku.gui",
+"declaration": ["new Intent(this, ImportSudokuActivity.class);.setData(getIntent().getData());startActivity(i)"]
+},
+
+{"activity":"FileListActivity","packageName":"cz.romario.opensudoku.gui",
+"declaration": ["new Intent();.setClass(this, FileListActivity.class);.putExtra(FileListActivity.EXTRA_FOLDER_NAME, f.getAbsolutePath());startActivity(intent)"]
+},
+
+{"activity":"FileListActivity","packageName":"cz.romario.opensudoku.gui",
+"declaration": ["new Intent(mContext, ImportSudokuActivity.class);.setData(u);startActivity(i)"]
+},
+
+{"activity":"FolderListActivity","packageName":"cz.romario.opensudoku.gui",
+"declaration": ["new Intent(Intent.ACTION_VIEW, Uri.parse(\"http://code.google.com/p/opensudoku-android/wiki/Puzzles\"));.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);startActivity(intent)","new Intent(null, getIntent().getData());.addCategory(Intent.CATEGORY_ALTERNATIVE);new Intent();.setClass(this, SudokuExportActivity.class);.putExtra(SudokuExportActivity.EXTRA_FOLDER_ID, info.id);startActivity(intent)",".setClass(this, FileListActivity.class);.putExtra(FileListActivity.EXTRA_FOLDER_NAME, \"/sdcard\");startActivity(intent)",".setClass(this, SudokuExportActivity.class);.putExtra(SudokuExportActivity.EXTRA_FOLDER_ID, SudokuExportActivity.ALL_FOLDERS);startActivity(intent)"]
+},
+
+{"activity":"FolderListActivity","packageName":"cz.romario.opensudoku.gui",
+"declaration": ["new Intent(this, SudokuListActivity.class);.putExtra(SudokuListActivity.EXTRA_FOLDER_ID, id);startActivity(i)"]
+},
+
+{"activity":"ImportSudokuActivity","packageName":"cz.romario.opensudoku.gui",
+"declaration": ["new Intent(getIntent());.setClass(this, SudokuImportActivity.class);startActivity(intent)"]
+},
+
+{"activity":"SudokuEditActivity","packageName":"cz.romario.opensudoku.gui",
+"declaration": ["new Intent(null, getIntent().getData());.addCategory(Intent.CATEGORY_ALTERNATIVE)"]
+},
+
+{"activity":"SudokuImportActivity","packageName":"cz.romario.opensudoku.gui",
+"declaration": ["new Intent(SudokuImportActivity.this, FolderListActivity.class);startActivity(i)","new Intent(SudokuImportActivity.this, SudokuListActivity.class);.putExtra(SudokuListActivity.EXTRA_FOLDER_ID, folderId);startActivity(i)"]
+},
+
+{"activity":"SudokuListActivity","packageName":"cz.romario.opensudoku.gui",
+"declaration": ["new Intent(null, getIntent().getData());.addCategory(Intent.CATEGORY_ALTERNATIVE)"]
+},
+
+{"activity":"SudokuListActivity","packageName":"cz.romario.opensudoku.gui",
+"declaration": ["new Intent();.setClass(this, FolderListActivity.class);startActivity(i)","new Intent(this, SudokuEditActivity.class);.setAction(Intent.ACTION_EDIT);.putExtra(SudokuEditActivity.EXTRA_SUDOKU_ID, info.id);startActivity(i)",".setAction(Intent.ACTION_INSERT);.putExtra(SudokuEditActivity.EXTRA_FOLDER_ID, mFolderID);startActivity(i)","new Intent(this, FolderListActivity.class);startActivity(i)","new Intent(SudokuListActivity.this, SudokuPlayActivity.class);.putExtra(SudokuPlayActivity.EXTRA_SUDOKU_ID, sudokuID);startActivity(i)"]
+},
+
+{"activity":"SudokuPlayActivity","packageName":"cz.romario.opensudoku.gui",
+"declaration": ["restartActivity();private void restartActivity();=new OnPuzzleSolvedListener()"]
+},
+
+{"activity":"SudokuPlayActivity","packageName":"cz.romario.opensudoku.gui",
+"declaration": ["startActivity(getIntent())"]
+},
+
+{"activity":"SudokuPlayActivity","packageName":"cz.romario.opensudoku.gui",
+"declaration": ["new Intent(null, getIntent().getData());.addCategory(Intent.CATEGORY_ALTERNATIVE)"]
+},
+
+{"activity":"SudokuPlayActivity","packageName":"cz.romario.opensudoku.gui",
+"declaration": ["new Intent();.setClass(this, GameSettingsActivity.class)"]
+}
+]
+}

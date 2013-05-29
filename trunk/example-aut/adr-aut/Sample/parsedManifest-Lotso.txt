@@ -1,0 +1,25 @@
+package: rohan.makes.intents
+permission: android.permission.INTERNET
+permission: android.permission.INJECT_EVENTS
+activity: .LotsoIntents16ActivitiesActivity (main launcher activity)
+activity: .A_Activity
+activity: .A1_Activity
+activity: .A2_Activity
+activity: .A3_Activity
+activity: .A4_Activity
+activity: .B_Activity
+activity: .B1_Activity
+activity: .B2_Activity
+activity: .B3_Activity
+activity: .B4_Activity
+activity: .C_Activity
+activity: .C1_Activity
+activity: .C2_Activity
+activity: .C3_Activity
+activity: .C4_Activity
+activity: .D_Activity
+activity: .D1_Activity
+activity: .D2_Activity
+activity: .D3_Activity
+activity: .D4_Activity
+

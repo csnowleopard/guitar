@@ -1,0 +1,2911 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GUIStructure>
+    <GUI>
+        <Window>
+            <Attributes>
+                <Property>
+                    <Name>Title</Name>
+                    <Value>UIWindow</Value>
+                </Property>
+                <Property>
+                    <Name>Modal</Name>
+                    <Value>false</Value>
+                </Property>
+                <Property>
+                    <Name>Rootwindow</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>x</Name>
+                    <Value>0</Value>
+                </Property>
+                <Property>
+                    <Name>y</Name>
+                    <Value>0</Value>
+                </Property>
+                <Property>
+                    <Name>width</Name>
+                    <Value>320</Value>
+                </Property>
+                <Property>
+                    <Name>height</Name>
+                    <Value>480</Value>
+                </Property>
+                <Property>
+                    <Name>className</Name>
+                    <Value>UIWindow</Value>
+                </Property>
+            </Attributes>
+        </Window>
+        <Container>
+            <Contents>
+                <Container>
+                    <Attributes>
+                        <Property>
+                            <Name>ID</Name>
+                            <Value>w4180071816</Value>
+                        </Property>
+                        <Property>
+                            <Name>Class</Name>
+                            <Value>UILayoutContainerView</Value>
+                        </Property>
+                        <Property>
+                            <Name>Type</Name>
+                            <Value>UILayoutContainerView</Value>
+                        </Property>
+                        <Property>
+                            <Name>X</Name>
+                            <Value>0</Value>
+                        </Property>
+                        <Property>
+                            <Name>Y</Name>
+                            <Value>0</Value>
+                        </Property>
+                        <Property>
+                            <Name>x</Name>
+                            <Value>0</Value>
+                        </Property>
+                        <Property>
+                            <Name>y</Name>
+                            <Value>0</Value>
+                        </Property>
+                        <Property>
+                            <Name>width</Name>
+                            <Value>320</Value>
+                        </Property>
+                        <Property>
+                            <Name>height</Name>
+                            <Value>480</Value>
+                        </Property>
+                        <Property>
+                            <Name>className</Name>
+                            <Value>UILayoutContainerView</Value>
+                        </Property>
+                    </Attributes>
+                    <Contents>
+                        <Container>
+                            <Attributes>
+<Property>
+    <Name>ID</Name>
+    <Value>w2347787504</Value>
+</Property>
+<Property>
+    <Name>Class</Name>
+    <Value>UINavigationTransitionView</Value>
+</Property>
+<Property>
+    <Name>Type</Name>
+    <Value>UINavigationTransitionView</Value>
+</Property>
+<Property>
+    <Name>X</Name>
+    <Value>0</Value>
+</Property>
+<Property>
+    <Name>Y</Name>
+    <Value>0</Value>
+</Property>
+<Property>
+    <Name>x</Name>
+    <Value>0</Value>
+</Property>
+<Property>
+    <Name>y</Name>
+    <Value>0</Value>
+</Property>
+<Property>
+    <Name>width</Name>
+    <Value>320</Value>
+</Property>
+<Property>
+    <Name>height</Name>
+    <Value>480</Value>
+</Property>
+<Property>
+    <Name>className</Name>
+    <Value>UINavigationTransitionView</Value>
+</Property>
+                            </Attributes>
+                            <Contents>
+<Container>
+    <Attributes>
+        <Property>
+            <Name>ID</Name>
+            <Value>w133602596</Value>
+        </Property>
+        <Property>
+            <Name>Class</Name>
+            <Value>UIViewControllerWrapperView</Value>
+        </Property>
+        <Property>
+            <Name>Type</Name>
+            <Value>UIViewControllerWrapperView</Value>
+        </Property>
+        <Property>
+            <Name>X</Name>
+            <Value>0</Value>
+        </Property>
+        <Property>
+            <Name>Y</Name>
+            <Value>64</Value>
+        </Property>
+        <Property>
+            <Name>x</Name>
+            <Value>0</Value>
+        </Property>
+        <Property>
+            <Name>y</Name>
+            <Value>64</Value>
+        </Property>
+        <Property>
+            <Name>width</Name>
+            <Value>320</Value>
+        </Property>
+        <Property>
+            <Name>height</Name>
+            <Value>416</Value>
+        </Property>
+        <Property>
+            <Name>className</Name>
+            <Value>UIViewControllerWrapperView</Value>
+        </Property>
+    </Attributes>
+    <Contents>
+        <Container>
+            <Attributes>
+                <Property>
+                    <Name>ID</Name>
+                    <Value>w4186504212</Value>
+                </Property>
+                <Property>
+                    <Name>Class</Name>
+                    <Value>UIView</Value>
+                </Property>
+                <Property>
+                    <Name>Type</Name>
+                    <Value>UIView</Value>
+                </Property>
+                <Property>
+                    <Name>X</Name>
+                    <Value>0</Value>
+                </Property>
+                <Property>
+                    <Name>Y</Name>
+                    <Value>0</Value>
+                </Property>
+                <Property>
+                    <Name>x</Name>
+                    <Value>0</Value>
+                </Property>
+                <Property>
+                    <Name>y</Name>
+                    <Value>0</Value>
+                </Property>
+                <Property>
+                    <Name>width</Name>
+                    <Value>320</Value>
+                </Property>
+                <Property>
+                    <Name>height</Name>
+                    <Value>416</Value>
+                </Property>
+                <Property>
+                    <Name>className</Name>
+                    <Value>UIView</Value>
+                </Property>
+            </Attributes>
+            <Contents>
+                <Container>
+                    <Attributes>
+                        <Property>
+                            <Name>ID</Name>
+                            <Value>w1983623260</Value>
+                        </Property>
+                        <Property>
+                            <Name>Class</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>Type</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>X</Name>
+                            <Value>20</Value>
+                        </Property>
+                        <Property>
+                            <Name>Y</Name>
+                            <Value>168</Value>
+                        </Property>
+                        <Property>
+                            <Name>ReplayableAction</Name>
+                            <Value>edu.umd.cs.guitar.event.IphTouchEvent</Value>
+                        </Property>
+                        <Property>
+                            <Name>x</Name>
+                            <Value>20</Value>
+                        </Property>
+                        <Property>
+                            <Name>y</Name>
+                            <Value>168</Value>
+                        </Property>
+                        <Property>
+                            <Name>width</Name>
+                            <Value>56</Value>
+                        </Property>
+                        <Property>
+                            <Name>height</Name>
+                            <Value>44</Value>
+                        </Property>
+                        <Property>
+                            <Name>className</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>INVOKE</Name>
+                            <Value>TOUCH</Value>
+                        </Property>
+                    </Attributes>
+                    <Contents>
+                        <Widget>
+                            <Attributes>
+<Property>
+    <Name>ID</Name>
+    <Value>w3420366072</Value>
+</Property>
+<Property>
+    <Name>Class</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>Type</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>X</Name>
+    <Value>21</Value>
+</Property>
+<Property>
+    <Name>Y</Name>
+    <Value>7</Value>
+</Property>
+<Property>
+    <Name>x</Name>
+    <Value>21</Value>
+</Property>
+<Property>
+    <Name>y</Name>
+    <Value>7</Value>
+</Property>
+<Property>
+    <Name>width</Name>
+    <Value>14</Value>
+</Property>
+<Property>
+    <Name>height</Name>
+    <Value>29</Value>
+</Property>
+<Property>
+    <Name>className</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+                            </Attributes>
+                        </Widget>
+                    </Contents>
+                </Container>
+                <Container>
+                    <Attributes>
+                        <Property>
+                            <Name>ID</Name>
+                            <Value>w1983623322</Value>
+                        </Property>
+                        <Property>
+                            <Name>Class</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>Type</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>X</Name>
+                            <Value>84</Value>
+                        </Property>
+                        <Property>
+                            <Name>Y</Name>
+                            <Value>320</Value>
+                        </Property>
+                        <Property>
+                            <Name>ReplayableAction</Name>
+                            <Value>edu.umd.cs.guitar.event.IphTouchEvent</Value>
+                        </Property>
+                        <Property>
+                            <Name>x</Name>
+                            <Value>84</Value>
+                        </Property>
+                        <Property>
+                            <Name>y</Name>
+                            <Value>320</Value>
+                        </Property>
+                        <Property>
+                            <Name>width</Name>
+                            <Value>56</Value>
+                        </Property>
+                        <Property>
+                            <Name>height</Name>
+                            <Value>44</Value>
+                        </Property>
+                        <Property>
+                            <Name>className</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>INVOKE</Name>
+                            <Value>TOUCH</Value>
+                        </Property>
+                    </Attributes>
+                    <Contents>
+                        <Widget>
+                            <Attributes>
+<Property>
+    <Name>ID</Name>
+    <Value>w3420369916</Value>
+</Property>
+<Property>
+    <Name>Class</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>Type</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>X</Name>
+    <Value>21</Value>
+</Property>
+<Property>
+    <Name>Y</Name>
+    <Value>7</Value>
+</Property>
+<Property>
+    <Name>x</Name>
+    <Value>21</Value>
+</Property>
+<Property>
+    <Name>y</Name>
+    <Value>7</Value>
+</Property>
+<Property>
+    <Name>width</Name>
+    <Value>14</Value>
+</Property>
+<Property>
+    <Name>height</Name>
+    <Value>29</Value>
+</Property>
+<Property>
+    <Name>className</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+                            </Attributes>
+                        </Widget>
+                    </Contents>
+                </Container>
+                <Container>
+                    <Attributes>
+                        <Property>
+                            <Name>ID</Name>
+                            <Value>w1983623384</Value>
+                        </Property>
+                        <Property>
+                            <Name>Class</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>Type</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>X</Name>
+                            <Value>148</Value>
+                        </Property>
+                        <Property>
+                            <Name>Y</Name>
+                            <Value>320</Value>
+                        </Property>
+                        <Property>
+                            <Name>ReplayableAction</Name>
+                            <Value>edu.umd.cs.guitar.event.IphTouchEvent</Value>
+                        </Property>
+                        <Property>
+                            <Name>x</Name>
+                            <Value>148</Value>
+                        </Property>
+                        <Property>
+                            <Name>y</Name>
+                            <Value>320</Value>
+                        </Property>
+                        <Property>
+                            <Name>width</Name>
+                            <Value>56</Value>
+                        </Property>
+                        <Property>
+                            <Name>height</Name>
+                            <Value>44</Value>
+                        </Property>
+                        <Property>
+                            <Name>className</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>INVOKE</Name>
+                            <Value>TOUCH</Value>
+                        </Property>
+                    </Attributes>
+                    <Contents>
+                        <Widget>
+                            <Attributes>
+<Property>
+    <Name>ID</Name>
+    <Value>w3420373760</Value>
+</Property>
+<Property>
+    <Name>Class</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>Type</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>X</Name>
+    <Value>24</Value>
+</Property>
+<Property>
+    <Name>Y</Name>
+    <Value>7</Value>
+</Property>
+<Property>
+    <Name>x</Name>
+    <Value>24</Value>
+</Property>
+<Property>
+    <Name>y</Name>
+    <Value>7</Value>
+</Property>
+<Property>
+    <Name>width</Name>
+    <Value>7</Value>
+</Property>
+<Property>
+    <Name>height</Name>
+    <Value>29</Value>
+</Property>
+<Property>
+    <Name>className</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+                            </Attributes>
+                        </Widget>
+                    </Contents>
+                </Container>
+                <Container>
+                    <Attributes>
+                        <Property>
+                            <Name>ID</Name>
+                            <Value>w1983623446</Value>
+                        </Property>
+                        <Property>
+                            <Name>Class</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>Type</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>X</Name>
+                            <Value>20</Value>
+                        </Property>
+                        <Property>
+                            <Name>Y</Name>
+                            <Value>320</Value>
+                        </Property>
+                        <Property>
+                            <Name>ReplayableAction</Name>
+                            <Value>edu.umd.cs.guitar.event.IphTouchEvent</Value>
+                        </Property>
+                        <Property>
+                            <Name>x</Name>
+                            <Value>20</Value>
+                        </Property>
+                        <Property>
+                            <Name>y</Name>
+                            <Value>320</Value>
+                        </Property>
+                        <Property>
+                            <Name>width</Name>
+                            <Value>56</Value>
+                        </Property>
+                        <Property>
+                            <Name>height</Name>
+                            <Value>44</Value>
+                        </Property>
+                        <Property>
+                            <Name>className</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>INVOKE</Name>
+                            <Value>TOUCH</Value>
+                        </Property>
+                    </Attributes>
+                    <Contents>
+                        <Widget>
+                            <Attributes>
+<Property>
+    <Name>ID</Name>
+    <Value>w3420377604</Value>
+</Property>
+<Property>
+    <Name>Class</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>Type</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>X</Name>
+    <Value>13</Value>
+</Property>
+<Property>
+    <Name>Y</Name>
+    <Value>7</Value>
+</Property>
+<Property>
+    <Name>x</Name>
+    <Value>13</Value>
+</Property>
+<Property>
+    <Name>y</Name>
+    <Value>7</Value>
+</Property>
+<Property>
+    <Name>width</Name>
+    <Value>29</Value>
+</Property>
+<Property>
+    <Name>height</Name>
+    <Value>29</Value>
+</Property>
+<Property>
+    <Name>className</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+                            </Attributes>
+                        </Widget>
+                    </Contents>
+                </Container>
+                <Container>
+                    <Attributes>
+                        <Property>
+                            <Name>ID</Name>
+                            <Value>w1983623508</Value>
+                        </Property>
+                        <Property>
+                            <Name>Class</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>Type</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>X</Name>
+                            <Value>84</Value>
+                        </Property>
+                        <Property>
+                            <Name>Y</Name>
+                            <Value>168</Value>
+                        </Property>
+                        <Property>
+                            <Name>ReplayableAction</Name>
+                            <Value>edu.umd.cs.guitar.event.IphTouchEvent</Value>
+                        </Property>
+                        <Property>
+                            <Name>x</Name>
+                            <Value>84</Value>
+                        </Property>
+                        <Property>
+                            <Name>y</Name>
+                            <Value>168</Value>
+                        </Property>
+                        <Property>
+                            <Name>width</Name>
+                            <Value>56</Value>
+                        </Property>
+                        <Property>
+                            <Name>height</Name>
+                            <Value>44</Value>
+                        </Property>
+                        <Property>
+                            <Name>className</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>INVOKE</Name>
+                            <Value>TOUCH</Value>
+                        </Property>
+                    </Attributes>
+                    <Contents>
+                        <Widget>
+                            <Attributes>
+<Property>
+    <Name>ID</Name>
+    <Value>w3420381448</Value>
+</Property>
+<Property>
+    <Name>Class</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>Type</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>X</Name>
+    <Value>21</Value>
+</Property>
+<Property>
+    <Name>Y</Name>
+    <Value>7</Value>
+</Property>
+<Property>
+    <Name>x</Name>
+    <Value>21</Value>
+</Property>
+<Property>
+    <Name>y</Name>
+    <Value>7</Value>
+</Property>
+<Property>
+    <Name>width</Name>
+    <Value>14</Value>
+</Property>
+<Property>
+    <Name>height</Name>
+    <Value>29</Value>
+</Property>
+<Property>
+    <Name>className</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+                            </Attributes>
+                        </Widget>
+                    </Contents>
+                </Container>
+                <Container>
+                    <Attributes>
+                        <Property>
+                            <Name>ID</Name>
+                            <Value>w1983623570</Value>
+                        </Property>
+                        <Property>
+                            <Name>Class</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>Type</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>X</Name>
+                            <Value>148</Value>
+                        </Property>
+                        <Property>
+                            <Name>Y</Name>
+                            <Value>168</Value>
+                        </Property>
+                        <Property>
+                            <Name>ReplayableAction</Name>
+                            <Value>edu.umd.cs.guitar.event.IphTouchEvent</Value>
+                        </Property>
+                        <Property>
+                            <Name>x</Name>
+                            <Value>148</Value>
+                        </Property>
+                        <Property>
+                            <Name>y</Name>
+                            <Value>168</Value>
+                        </Property>
+                        <Property>
+                            <Name>width</Name>
+                            <Value>56</Value>
+                        </Property>
+                        <Property>
+                            <Name>height</Name>
+                            <Value>44</Value>
+                        </Property>
+                        <Property>
+                            <Name>className</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>INVOKE</Name>
+                            <Value>TOUCH</Value>
+                        </Property>
+                    </Attributes>
+                    <Contents>
+                        <Widget>
+                            <Attributes>
+<Property>
+    <Name>ID</Name>
+    <Value>w3420385292</Value>
+</Property>
+<Property>
+    <Name>Class</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>Type</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>X</Name>
+    <Value>21</Value>
+</Property>
+<Property>
+    <Name>Y</Name>
+    <Value>7</Value>
+</Property>
+<Property>
+    <Name>x</Name>
+    <Value>21</Value>
+</Property>
+<Property>
+    <Name>y</Name>
+    <Value>7</Value>
+</Property>
+<Property>
+    <Name>width</Name>
+    <Value>14</Value>
+</Property>
+<Property>
+    <Name>height</Name>
+    <Value>29</Value>
+</Property>
+<Property>
+    <Name>className</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+                            </Attributes>
+                        </Widget>
+                    </Contents>
+                </Container>
+                <Container>
+                    <Attributes>
+                        <Property>
+                            <Name>ID</Name>
+                            <Value>w1983623632</Value>
+                        </Property>
+                        <Property>
+                            <Name>Class</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>Type</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>X</Name>
+                            <Value>20</Value>
+                        </Property>
+                        <Property>
+                            <Name>Y</Name>
+                            <Value>219</Value>
+                        </Property>
+                        <Property>
+                            <Name>ReplayableAction</Name>
+                            <Value>edu.umd.cs.guitar.event.IphTouchEvent</Value>
+                        </Property>
+                        <Property>
+                            <Name>x</Name>
+                            <Value>20</Value>
+                        </Property>
+                        <Property>
+                            <Name>y</Name>
+                            <Value>219</Value>
+                        </Property>
+                        <Property>
+                            <Name>width</Name>
+                            <Value>56</Value>
+                        </Property>
+                        <Property>
+                            <Name>height</Name>
+                            <Value>43</Value>
+                        </Property>
+                        <Property>
+                            <Name>className</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>INVOKE</Name>
+                            <Value>TOUCH</Value>
+                        </Property>
+                    </Attributes>
+                    <Contents>
+                        <Widget>
+                            <Attributes>
+<Property>
+    <Name>ID</Name>
+    <Value>w3420389136</Value>
+</Property>
+<Property>
+    <Name>Class</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>Type</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>X</Name>
+    <Value>21</Value>
+</Property>
+<Property>
+    <Name>Y</Name>
+    <Value>7</Value>
+</Property>
+<Property>
+    <Name>x</Name>
+    <Value>21</Value>
+</Property>
+<Property>
+    <Name>y</Name>
+    <Value>7</Value>
+</Property>
+<Property>
+    <Name>width</Name>
+    <Value>14</Value>
+</Property>
+<Property>
+    <Name>height</Name>
+    <Value>29</Value>
+</Property>
+<Property>
+    <Name>className</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+                            </Attributes>
+                        </Widget>
+                    </Contents>
+                </Container>
+                <Container>
+                    <Attributes>
+                        <Property>
+                            <Name>ID</Name>
+                            <Value>w1983623694</Value>
+                        </Property>
+                        <Property>
+                            <Name>Class</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>Type</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>X</Name>
+                            <Value>84</Value>
+                        </Property>
+                        <Property>
+                            <Name>Y</Name>
+                            <Value>219</Value>
+                        </Property>
+                        <Property>
+                            <Name>ReplayableAction</Name>
+                            <Value>edu.umd.cs.guitar.event.IphTouchEvent</Value>
+                        </Property>
+                        <Property>
+                            <Name>x</Name>
+                            <Value>84</Value>
+                        </Property>
+                        <Property>
+                            <Name>y</Name>
+                            <Value>219</Value>
+                        </Property>
+                        <Property>
+                            <Name>width</Name>
+                            <Value>56</Value>
+                        </Property>
+                        <Property>
+                            <Name>height</Name>
+                            <Value>43</Value>
+                        </Property>
+                        <Property>
+                            <Name>className</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>INVOKE</Name>
+                            <Value>TOUCH</Value>
+                        </Property>
+                    </Attributes>
+                    <Contents>
+                        <Widget>
+                            <Attributes>
+<Property>
+    <Name>ID</Name>
+    <Value>w3420392980</Value>
+</Property>
+<Property>
+    <Name>Class</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>Type</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>X</Name>
+    <Value>21</Value>
+</Property>
+<Property>
+    <Name>Y</Name>
+    <Value>7</Value>
+</Property>
+<Property>
+    <Name>x</Name>
+    <Value>21</Value>
+</Property>
+<Property>
+    <Name>y</Name>
+    <Value>7</Value>
+</Property>
+<Property>
+    <Name>width</Name>
+    <Value>14</Value>
+</Property>
+<Property>
+    <Name>height</Name>
+    <Value>29</Value>
+</Property>
+<Property>
+    <Name>className</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+                            </Attributes>
+                        </Widget>
+                    </Contents>
+                </Container>
+                <Container>
+                    <Attributes>
+                        <Property>
+                            <Name>ID</Name>
+                            <Value>w1983623756</Value>
+                        </Property>
+                        <Property>
+                            <Name>Class</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>Type</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>X</Name>
+                            <Value>148</Value>
+                        </Property>
+                        <Property>
+                            <Name>Y</Name>
+                            <Value>219</Value>
+                        </Property>
+                        <Property>
+                            <Name>ReplayableAction</Name>
+                            <Value>edu.umd.cs.guitar.event.IphTouchEvent</Value>
+                        </Property>
+                        <Property>
+                            <Name>x</Name>
+                            <Value>148</Value>
+                        </Property>
+                        <Property>
+                            <Name>y</Name>
+                            <Value>219</Value>
+                        </Property>
+                        <Property>
+                            <Name>width</Name>
+                            <Value>56</Value>
+                        </Property>
+                        <Property>
+                            <Name>height</Name>
+                            <Value>43</Value>
+                        </Property>
+                        <Property>
+                            <Name>className</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>INVOKE</Name>
+                            <Value>TOUCH</Value>
+                        </Property>
+                    </Attributes>
+                    <Contents>
+                        <Widget>
+                            <Attributes>
+<Property>
+    <Name>ID</Name>
+    <Value>w3420396824</Value>
+</Property>
+<Property>
+    <Name>Class</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>Type</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>X</Name>
+    <Value>21</Value>
+</Property>
+<Property>
+    <Name>Y</Name>
+    <Value>7</Value>
+</Property>
+<Property>
+    <Name>x</Name>
+    <Value>21</Value>
+</Property>
+<Property>
+    <Name>y</Name>
+    <Value>7</Value>
+</Property>
+<Property>
+    <Name>width</Name>
+    <Value>14</Value>
+</Property>
+<Property>
+    <Name>height</Name>
+    <Value>29</Value>
+</Property>
+<Property>
+    <Name>className</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+                            </Attributes>
+                        </Widget>
+                    </Contents>
+                </Container>
+                <Container>
+                    <Attributes>
+                        <Property>
+                            <Name>ID</Name>
+                            <Value>w1983623818</Value>
+                        </Property>
+                        <Property>
+                            <Name>Class</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>Type</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>X</Name>
+                            <Value>20</Value>
+                        </Property>
+                        <Property>
+                            <Name>Y</Name>
+                            <Value>269</Value>
+                        </Property>
+                        <Property>
+                            <Name>ReplayableAction</Name>
+                            <Value>edu.umd.cs.guitar.event.IphTouchEvent</Value>
+                        </Property>
+                        <Property>
+                            <Name>x</Name>
+                            <Value>20</Value>
+                        </Property>
+                        <Property>
+                            <Name>y</Name>
+                            <Value>269</Value>
+                        </Property>
+                        <Property>
+                            <Name>width</Name>
+                            <Value>56</Value>
+                        </Property>
+                        <Property>
+                            <Name>height</Name>
+                            <Value>44</Value>
+                        </Property>
+                        <Property>
+                            <Name>className</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>INVOKE</Name>
+                            <Value>TOUCH</Value>
+                        </Property>
+                    </Attributes>
+                    <Contents>
+                        <Widget>
+                            <Attributes>
+<Property>
+    <Name>ID</Name>
+    <Value>w3420400668</Value>
+</Property>
+<Property>
+    <Name>Class</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>Type</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>X</Name>
+    <Value>21</Value>
+</Property>
+<Property>
+    <Name>Y</Name>
+    <Value>7</Value>
+</Property>
+<Property>
+    <Name>x</Name>
+    <Value>21</Value>
+</Property>
+<Property>
+    <Name>y</Name>
+    <Value>7</Value>
+</Property>
+<Property>
+    <Name>width</Name>
+    <Value>14</Value>
+</Property>
+<Property>
+    <Name>height</Name>
+    <Value>29</Value>
+</Property>
+<Property>
+    <Name>className</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+                            </Attributes>
+                        </Widget>
+                    </Contents>
+                </Container>
+                <Container>
+                    <Attributes>
+                        <Property>
+                            <Name>ID</Name>
+                            <Value>w1983623880</Value>
+                        </Property>
+                        <Property>
+                            <Name>Class</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>Type</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>X</Name>
+                            <Value>84</Value>
+                        </Property>
+                        <Property>
+                            <Name>Y</Name>
+                            <Value>269</Value>
+                        </Property>
+                        <Property>
+                            <Name>ReplayableAction</Name>
+                            <Value>edu.umd.cs.guitar.event.IphTouchEvent</Value>
+                        </Property>
+                        <Property>
+                            <Name>x</Name>
+                            <Value>84</Value>
+                        </Property>
+                        <Property>
+                            <Name>y</Name>
+                            <Value>269</Value>
+                        </Property>
+                        <Property>
+                            <Name>width</Name>
+                            <Value>56</Value>
+                        </Property>
+                        <Property>
+                            <Name>height</Name>
+                            <Value>44</Value>
+                        </Property>
+                        <Property>
+                            <Name>className</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>INVOKE</Name>
+                            <Value>TOUCH</Value>
+                        </Property>
+                    </Attributes>
+                    <Contents>
+                        <Widget>
+                            <Attributes>
+<Property>
+    <Name>ID</Name>
+    <Value>w3420404512</Value>
+</Property>
+<Property>
+    <Name>Class</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>Type</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>X</Name>
+    <Value>21</Value>
+</Property>
+<Property>
+    <Name>Y</Name>
+    <Value>7</Value>
+</Property>
+<Property>
+    <Name>x</Name>
+    <Value>21</Value>
+</Property>
+<Property>
+    <Name>y</Name>
+    <Value>7</Value>
+</Property>
+<Property>
+    <Name>width</Name>
+    <Value>14</Value>
+</Property>
+<Property>
+    <Name>height</Name>
+    <Value>29</Value>
+</Property>
+<Property>
+    <Name>className</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+                            </Attributes>
+                        </Widget>
+                    </Contents>
+                </Container>
+                <Container>
+                    <Attributes>
+                        <Property>
+                            <Name>ID</Name>
+                            <Value>w1983623942</Value>
+                        </Property>
+                        <Property>
+                            <Name>Class</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>Type</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>X</Name>
+                            <Value>148</Value>
+                        </Property>
+                        <Property>
+                            <Name>Y</Name>
+                            <Value>269</Value>
+                        </Property>
+                        <Property>
+                            <Name>ReplayableAction</Name>
+                            <Value>edu.umd.cs.guitar.event.IphTouchEvent</Value>
+                        </Property>
+                        <Property>
+                            <Name>x</Name>
+                            <Value>148</Value>
+                        </Property>
+                        <Property>
+                            <Name>y</Name>
+                            <Value>269</Value>
+                        </Property>
+                        <Property>
+                            <Name>width</Name>
+                            <Value>56</Value>
+                        </Property>
+                        <Property>
+                            <Name>height</Name>
+                            <Value>44</Value>
+                        </Property>
+                        <Property>
+                            <Name>className</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>INVOKE</Name>
+                            <Value>TOUCH</Value>
+                        </Property>
+                    </Attributes>
+                    <Contents>
+                        <Widget>
+                            <Attributes>
+<Property>
+    <Name>ID</Name>
+    <Value>w3420408356</Value>
+</Property>
+<Property>
+    <Name>Class</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>Type</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>X</Name>
+    <Value>21</Value>
+</Property>
+<Property>
+    <Name>Y</Name>
+    <Value>7</Value>
+</Property>
+<Property>
+    <Name>x</Name>
+    <Value>21</Value>
+</Property>
+<Property>
+    <Name>y</Name>
+    <Value>7</Value>
+</Property>
+<Property>
+    <Name>width</Name>
+    <Value>14</Value>
+</Property>
+<Property>
+    <Name>height</Name>
+    <Value>29</Value>
+</Property>
+<Property>
+    <Name>className</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+                            </Attributes>
+                        </Widget>
+                    </Contents>
+                </Container>
+                <Widget>
+                    <Attributes>
+                        <Property>
+                            <Name>ID</Name>
+                            <Value>w1927169032</Value>
+                        </Property>
+                        <Property>
+                            <Name>Class</Name>
+                            <Value>UILabel</Value>
+                        </Property>
+                        <Property>
+                            <Name>Type</Name>
+                            <Value>UILabel</Value>
+                        </Property>
+                        <Property>
+                            <Name>X</Name>
+                            <Value>20</Value>
+                        </Property>
+                        <Property>
+                            <Name>Y</Name>
+                            <Value>14</Value>
+                        </Property>
+                        <Property>
+                            <Name>x</Name>
+                            <Value>20</Value>
+                        </Property>
+                        <Property>
+                            <Name>y</Name>
+                            <Value>14</Value>
+                        </Property>
+                        <Property>
+                            <Name>width</Name>
+                            <Value>280</Value>
+                        </Property>
+                        <Property>
+                            <Name>height</Name>
+                            <Value>27</Value>
+                        </Property>
+                        <Property>
+                            <Name>className</Name>
+                            <Value>UILabel</Value>
+                        </Property>
+                    </Attributes>
+                </Widget>
+                <Container>
+                    <Attributes>
+                        <Property>
+                            <Name>ID</Name>
+                            <Value>w1983624066</Value>
+                        </Property>
+                        <Property>
+                            <Name>Class</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>Type</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>X</Name>
+                            <Value>220</Value>
+                        </Property>
+                        <Property>
+                            <Name>Y</Name>
+                            <Value>168</Value>
+                        </Property>
+                        <Property>
+                            <Name>ReplayableAction</Name>
+                            <Value>edu.umd.cs.guitar.event.IphTouchEvent</Value>
+                        </Property>
+                        <Property>
+                            <Name>x</Name>
+                            <Value>220</Value>
+                        </Property>
+                        <Property>
+                            <Name>y</Name>
+                            <Value>168</Value>
+                        </Property>
+                        <Property>
+                            <Name>width</Name>
+                            <Value>80</Value>
+                        </Property>
+                        <Property>
+                            <Name>height</Name>
+                            <Value>44</Value>
+                        </Property>
+                        <Property>
+                            <Name>className</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>INVOKE</Name>
+                            <Value>TOUCH</Value>
+                        </Property>
+                    </Attributes>
+                    <Contents>
+                        <Widget>
+                            <Attributes>
+<Property>
+    <Name>ID</Name>
+    <Value>w3420416044</Value>
+</Property>
+<Property>
+    <Name>Class</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>Type</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>X</Name>
+    <Value>33</Value>
+</Property>
+<Property>
+    <Name>Y</Name>
+    <Value>7</Value>
+</Property>
+<Property>
+    <Name>x</Name>
+    <Value>33</Value>
+</Property>
+<Property>
+    <Name>y</Name>
+    <Value>7</Value>
+</Property>
+<Property>
+    <Name>width</Name>
+    <Value>14</Value>
+</Property>
+<Property>
+    <Name>height</Name>
+    <Value>29</Value>
+</Property>
+<Property>
+    <Name>className</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+                            </Attributes>
+                        </Widget>
+                    </Contents>
+                </Container>
+                <Container>
+                    <Attributes>
+                        <Property>
+                            <Name>ID</Name>
+                            <Value>w1983624128</Value>
+                        </Property>
+                        <Property>
+                            <Name>Class</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>Type</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>X</Name>
+                            <Value>220</Value>
+                        </Property>
+                        <Property>
+                            <Name>Y</Name>
+                            <Value>219</Value>
+                        </Property>
+                        <Property>
+                            <Name>ReplayableAction</Name>
+                            <Value>edu.umd.cs.guitar.event.IphTouchEvent</Value>
+                        </Property>
+                        <Property>
+                            <Name>x</Name>
+                            <Value>220</Value>
+                        </Property>
+                        <Property>
+                            <Name>y</Name>
+                            <Value>219</Value>
+                        </Property>
+                        <Property>
+                            <Name>width</Name>
+                            <Value>80</Value>
+                        </Property>
+                        <Property>
+                            <Name>height</Name>
+                            <Value>43</Value>
+                        </Property>
+                        <Property>
+                            <Name>className</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>INVOKE</Name>
+                            <Value>TOUCH</Value>
+                        </Property>
+                    </Attributes>
+                    <Contents>
+                        <Widget>
+                            <Attributes>
+<Property>
+    <Name>ID</Name>
+    <Value>w3420419888</Value>
+</Property>
+<Property>
+    <Name>Class</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>Type</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>X</Name>
+    <Value>35</Value>
+</Property>
+<Property>
+    <Name>Y</Name>
+    <Value>7</Value>
+</Property>
+<Property>
+    <Name>x</Name>
+    <Value>35</Value>
+</Property>
+<Property>
+    <Name>y</Name>
+    <Value>7</Value>
+</Property>
+<Property>
+    <Name>width</Name>
+    <Value>10</Value>
+</Property>
+<Property>
+    <Name>height</Name>
+    <Value>29</Value>
+</Property>
+<Property>
+    <Name>className</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+                            </Attributes>
+                        </Widget>
+                    </Contents>
+                </Container>
+                <Container>
+                    <Attributes>
+                        <Property>
+                            <Name>ID</Name>
+                            <Value>w1983624190</Value>
+                        </Property>
+                        <Property>
+                            <Name>Class</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>Type</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>X</Name>
+                            <Value>220</Value>
+                        </Property>
+                        <Property>
+                            <Name>Y</Name>
+                            <Value>269</Value>
+                        </Property>
+                        <Property>
+                            <Name>ReplayableAction</Name>
+                            <Value>edu.umd.cs.guitar.event.IphTouchEvent</Value>
+                        </Property>
+                        <Property>
+                            <Name>x</Name>
+                            <Value>220</Value>
+                        </Property>
+                        <Property>
+                            <Name>y</Name>
+                            <Value>269</Value>
+                        </Property>
+                        <Property>
+                            <Name>width</Name>
+                            <Value>80</Value>
+                        </Property>
+                        <Property>
+                            <Name>height</Name>
+                            <Value>44</Value>
+                        </Property>
+                        <Property>
+                            <Name>className</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>INVOKE</Name>
+                            <Value>TOUCH</Value>
+                        </Property>
+                    </Attributes>
+                    <Contents>
+                        <Widget>
+                            <Attributes>
+<Property>
+    <Name>ID</Name>
+    <Value>w3420423732</Value>
+</Property>
+<Property>
+    <Name>Class</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>Type</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>X</Name>
+    <Value>36</Value>
+</Property>
+<Property>
+    <Name>Y</Name>
+    <Value>7</Value>
+</Property>
+<Property>
+    <Name>x</Name>
+    <Value>36</Value>
+</Property>
+<Property>
+    <Name>y</Name>
+    <Value>7</Value>
+</Property>
+<Property>
+    <Name>width</Name>
+    <Value>8</Value>
+</Property>
+<Property>
+    <Name>height</Name>
+    <Value>29</Value>
+</Property>
+<Property>
+    <Name>className</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+                            </Attributes>
+                        </Widget>
+                    </Contents>
+                </Container>
+                <Container>
+                    <Attributes>
+                        <Property>
+                            <Name>ID</Name>
+                            <Value>w1983624252</Value>
+                        </Property>
+                        <Property>
+                            <Name>Class</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>Type</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>X</Name>
+                            <Value>220</Value>
+                        </Property>
+                        <Property>
+                            <Name>Y</Name>
+                            <Value>320</Value>
+                        </Property>
+                        <Property>
+                            <Name>ReplayableAction</Name>
+                            <Value>edu.umd.cs.guitar.event.IphTouchEvent</Value>
+                        </Property>
+                        <Property>
+                            <Name>x</Name>
+                            <Value>220</Value>
+                        </Property>
+                        <Property>
+                            <Name>y</Name>
+                            <Value>320</Value>
+                        </Property>
+                        <Property>
+                            <Name>width</Name>
+                            <Value>80</Value>
+                        </Property>
+                        <Property>
+                            <Name>height</Name>
+                            <Value>44</Value>
+                        </Property>
+                        <Property>
+                            <Name>className</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>INVOKE</Name>
+                            <Value>TOUCH</Value>
+                        </Property>
+                    </Attributes>
+                    <Contents>
+                        <Widget>
+                            <Attributes>
+<Property>
+    <Name>ID</Name>
+    <Value>w3420427576</Value>
+</Property>
+<Property>
+    <Name>Class</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>Type</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>X</Name>
+    <Value>32</Value>
+</Property>
+<Property>
+    <Name>Y</Name>
+    <Value>7</Value>
+</Property>
+<Property>
+    <Name>x</Name>
+    <Value>32</Value>
+</Property>
+<Property>
+    <Name>y</Name>
+    <Value>7</Value>
+</Property>
+<Property>
+    <Name>width</Name>
+    <Value>15</Value>
+</Property>
+<Property>
+    <Name>height</Name>
+    <Value>29</Value>
+</Property>
+<Property>
+    <Name>className</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+                            </Attributes>
+                        </Widget>
+                    </Contents>
+                </Container>
+                <Container>
+                    <Attributes>
+                        <Property>
+                            <Name>ID</Name>
+                            <Value>w1983624314</Value>
+                        </Property>
+                        <Property>
+                            <Name>Class</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>Type</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>X</Name>
+                            <Value>148</Value>
+                        </Property>
+                        <Property>
+                            <Name>Y</Name>
+                            <Value>371</Value>
+                        </Property>
+                        <Property>
+                            <Name>ReplayableAction</Name>
+                            <Value>edu.umd.cs.guitar.event.IphTouchEvent</Value>
+                        </Property>
+                        <Property>
+                            <Name>x</Name>
+                            <Value>148</Value>
+                        </Property>
+                        <Property>
+                            <Name>y</Name>
+                            <Value>371</Value>
+                        </Property>
+                        <Property>
+                            <Name>width</Name>
+                            <Value>152</Value>
+                        </Property>
+                        <Property>
+                            <Name>height</Name>
+                            <Value>27</Value>
+                        </Property>
+                        <Property>
+                            <Name>className</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>INVOKE</Name>
+                            <Value>TOUCH</Value>
+                        </Property>
+                    </Attributes>
+                    <Contents>
+                        <Widget>
+                            <Attributes>
+<Property>
+    <Name>ID</Name>
+    <Value>w3420431420</Value>
+</Property>
+<Property>
+    <Name>Class</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>Type</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>X</Name>
+    <Value>68</Value>
+</Property>
+<Property>
+    <Name>Y</Name>
+    <Value>-1</Value>
+</Property>
+<Property>
+    <Name>x</Name>
+    <Value>68</Value>
+</Property>
+<Property>
+    <Name>y</Name>
+    <Value>-1</Value>
+</Property>
+<Property>
+    <Name>width</Name>
+    <Value>15</Value>
+</Property>
+<Property>
+    <Name>height</Name>
+    <Value>29</Value>
+</Property>
+<Property>
+    <Name>className</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+                            </Attributes>
+                        </Widget>
+                    </Contents>
+                </Container>
+                <Container>
+                    <Attributes>
+                        <Property>
+                            <Name>ID</Name>
+                            <Value>w1983624376</Value>
+                        </Property>
+                        <Property>
+                            <Name>Class</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>Type</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>X</Name>
+                            <Value>164</Value>
+                        </Property>
+                        <Property>
+                            <Name>Y</Name>
+                            <Value>88</Value>
+                        </Property>
+                        <Property>
+                            <Name>ReplayableAction</Name>
+                            <Value>edu.umd.cs.guitar.event.IphTouchEvent</Value>
+                        </Property>
+                        <Property>
+                            <Name>x</Name>
+                            <Value>164</Value>
+                        </Property>
+                        <Property>
+                            <Name>y</Name>
+                            <Value>88</Value>
+                        </Property>
+                        <Property>
+                            <Name>width</Name>
+                            <Value>64</Value>
+                        </Property>
+                        <Property>
+                            <Name>height</Name>
+                            <Value>32</Value>
+                        </Property>
+                        <Property>
+                            <Name>className</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>INVOKE</Name>
+                            <Value>TOUCH</Value>
+                        </Property>
+                    </Attributes>
+                    <Contents>
+                        <Widget>
+                            <Attributes>
+<Property>
+    <Name>ID</Name>
+    <Value>w3420435264</Value>
+</Property>
+<Property>
+    <Name>Class</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>Type</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>X</Name>
+    <Value>16</Value>
+</Property>
+<Property>
+    <Name>Y</Name>
+    <Value>5</Value>
+</Property>
+<Property>
+    <Name>x</Name>
+    <Value>16</Value>
+</Property>
+<Property>
+    <Name>y</Name>
+    <Value>5</Value>
+</Property>
+<Property>
+    <Name>width</Name>
+    <Value>32</Value>
+</Property>
+<Property>
+    <Name>height</Name>
+    <Value>22</Value>
+</Property>
+<Property>
+    <Name>className</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+                            </Attributes>
+                        </Widget>
+                    </Contents>
+                </Container>
+                <Container>
+                    <Attributes>
+                        <Property>
+                            <Name>ID</Name>
+                            <Value>w1983624438</Value>
+                        </Property>
+                        <Property>
+                            <Name>Class</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>Type</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>X</Name>
+                            <Value>92</Value>
+                        </Property>
+                        <Property>
+                            <Name>Y</Name>
+                            <Value>88</Value>
+                        </Property>
+                        <Property>
+                            <Name>ReplayableAction</Name>
+                            <Value>edu.umd.cs.guitar.event.IphTouchEvent</Value>
+                        </Property>
+                        <Property>
+                            <Name>x</Name>
+                            <Value>92</Value>
+                        </Property>
+                        <Property>
+                            <Name>y</Name>
+                            <Value>88</Value>
+                        </Property>
+                        <Property>
+                            <Name>width</Name>
+                            <Value>64</Value>
+                        </Property>
+                        <Property>
+                            <Name>height</Name>
+                            <Value>32</Value>
+                        </Property>
+                        <Property>
+                            <Name>className</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>INVOKE</Name>
+                            <Value>TOUCH</Value>
+                        </Property>
+                    </Attributes>
+                    <Contents>
+                        <Widget>
+                            <Attributes>
+<Property>
+    <Name>ID</Name>
+    <Value>w3420439108</Value>
+</Property>
+<Property>
+    <Name>Class</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>Type</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>X</Name>
+    <Value>18</Value>
+</Property>
+<Property>
+    <Name>Y</Name>
+    <Value>5</Value>
+</Property>
+<Property>
+    <Name>x</Name>
+    <Value>18</Value>
+</Property>
+<Property>
+    <Name>y</Name>
+    <Value>5</Value>
+</Property>
+<Property>
+    <Name>width</Name>
+    <Value>27</Value>
+</Property>
+<Property>
+    <Name>height</Name>
+    <Value>22</Value>
+</Property>
+<Property>
+    <Name>className</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+                            </Attributes>
+                        </Widget>
+                    </Contents>
+                </Container>
+                <Container>
+                    <Attributes>
+                        <Property>
+                            <Name>ID</Name>
+                            <Value>w1983624500</Value>
+                        </Property>
+                        <Property>
+                            <Name>Class</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>Type</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>X</Name>
+                            <Value>236</Value>
+                        </Property>
+                        <Property>
+                            <Name>Y</Name>
+                            <Value>88</Value>
+                        </Property>
+                        <Property>
+                            <Name>ReplayableAction</Name>
+                            <Value>edu.umd.cs.guitar.event.IphTouchEvent</Value>
+                        </Property>
+                        <Property>
+                            <Name>x</Name>
+                            <Value>236</Value>
+                        </Property>
+                        <Property>
+                            <Name>y</Name>
+                            <Value>88</Value>
+                        </Property>
+                        <Property>
+                            <Name>width</Name>
+                            <Value>64</Value>
+                        </Property>
+                        <Property>
+                            <Name>height</Name>
+                            <Value>32</Value>
+                        </Property>
+                        <Property>
+                            <Name>className</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>INVOKE</Name>
+                            <Value>TOUCH</Value>
+                        </Property>
+                    </Attributes>
+                    <Contents>
+                        <Widget>
+                            <Attributes>
+<Property>
+    <Name>ID</Name>
+    <Value>w3420442952</Value>
+</Property>
+<Property>
+    <Name>Class</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>Type</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>X</Name>
+    <Value>14</Value>
+</Property>
+<Property>
+    <Name>Y</Name>
+    <Value>5</Value>
+</Property>
+<Property>
+    <Name>x</Name>
+    <Value>14</Value>
+</Property>
+<Property>
+    <Name>y</Name>
+    <Value>5</Value>
+</Property>
+<Property>
+    <Name>width</Name>
+    <Value>35</Value>
+</Property>
+<Property>
+    <Name>height</Name>
+    <Value>22</Value>
+</Property>
+<Property>
+    <Name>className</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+                            </Attributes>
+                        </Widget>
+                    </Contents>
+                </Container>
+                <Container>
+                    <Attributes>
+                        <Property>
+                            <Name>ID</Name>
+                            <Value>w1983624562</Value>
+                        </Property>
+                        <Property>
+                            <Name>Class</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>Type</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>X</Name>
+                            <Value>20</Value>
+                        </Property>
+                        <Property>
+                            <Name>Y</Name>
+                            <Value>88</Value>
+                        </Property>
+                        <Property>
+                            <Name>ReplayableAction</Name>
+                            <Value>edu.umd.cs.guitar.event.IphTouchEvent</Value>
+                        </Property>
+                        <Property>
+                            <Name>x</Name>
+                            <Value>20</Value>
+                        </Property>
+                        <Property>
+                            <Name>y</Name>
+                            <Value>88</Value>
+                        </Property>
+                        <Property>
+                            <Name>width</Name>
+                            <Value>64</Value>
+                        </Property>
+                        <Property>
+                            <Name>height</Name>
+                            <Value>32</Value>
+                        </Property>
+                        <Property>
+                            <Name>className</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>INVOKE</Name>
+                            <Value>TOUCH</Value>
+                        </Property>
+                    </Attributes>
+                    <Contents>
+                        <Widget>
+                            <Attributes>
+<Property>
+    <Name>ID</Name>
+    <Value>w3420446796</Value>
+</Property>
+<Property>
+    <Name>Class</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>Type</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>X</Name>
+    <Value>19</Value>
+</Property>
+<Property>
+    <Name>Y</Name>
+    <Value>5</Value>
+</Property>
+<Property>
+    <Name>x</Name>
+    <Value>19</Value>
+</Property>
+<Property>
+    <Name>y</Name>
+    <Value>5</Value>
+</Property>
+<Property>
+    <Name>width</Name>
+    <Value>26</Value>
+</Property>
+<Property>
+    <Name>height</Name>
+    <Value>22</Value>
+</Property>
+<Property>
+    <Name>className</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+                            </Attributes>
+                        </Widget>
+                    </Contents>
+                </Container>
+                <Container>
+                    <Attributes>
+                        <Property>
+                            <Name>ID</Name>
+                            <Value>w1983624624</Value>
+                        </Property>
+                        <Property>
+                            <Name>Class</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>Type</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>X</Name>
+                            <Value>84</Value>
+                        </Property>
+                        <Property>
+                            <Name>Y</Name>
+                            <Value>128</Value>
+                        </Property>
+                        <Property>
+                            <Name>ReplayableAction</Name>
+                            <Value>edu.umd.cs.guitar.event.IphTouchEvent</Value>
+                        </Property>
+                        <Property>
+                            <Name>x</Name>
+                            <Value>84</Value>
+                        </Property>
+                        <Property>
+                            <Name>y</Name>
+                            <Value>128</Value>
+                        </Property>
+                        <Property>
+                            <Name>width</Name>
+                            <Value>120</Value>
+                        </Property>
+                        <Property>
+                            <Name>height</Name>
+                            <Value>34</Value>
+                        </Property>
+                        <Property>
+                            <Name>className</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>INVOKE</Name>
+                            <Value>TOUCH</Value>
+                        </Property>
+                    </Attributes>
+                    <Contents>
+                        <Widget>
+                            <Attributes>
+<Property>
+    <Name>ID</Name>
+    <Value>w3420450640</Value>
+</Property>
+<Property>
+    <Name>Class</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>Type</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>X</Name>
+    <Value>54</Value>
+</Property>
+<Property>
+    <Name>Y</Name>
+    <Value>6</Value>
+</Property>
+<Property>
+    <Name>x</Name>
+    <Value>54</Value>
+</Property>
+<Property>
+    <Name>y</Name>
+    <Value>6</Value>
+</Property>
+<Property>
+    <Name>width</Name>
+    <Value>11</Value>
+</Property>
+<Property>
+    <Name>height</Name>
+    <Value>22</Value>
+</Property>
+<Property>
+    <Name>className</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+                            </Attributes>
+                        </Widget>
+                    </Contents>
+                </Container>
+                <Container>
+                    <Attributes>
+                        <Property>
+                            <Name>ID</Name>
+                            <Value>w1983624686</Value>
+                        </Property>
+                        <Property>
+                            <Name>Class</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>Type</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>X</Name>
+                            <Value>20</Value>
+                        </Property>
+                        <Property>
+                            <Name>Y</Name>
+                            <Value>48</Value>
+                        </Property>
+                        <Property>
+                            <Name>ReplayableAction</Name>
+                            <Value>edu.umd.cs.guitar.event.IphTouchEvent</Value>
+                        </Property>
+                        <Property>
+                            <Name>x</Name>
+                            <Value>20</Value>
+                        </Property>
+                        <Property>
+                            <Name>y</Name>
+                            <Value>48</Value>
+                        </Property>
+                        <Property>
+                            <Name>width</Name>
+                            <Value>64</Value>
+                        </Property>
+                        <Property>
+                            <Name>height</Name>
+                            <Value>32</Value>
+                        </Property>
+                        <Property>
+                            <Name>className</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>INVOKE</Name>
+                            <Value>TOUCH</Value>
+                        </Property>
+                    </Attributes>
+                    <Contents>
+                        <Widget>
+                            <Attributes>
+<Property>
+    <Name>ID</Name>
+    <Value>w3420454484</Value>
+</Property>
+<Property>
+    <Name>Class</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>Type</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>X</Name>
+    <Value>25</Value>
+</Property>
+<Property>
+    <Name>Y</Name>
+    <Value>5</Value>
+</Property>
+<Property>
+    <Name>x</Name>
+    <Value>25</Value>
+</Property>
+<Property>
+    <Name>y</Name>
+    <Value>5</Value>
+</Property>
+<Property>
+    <Name>width</Name>
+    <Value>13</Value>
+</Property>
+<Property>
+    <Name>height</Name>
+    <Value>22</Value>
+</Property>
+<Property>
+    <Name>className</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+                            </Attributes>
+                        </Widget>
+                    </Contents>
+                </Container>
+                <Container>
+                    <Attributes>
+                        <Property>
+                            <Name>ID</Name>
+                            <Value>w1983624748</Value>
+                        </Property>
+                        <Property>
+                            <Name>Class</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>Type</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>X</Name>
+                            <Value>164</Value>
+                        </Property>
+                        <Property>
+                            <Name>Y</Name>
+                            <Value>48</Value>
+                        </Property>
+                        <Property>
+                            <Name>ReplayableAction</Name>
+                            <Value>edu.umd.cs.guitar.event.IphTouchEvent</Value>
+                        </Property>
+                        <Property>
+                            <Name>x</Name>
+                            <Value>164</Value>
+                        </Property>
+                        <Property>
+                            <Name>y</Name>
+                            <Value>48</Value>
+                        </Property>
+                        <Property>
+                            <Name>width</Name>
+                            <Value>64</Value>
+                        </Property>
+                        <Property>
+                            <Name>height</Name>
+                            <Value>32</Value>
+                        </Property>
+                        <Property>
+                            <Name>className</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>INVOKE</Name>
+                            <Value>TOUCH</Value>
+                        </Property>
+                    </Attributes>
+                    <Contents>
+                        <Widget>
+                            <Attributes>
+<Property>
+    <Name>ID</Name>
+    <Value>w3420458328</Value>
+</Property>
+<Property>
+    <Name>Class</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>Type</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>X</Name>
+    <Value>17</Value>
+</Property>
+<Property>
+    <Name>Y</Name>
+    <Value>5</Value>
+</Property>
+<Property>
+    <Name>x</Name>
+    <Value>17</Value>
+</Property>
+<Property>
+    <Name>y</Name>
+    <Value>5</Value>
+</Property>
+<Property>
+    <Name>width</Name>
+    <Value>29</Value>
+</Property>
+<Property>
+    <Name>height</Name>
+    <Value>22</Value>
+</Property>
+<Property>
+    <Name>className</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+                            </Attributes>
+                        </Widget>
+                    </Contents>
+                </Container>
+                <Container>
+                    <Attributes>
+                        <Property>
+                            <Name>ID</Name>
+                            <Value>w1983624810</Value>
+                        </Property>
+                        <Property>
+                            <Name>Class</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>Type</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>X</Name>
+                            <Value>236</Value>
+                        </Property>
+                        <Property>
+                            <Name>Y</Name>
+                            <Value>48</Value>
+                        </Property>
+                        <Property>
+                            <Name>ReplayableAction</Name>
+                            <Value>edu.umd.cs.guitar.event.IphTouchEvent</Value>
+                        </Property>
+                        <Property>
+                            <Name>x</Name>
+                            <Value>236</Value>
+                        </Property>
+                        <Property>
+                            <Name>y</Name>
+                            <Value>48</Value>
+                        </Property>
+                        <Property>
+                            <Name>width</Name>
+                            <Value>64</Value>
+                        </Property>
+                        <Property>
+                            <Name>height</Name>
+                            <Value>32</Value>
+                        </Property>
+                        <Property>
+                            <Name>className</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>INVOKE</Name>
+                            <Value>TOUCH</Value>
+                        </Property>
+                    </Attributes>
+                    <Contents>
+                        <Widget>
+                            <Attributes>
+<Property>
+    <Name>ID</Name>
+    <Value>w3420462172</Value>
+</Property>
+<Property>
+    <Name>Class</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>Type</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>X</Name>
+    <Value>12</Value>
+</Property>
+<Property>
+    <Name>Y</Name>
+    <Value>5</Value>
+</Property>
+<Property>
+    <Name>x</Name>
+    <Value>12</Value>
+</Property>
+<Property>
+    <Name>y</Name>
+    <Value>5</Value>
+</Property>
+<Property>
+    <Name>width</Name>
+    <Value>40</Value>
+</Property>
+<Property>
+    <Name>height</Name>
+    <Value>22</Value>
+</Property>
+<Property>
+    <Name>className</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+                            </Attributes>
+                        </Widget>
+                    </Contents>
+                </Container>
+                <Container>
+                    <Attributes>
+                        <Property>
+                            <Name>ID</Name>
+                            <Value>w1983624872</Value>
+                        </Property>
+                        <Property>
+                            <Name>Class</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>Type</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>X</Name>
+                            <Value>92</Value>
+                        </Property>
+                        <Property>
+                            <Name>Y</Name>
+                            <Value>48</Value>
+                        </Property>
+                        <Property>
+                            <Name>ReplayableAction</Name>
+                            <Value>edu.umd.cs.guitar.event.IphTouchEvent</Value>
+                        </Property>
+                        <Property>
+                            <Name>x</Name>
+                            <Value>92</Value>
+                        </Property>
+                        <Property>
+                            <Name>y</Name>
+                            <Value>48</Value>
+                        </Property>
+                        <Property>
+                            <Name>width</Name>
+                            <Value>64</Value>
+                        </Property>
+                        <Property>
+                            <Name>height</Name>
+                            <Value>32</Value>
+                        </Property>
+                        <Property>
+                            <Name>className</Name>
+                            <Value>UIRoundedRectButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>INVOKE</Name>
+                            <Value>TOUCH</Value>
+                        </Property>
+                    </Attributes>
+                    <Contents>
+                        <Widget>
+                            <Attributes>
+<Property>
+    <Name>ID</Name>
+    <Value>w3420466016</Value>
+</Property>
+<Property>
+    <Name>Class</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>Type</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+<Property>
+    <Name>X</Name>
+    <Value>17</Value>
+</Property>
+<Property>
+    <Name>Y</Name>
+    <Value>5</Value>
+</Property>
+<Property>
+    <Name>x</Name>
+    <Value>17</Value>
+</Property>
+<Property>
+    <Name>y</Name>
+    <Value>5</Value>
+</Property>
+<Property>
+    <Name>width</Name>
+    <Value>29</Value>
+</Property>
+<Property>
+    <Name>height</Name>
+    <Value>22</Value>
+</Property>
+<Property>
+    <Name>className</Name>
+    <Value>UIButtonLabel</Value>
+</Property>
+                            </Attributes>
+                        </Widget>
+                    </Contents>
+                </Container>
+            </Contents>
+        </Container>
+    </Contents>
+</Container>
+                            </Contents>
+                        </Container>
+                        <Container>
+                            <Attributes>
+<Property>
+    <Name>ID</Name>
+    <Value>w2221966228</Value>
+</Property>
+<Property>
+    <Name>Class</Name>
+    <Value>UINavigationBar</Value>
+</Property>
+<Property>
+    <Name>Type</Name>
+    <Value>UINavigationBar</Value>
+</Property>
+<Property>
+    <Name>X</Name>
+    <Value>0</Value>
+</Property>
+<Property>
+    <Name>Y</Name>
+    <Value>20</Value>
+</Property>
+<Property>
+    <Name>x</Name>
+    <Value>0</Value>
+</Property>
+<Property>
+    <Name>y</Name>
+    <Value>20</Value>
+</Property>
+<Property>
+    <Name>width</Name>
+    <Value>320</Value>
+</Property>
+<Property>
+    <Name>height</Name>
+    <Value>44</Value>
+</Property>
+<Property>
+    <Name>className</Name>
+    <Value>UINavigationBar</Value>
+</Property>
+                            </Attributes>
+                            <Contents>
+<Widget>
+    <Attributes>
+        <Property>
+            <Name>ID</Name>
+            <Value>w226410192</Value>
+        </Property>
+        <Property>
+            <Name>Class</Name>
+            <Value>UINavigationItemView</Value>
+        </Property>
+        <Property>
+            <Name>Type</Name>
+            <Value>UINavigationItemView</Value>
+        </Property>
+        <Property>
+            <Name>X</Name>
+            <Value>111</Value>
+        </Property>
+        <Property>
+            <Name>Y</Name>
+            <Value>8</Value>
+        </Property>
+        <Property>
+            <Name>x</Name>
+            <Value>111</Value>
+        </Property>
+        <Property>
+            <Name>y</Name>
+            <Value>8</Value>
+        </Property>
+        <Property>
+            <Name>width</Name>
+            <Value>99</Value>
+        </Property>
+        <Property>
+            <Name>height</Name>
+            <Value>27</Value>
+        </Property>
+        <Property>
+            <Name>className</Name>
+            <Value>UINavigationItemView</Value>
+        </Property>
+    </Attributes>
+</Widget>
+                            </Contents>
+                        </Container>
+                    </Contents>
+                </Container>
+            </Contents>
+        </Container>
+    </GUI>
+</GUIStructure>

@@ -1,0 +1,44 @@
+IOP_1:142:Overridden method call at last line.
+IOP_2:123:Overridden method call at one line down.
+IOP_2:123:Overridden method call at one line up.
+JSD_1:48:static is deleted
+JSD_2:50:static is deleted
+JSD_3:52:static is deleted
+JSI_1:24:static is inserted
+JSI_2:26:static is inserted
+JSI_3:28:static is inserted
+JSI_4:30:static is inserted
+JSI_5:32:static is inserted
+JSI_6:34:static is inserted
+JSI_7:36:static is inserted
+JSI_8:38:static is inserted
+JSI_9:40:static is inserted
+JSI_10:42:static is inserted
+JSI_11:44:static is inserted
+JSI_12:46:static is inserted
+JSI_13:54:static is inserted
+JSI_13:55:static is inserted
+JSI_13:55:static is inserted
+JSI_14:61:static is inserted
+JSI_14:62:static is inserted
+JSI_14:62:static is inserted
+JSI_15:68:static is inserted
+JSI_15:69:static is inserted
+JSI_15:69:static is inserted
+JSI_15:71:static is inserted
+JSI_16:76:static is inserted
+JSI_16:77:static is inserted
+JSI_16:77:static is inserted
+JSI_17:88:static is inserted
+JSI_17:89:static is inserted
+JSI_17:89:static is inserted
+JSI_17:91:static is inserted
+JSI_17:93:static is inserted
+JSI_17:100:static is inserted
+JSI_17:110:static is inserted
+JSI_17:115:static is inserted
+JID_1:54:private android.view.View.OnClickListener clickListenernew android.view.View.OnClickListener()    public void onClick( android.view.View v             Rbutton2.setChecked( false )    } => private android.view.View.OnClickListener clickListener;
+JID_2:61:private android.view.View.OnClickListener clickListener2new android.view.View.OnClickListener()    public void onClick( android.view.View v             Rbutton1.setChecked( false )    } => private android.view.View.OnClickListener clickListener2;
+JID_3:68:private android.view.View.OnClickListener clickCancelnew android.view.View.OnClickListener()    public void onClick( android.view.View v             android.content.Intent addIntent = new android.content.Intent( addtodo.this, edu.towson.cosc451.nimbian.ToDoManagerActivity.class )        startActivity( addIntent )    } => private android.view.View.OnClickListener clickCancel;
+JID_4:76:private android.view.View.OnClickListener clickResetnew android.view.View.OnClickListener()    public void onClick( android.view.View v             Rbutton1.setChecked( true )        Rbutton2.setChecked( false )        Rbutton3.setChecked( true )        Rbutton4.setChecked( false )        Rbutton5.setChecked( false )        edit.setText( "" )    } => private android.view.View.OnClickListener clickReset;
+JID_5:88:private android.view.View.OnClickListener clickSubmitnew android.view.View.OnClickListener()    public void onClick( android.view.View arg0             java.lang.String task = edit.getText().toString()        edit.setText( "" )        java.lang.Boolean done = false        if (Rbutton1.isChecked())             done = true        } else             done = false                Rbutton2.setChecked( false )        java.lang.String priority        if (Rbutton3.isChecked())             priority = "Low"        } else             if (Rbutton4.isChecked())                 priority = "Medium"            } else                 priority = "High"                            android.content.Intent resultIntent = new android.content.Intent()        resultIntent.putExtra( ID1, task )        resultIntent.getBooleanExtra( ID2, done )        resultIntent.putExtra( ID3, priority )        setResult( Activity.RESULT_OK, resultIntent )        android.content.Intent addIntent = new android.content.Intent( addtodo.this, edu.towson.cosc451.nimbian.ToDoManagerActivity.class )        startActivity( addIntent )    } => private android.view.View.OnClickListener clickSubmit;

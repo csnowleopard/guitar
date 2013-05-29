@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project gui-cr-adr">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="gui-cr-adr.jar" filesetmanifest="mergewithoutmain">
+            <manifest>
+                <attribute name="Main-Class" value="edu.umd.cs.guitar.ADRCapture"/>
+                <attribute name="Class-Path" value="."/>
+            </manifest>
+            <fileset dir="bin"/>
+            <zipfileset excludes="META-INF/*.SF" src="lib/android.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="lib/chimpchat.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="lib/ddmlib.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="lib/ddms.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="lib/jython.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="lib/monkeyrunner.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="lib/sdkstats.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="lib/guava-11.0.2.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="lib/log4j-1.2.15.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="lib/gson-2.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="lib/gui-model-adr.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="lib/gui-model-core.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="lib/gui-ripper-adr.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="lib/gui-ripper-core.jar"/>
+        </jar>
+    </target>
+</project>

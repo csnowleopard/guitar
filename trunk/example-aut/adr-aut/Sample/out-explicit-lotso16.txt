@@ -1,0 +1,27 @@
+                                                                     
+                                                                     
+                                                                     
+                                             
+{"intent": [
+
+{"activity":"A_Activity","packageName":"rohan.makes.intents",
+"declaration": ["new Intent(this, A1_Activity.class);startActivity(i)","new Intent(this, A2_Activity.class);startActivity(i)","new Intent(this, A3_Activity.class);startActivity(i)","new Intent(this, A4_Activity.class);startActivity(i)"]
+},
+
+{"activity":"B_Activity","packageName":"rohan.makes.intents",
+"declaration": ["new Intent(this, B1_Activity.class);startActivity(i)","new Intent(this, B2_Activity.class);startActivity(i)","new Intent(this, B3_Activity.class);startActivity(i)","new Intent(this, B4_Activity.class);startActivity(i)"]
+},
+
+{"activity":"C_Activity","packageName":"rohan.makes.intents",
+"declaration": ["new Intent(this, C1_Activity.class);startActivity(i)","new Intent(this, C2_Activity.class);startActivity(i)","new Intent(this, C3_Activity.class);startActivity(i)","new Intent(this, C4_Activity.class);startActivity(i)"]
+},
+
+{"activity":"D_Activity","packageName":"rohan.makes.intents",
+"declaration": ["new Intent(this, D1_Activity.class);startActivity(i)","new Intent(this, D2_Activity.class);startActivity(i)","new Intent(this, D3_Activity.class);startActivity(i)","new Intent(this, D4_Activity.class);startActivity(i)"]
+},
+
+{"activity":"LotsoIntents16ActivitiesActivity","packageName":"rohan.makes.intents",
+"declaration": ["new Intent(this, A_Activity.class);startActivity(i)","new Intent(this, B_Activity.class);startActivity(i)","new Intent(this, C_Activity.class);startActivity(i)","new Intent(this, D_Activity.class);startActivity(i)"]
+}
+]
+}

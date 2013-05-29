@@ -1,0 +1,31 @@
+{"intent": [
+
+{"activity":"SplitBill","packageName":"net.mandaria.tippytipper.activities",
+"declaration": ["startActivity(new Intent(this, Settings.class))"]
+},
+
+{"activity":"TippyTipper","packageName":"net.mandaria.tippytipper.activities",
+"declaration": ["startActivity(new Intent(this, About.class))"]
+},
+
+{"activity":"TippyTipper","packageName":"net.mandaria.tippytipper.activities",
+"declaration": ["startActivity(new Intent(this, Settings.class))"]
+},
+
+{"activity":"TippyTipper","packageName":"net.mandaria.tippytipper.activities",
+"declaration": ["new Intent(getBaseContext(), Total.class);startActivity(i)"]
+},
+
+{"activity":"Total","packageName":"net.mandaria.tippytipper.activities",
+"declaration": ["startActivity(new Intent(this, About.class))"]
+},
+
+{"activity":"Total","packageName":"net.mandaria.tippytipper.activities",
+"declaration": ["startActivity(new Intent(this, Settings.class))"]
+},
+
+{"activity":"Total","packageName":"net.mandaria.tippytipper.activities",
+"declaration": ["new Intent(getBaseContext(), SplitBill.class);startActivity(i)"]
+}
+]
+}

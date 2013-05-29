@@ -1,0 +1,3 @@
+COI_1:44:void_onCreate(android.os.Bundle): mShowInvisible  =>  !mShowInvisible
+COI_2:45:void_onCreate(android.os.Bundle): mShowInvisible  =>  !mShowInvisible
+COI_6:76:android.database.Cursor_getContacts(): mShowInvisible  =>  !mShowInvisible

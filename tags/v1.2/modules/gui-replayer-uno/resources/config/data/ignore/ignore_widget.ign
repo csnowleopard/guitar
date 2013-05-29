@@ -1,0 +1,162 @@
+// TODO: An explaination on ignore file format
+// Ignored Item Format:
+// 		Widget
+// 		Window_Widget
+// 		Window_Widget_Role
+
+
+//------------------------------
+//Ignore widgets 
+//------------------------------
+
+//------------------------------
+// File menu
+//File
+	//New
+		Text Document
+		Spreadsheet
+		Presentation
+		Drawing 
+		Database
+		HTML Document
+		XML Form Document
+		Master Document
+		Formula
+		Labels
+		Business Cards
+
+	//Open... 
+	Recent Documents
+	//Save
+	//Save As...
+	Export...
+	Export as PDF...	
+	Send
+	Print...
+	Templates
+		//Edit...
+
+	Preview in Web Browser
+
+	Wizards
+	Close
+
+	Exit
+
+//------------------------------
+Edit
+View
+	Formatting
+	Standard	
+	Full Screen
+
+Insert
+	// Object
+		Formula
+		Chart...
+		Chart
+		
+	// Unable to close the window opened by this item Fields	
+	Untitled 1 - OpenOffice.org Writer_Fields_34
+	Untitled 1 - OpenOffice.org Writer_Cross-reference..._36
+		
+		
+//Format
+	Bullets and Numbering...
+	Styles and Formatting	
+	AutoCorrect
+
+Table
+
+//Tools
+	Untitled 1 - OpenOffice.org Writer_Outline Numbering..._36
+	Spelling and Grammar... F7
+	Language
+	Word Count
+	Gallery
+	Media Player
+	Bibliography Database
+	Mail Merge Wizard...
+	Update
+	Macros
+	Extension Manager...
+	XML Filter Settings...
+        AutoCorrect Options....
+	Options
+	Line Numbering...
+
+Window
+	New Window
+
+Help
+
+//----------------------------------------
+// Standard Tool bar
+New
+New Document From Template
+Document as E-mail
+Export Directly as PDF
+Page Preview
+
+OpenOffice.org Help
+
+
+// Template and Documents Window 
+// Ignore the widget inside the list
+My Templates
+Presentation Backgrounds
+Presentations
+
+//-------------------
+// Window: Evelope
+New Doc.
+
+//-------------------
+// Window: AutoCorrect 
+// Ignore word list in the window
+AutoCorrect_With:_65
+
+Select special characters in this area.
+
+//----------------------------------------
+// Window: Options 
+
+// Avoid swiching back to native window style which cannot be detected by 
+// the Ripper
+Options - OpenOffice.org - General_Use OpenOffice.org dialogs_4
+Options - OpenOffice.org - User Data
+
+
+
+
+// Avoid an infi loop click
+Options - OpenOffice.org - Colors_Add
+
+//----------------------------------------
+// Window: Table
+// Button create new table
+
+Table_Table_68
+
+//----------------------------------------
+// Window: Tools
+// Button create new table
+Tools_Insert_68
+//Tools_Web Layout_62
+
+//----------------------------------------
+// Window: Test XML Filter: DocBook File
+// Cannot close the window opened by this button
+
+Test XML Filter: DocBook File_Current Document_44
+
+
+//----------------------------------------
+// Window:
+	// Cause an infinite loop
+	Redirect from this document
+
+//----------------------------------------
+// General buttons
+Navigation
+Browse...

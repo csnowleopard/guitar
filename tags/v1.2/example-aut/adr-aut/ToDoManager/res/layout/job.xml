@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:weightSum="1">
+    <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout2" android:orientation="vertical" android:layout_height="wrap_content">
+        <TextView android:id="@+id/edit_title" android:text="TextView" android:layout_width="match_parent" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content"></TextView>
+        <RelativeLayout android:weightSum="1" android:layout_width="match_parent" android:id="@+id/RelativeLayout1" android:layout_height="wrap_content" android:layout_weight="0.04">
+            <TextView android:layout_alignParentLeft="true" android:layout_alignBaseline="@+id/checkBox1" android:layout_alignParentTop="true" android:id="@+id/Done" android:text="@string/done_txt" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+            <CheckBox android:layout_toRightOf="@+id/Done" android:layout_toLeftOf="@+id/textView2" android:layout_alignParentTop="true" android:text="@string/empty" android:layout_weight="0.66" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/checkBox1"></CheckBox>
+            <TextView android:layout_alignParentRight="true" android:layout_alignBaseline="@+id/checkBox1" android:layout_alignParentTop="true" android:layout_weight="0.34" android:id="@+id/edit_priority" android:text="TextView" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+            <TextView android:id="@+id/textView2" android:text="@string/priority" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_alignBaseline="@+id/checkBox1" android:layout_alignBottom="@+id/checkBox1" android:layout_toLeftOf="@+id/edit_priority"></TextView>
+        </RelativeLayout>
+    </LinearLayout>
+    
+</LinearLayout>

@@ -1,0 +1,5 @@
+void_onCreate(android.os.Bundle)
+void_draw()
+void_colors()
+boolean_onCreateOptionsMenu(android.view.Menu)
+boolean_onOptionsItemSelected(android.view.MenuItem)

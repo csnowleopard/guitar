@@ -1,0 +1,3 @@
+Shape(android.content.Context,boolean,java.lang.String)
+void_setColor()
+void_onDraw(android.graphics.Canvas)

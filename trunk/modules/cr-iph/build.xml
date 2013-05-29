@@ -1,0 +1,79 @@
+<?xml version='1.0'?>
+<project name="GraphBuilder" default="build.dist" basedir=".">
+    <property name="src.dir" value="src"/>
+    <property name="class.dir" value="classes"/>
+	<property name="conf.dir" value="conf" />
+	<property name="lib.dir" value="lib" />
+	<property name="new.lib.dir" value="../../lib/platforms/iph" /> <!-- NOTE: property ${global.root.dir} can't be used -->
+	<property name="dist.dir" value="dist" />
+	
+	<path id="build.classpath">
+		<fileset dir="${lib.dir}">
+			<include name="*.jar" />
+		</fileset>
+		<dirset dir="${basedir}"/>
+		<dirset dir="${class.dir}"/>
+	</path>
+	
+    <target name="init">
+        <mkdir dir="${class.dir}"/>
+        <!-- First of all, transfer all jar files from new location to current project directory -->
+        <mkdir dir="${lib.dir}" />
+        <copy todir="${lib.dir}">
+        	<fileset dir="${new.lib.dir}" />
+        </copy>
+    </target>
+
+    <target name="compile" depends="init"
+            description="Compiles all source code">
+        <javac srcdir="${src.dir}"
+               destdir="${class.dir}"
+        	   classpathref="build.classpath"
+        />
+    </target>
+	
+	<target name="manifest.classpath" depends="compile">
+		<mkdir dir="${dist.dir}" />
+		<manifestclasspath property="prop.classpath" jarfile="${dist.dir}/graphbuilder.jar">
+			<classpath refid="build.classpath" />
+		</manifestclasspath>
+	</target>
+	
+	<target name="build.dist" depends="clean, compile, manifest.classpath" description="Build distributable jar file">
+		<jar destfile="${dist.dir}/graphbuilder.jar" basedir="${src.dir}">
+			<fileset dir="${class.dir}" />
+			<manifest>
+				 <attribute name="Main-Class" value="edu.umd.cs.guitar.gui.GUIBuilder"/>
+				 <attribute name="Class-Path" value="${prop.classpath}" />
+				 <attribute name="Built-By" value="${user.name}"/>
+			</manifest>
+		</jar>
+		<copy file="${dist.dir}/graphbuilder.jar" todir="lib" />
+	</target>
+	
+	<!-- Somehow javadoc does not work; Not important but needs to look at this -->
+	<target name="javadoc" depends="clean, compile" description="Generate javadoc">
+		<javadoc
+           access="public"
+           destdir="docs/javadoc"
+           author="true"
+           version="true"
+           use="true"
+           windowtitle="Graph Builder API"
+		   classpathref="build.classpath"
+       >
+
+        <fileset dir="${src.dir}" defaultexcludes="yes">
+            <include name="**/*.java"/>
+           <!-- <exclude name="org/test/**/*.java" /> -->
+        </fileset>
+    </javadoc>
+	</target>
+	
+    <target name="clean" description="Erases contents of classes dir">
+        <delete dir="${class.dir}"/>
+		<delete dir="${dist.dir}" />
+		<delete dir="docs/javadoc" />
+    </target>
+
+</project>

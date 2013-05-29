@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="60dip"
+        android:text="This is the Main Activity"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/ButtonA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Call Activity A" >
+    </Button>
+
+    <Button
+        android:id="@+id/ButtonB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Call Activity B" >
+    </Button>
+
+    <Button
+        android:id="@+id/ButtonC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Call Activity C" >
+    </Button>
+
+    <Button
+        android:id="@+id/ButtonD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Call Activity D" >
+    </Button>
+
+    <Button
+        android:id="@+id/Whitney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Get Whitney Saying" >
+    </Button>
+    
+    <Button
+        android:id="@+id/Lyonel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Get Lyonel Saying" >
+    </Button>
+
+</LinearLayout>

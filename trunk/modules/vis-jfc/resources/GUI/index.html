@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<meta name="author" content="LIU Yizhou"/>
+		<meta name="description" content=" "/>
+		<meta name="keywords" content=""/>
+		<title>JFC GUITAR</title>
+        <style type="text/css" media="all">
+			@import url("style_sheets/default.css");		
+		</style>
+        <script type="text/javascript" src="JS_sheets/default.js"></script>
+        <script type="text/javascript" src="JS_sheets/json_object.js"></script>
+	</head>
+
+	<body onmouseup="hideAll()" >
+    	<!--main container-->
+        <div id="mainContainer">
+        
+        <!--heading-->
+        <div id="heading" >
+            <form action="upload_file.php" method="post" enctype="multipart/form-data">
+
+         	<div id="line1">
+         	<label id="p1" onClick="stepBack()">Back</label>
+         	<label id="p2" onClick="stepForward()">Forward</label>
+            <label id="o1" onClick="toggleLabels()">Toggle Labels</label>
+            </div>
+            
+          
+            </form>            
+     	</div>
+        
+        <!--node information-->
+            <div id="node" onmouseover="showInformation()">
+                <label onmouseover="showInformation()">
+                Node Information
+                </label>
+                <div id="information">
+                
+                </div>
+                
+            </div>
+        
+       
+        <!--content-->
+        <div id="content" >
+                
+            <!--graph-->	
+            <div id="graph">
+            
+            <span id="graphContent">
+            </span>
+            
+            </div>	 
+         </div>
+            
+            <!--footer-->
+            <div id="footer">
+                <div id="authorName">Designed by <span class="mark">JFC GUITAR team</span> |Under the direction of <span class="mark">Atif Memon</span></div>
+                <div id="copyright">Copyright @ 2012 Terpsoft, all rights reserved </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+			testDemo();
+		</script>
+	</body>
+</html>

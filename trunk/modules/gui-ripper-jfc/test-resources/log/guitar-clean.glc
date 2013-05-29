@@ -1,0 +1,30 @@
+########
+# log4j configuration file for GUITAR.
+########
+
+#log4j.category.org.argouml=DEBUG, stdout1
+log4j.category.edu.umd.cs.guitar=DEBUG, stdout
+
+#######
+# Console
+#######
+log4j.appender.stdout=org.apache.log4j.ConsoleAppender
+log4j.appender.stdout.layout=org.apache.log4j.PatternLayout
+log4j.appender.stdout.layout.ConversionPattern=[%t] %-5p %m%n
+
+#log4j.appender.stdout1=org.apache.log4j.ConsoleAppender
+#log4j.appender.stdout1.layout=org.apache.log4j.PatternLayout
+#log4j.appender.stdout1.layout.ConversionPattern=[%t] %-5p %m%n
+
+#######
+# File
+#######
+
+log4j.appender.TextFile=org.apache.log4j.FileAppender
+log4j.appender.TextFile.Append=false
+log4j.appender.TextFile.File=${logfile.name}
+#log4j.appender.TextFile.MaxFileSize=5000MB
+#log4j.appender.TextFile.MaxBackupIndex=5
+log4j.appender.TextFile.layout=org.apache.log4j.PatternLayout
+log4j.appender.TextFile.layout.ConversionPattern=[%t] %-5p %m%n
+

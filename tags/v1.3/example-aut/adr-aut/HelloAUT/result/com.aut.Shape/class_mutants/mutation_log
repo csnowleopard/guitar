@@ -1,0 +1,39 @@
+IOP_1:97:Overridden method call at last line.
+IOP_2:92:Overridden method call at one line down.
+IOP_2:92:Overridden method call at one line up.
+IPC_1:23:super( context ) is deleted
+JSD_1:30:static is deleted
+JSD_2:32:static is deleted
+JSD_3:34:static is deleted
+JSD_4:36:static is deleted
+JSD_5:38:static is deleted
+JSD_6:40:static is deleted
+JSD_7:42:static is deleted
+JSD_8:44:static is deleted
+JSD_9:46:static is deleted
+JSD_10:87:static is deleted
+JSI_1:17:static is inserted
+JSI_2:19:static is inserted
+JSI_3:28:static is inserted
+JTD_1:24:this.isRect => isRect
+JTD_2:25:this.color => color
+JTI_1:24:isRect  -->  this.isRect
+JTI_2:25:color  -->  this.color
+EMM_1:51:paint.setColor( Color.BLACK ) => paint.setFlags( Color.BLACK )
+EMM_2:51:paint.setColor( Color.BLACK ) => paint.setAlpha( Color.BLACK )
+EMM_3:54:paint.setColor( Color.BLUE ) => paint.setFlags( Color.BLUE )
+EMM_4:54:paint.setColor( Color.BLUE ) => paint.setAlpha( Color.BLUE )
+EMM_5:57:paint.setColor( Color.CYAN ) => paint.setFlags( Color.CYAN )
+EMM_6:57:paint.setColor( Color.CYAN ) => paint.setAlpha( Color.CYAN )
+EMM_7:60:paint.setColor( Color.GRAY ) => paint.setFlags( Color.GRAY )
+EMM_8:60:paint.setColor( Color.GRAY ) => paint.setAlpha( Color.GRAY )
+EMM_9:63:paint.setColor( Color.GREEN ) => paint.setFlags( Color.GREEN )
+EMM_10:63:paint.setColor( Color.GREEN ) => paint.setAlpha( Color.GREEN )
+EMM_11:66:paint.setColor( Color.MAGENTA ) => paint.setFlags( Color.MAGENTA )
+EMM_12:66:paint.setColor( Color.MAGENTA ) => paint.setAlpha( Color.MAGENTA )
+EMM_13:69:paint.setColor( Color.RED ) => paint.setFlags( Color.RED )
+EMM_14:69:paint.setColor( Color.RED ) => paint.setAlpha( Color.RED )
+EMM_15:72:paint.setColor( Color.WHITE ) => paint.setFlags( Color.WHITE )
+EMM_16:72:paint.setColor( Color.WHITE ) => paint.setAlpha( Color.WHITE )
+EMM_17:75:paint.setColor( Color.YELLOW ) => paint.setFlags( Color.YELLOW )
+EMM_18:75:paint.setColor( Color.YELLOW ) => paint.setAlpha( Color.YELLOW )

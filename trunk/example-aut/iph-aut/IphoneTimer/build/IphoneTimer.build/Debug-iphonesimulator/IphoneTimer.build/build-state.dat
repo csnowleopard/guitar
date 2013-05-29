@@ -1,0 +1,308 @@
+TIphoneTimer
+v7
+r0
+t345226536.365832
+cCheck dependencies
+cProcessInfoPlistFile /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator/IphoneTimer.app/Info.plist IphoneTimer-Info.plist
+cCompileXIB /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/MainWindow.xib
+cCompileXIB /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/IphoneTimerViewController.xib
+cCopyPlistFile /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator/IphoneTimer.app/settings.plist settings.plist
+cProcessPCH /var/folders/0G/0GqOsYTuHmSXA0GZ+LYyhU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IphoneTimer_Prefix-bfbotdfukidoyebujzjcmvbtjlbk/IphoneTimer_Prefix.pch.gch IphoneTimer_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IphoneTimer.build/Debug-iphonesimulator/IphoneTimer.build/Objects-normal/i386/main.o /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IphoneTimer.build/Debug-iphonesimulator/IphoneTimer.build/Objects-normal/i386/IphoneTimerAppDelegate.o /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IphoneTimer.build/Debug-iphonesimulator/IphoneTimer.build/Objects-normal/i386/IphoneTimerViewController.o /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator/IphoneTimer.app/IphoneTimer normal i386
+cGenerateDSYMFile /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator/IphoneTimer.app.dSYM /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator/IphoneTimer.app/IphoneTimer
+cTouch /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator/IphoneTimer.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004E6F538B0000000000000110
+t1315918731
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004D54CF5D0000000000205F50
+t1297403741
+s2121552
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004D54CF4A0000000000000A23
+t1297403722
+s2595
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerAppDelegate.h
+c000000004EE3838A0000000000000244
+t1323533194
+s580
+i<UIKit/UIKit.h>
+
+N/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerAppDelegate.m
+c000000004EDC7EC50000000000000C92
+t1323073221
+s3218
+i"IphoneTimerAppDelegate.h"
+i"IphoneTimerViewController.h"
+i"ScriptRunner.h"
+
+N/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.h
+c000000004EDC7F9300000000000003E0
+t1323073427
+s992
+i<UIKit/UIKit.h>
+i"IphoneTimerAppDelegate.h"
+
+N/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.m
+c000000004EE382600000000000002239
+t1323532896
+s8761
+i"IphoneTimerViewController.h"
+i"IphoneTimerAppDelegate.h"
+i<AudioToolbox/AudioToolbox.h>
+
+N/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/ScriptRunner.h
+c000000004ECAC8C70000000000000388
+t1321912519
+s904
+i<UIKit/UIKit.h>
+
+N/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/IphoneTimerViewController.xib
+c000000004EC53D1500000000000080B8
+t1321549077
+s32952
+
+N/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/IphoneTimer_Prefix.pch
+c000000004EC53D1500000000000000BF
+t1321549077
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/MainWindow.xib
+c000000004EC53D150000000000004E59
+t1321549077
+s20057
+
+N/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator/IphoneTimer.app
+t1323533736
+s272
+
+N/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator/IphoneTimer.app.dSYM
+t1323533261
+s102
+
+N/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator/IphoneTimer.app/Info.plist
+t1323533070
+s607
+
+N/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator/IphoneTimer.app/IphoneTimer
+t1323533261
+s32000
+
+N/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator/IphoneTimer.app/IphoneTimerViewController.nib
+t1323533104
+s5260
+
+N/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator/IphoneTimer.app/MainWindow.nib
+t1323533102
+s1689
+
+N/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator/IphoneTimer.app/PkgInfo
+t1323533070
+s8
+
+N/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator/IphoneTimer.app/settings.plist
+t1323533736
+s67
+
+N/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/IphoneTimer.build/Debug-iphonesimulator/IphoneTimer.build/Objects-normal/i386/IphoneTimer.LinkFileList
+c000000004EE3830E0000000000000204
+t1323533070
+s516
+
+N/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/IphoneTimer.build/Debug-iphonesimulator/IphoneTimer.build/Objects-normal/i386/IphoneTimerAppDelegate.o
+t1323533259
+s55820
+
+N/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/IphoneTimer.build/Debug-iphonesimulator/IphoneTimer.build/Objects-normal/i386/IphoneTimerViewController.o
+t1323533260
+s76496
+
+N/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/IphoneTimer.build/Debug-iphonesimulator/IphoneTimer.build/Objects-normal/i386/main.o
+t1323533129
+s6368
+
+N/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/main.m
+c000000004EC53D15000000000000017F
+t1321549077
+s383
+i<UIKit/UIKit.h>
+
+N/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/settings.plist
+c000000004EE3858700000000000000E3
+t1323533703
+s227
+
+N/var/folders/0G/0GqOsYTuHmSXA0GZ+LYyhU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IphoneTimer_Prefix-bfbotdfukidoyebujzjcmvbtjlbk/IphoneTimer_Prefix.pch.gch
+t1323533128
+s15814064
+
+NIphoneTimer-Info.plist
+c000000004EC53D15000000000000038D
+t1321549077
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies345226505#345226535#0(0"0(0#1#0"8621483040#0"0#
+
+CCompileC build/IphoneTimer.build/Debug-iphonesimulator/IphoneTimer.build/Objects-normal/i386/IphoneTimerAppDelegate.o /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s345226059.381826
+e345226059.870238
+r1
+xCompileC
+xbuild/IphoneTimer.build/Debug-iphonesimulator/IphoneTimer.build/Objects-normal/i386/IphoneTimerAppDelegate.o
+x/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@108"Compile /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerAppDelegate.m345226059#345226059#0(0"0(0#0#100"/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerAppDelegate.m8621207616#2463"    cd /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/IphoneTimer.build/Debug-iphonesimulator/IphoneTimer.build/IphoneTimer-generated-files.hmap -I/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/IphoneTimer.build/Debug-iphonesimulator/IphoneTimer.build/IphoneTimer-own-target-headers.hmap -I/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/IphoneTimer.build/Debug-iphonesimulator/IphoneTimer.build/IphoneTimer-all-target-headers.hmap -iquote /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/IphoneTimer.build/Debug-iphonesimulator/IphoneTimer.build/IphoneTimer-project-headers.hmap -F/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator -I/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/IphoneTimer.build/Debug-iphonesimulator/IphoneTimer.build/DerivedSources/i386 -I/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/IphoneTimer.build/Debug-iphonesimulator/IphoneTimer.build/DerivedSources -include /var/folders/0G/0GqOsYTuHmSXA0GZ+LYyhU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IphoneTimer_Prefix-bfbotdfukidoyebujzjcmvbtjlbk/IphoneTimer_Prefix.pch -c /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerAppDelegate.m -o /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/IphoneTimer.build/Debug-iphonesimulator/IphoneTimer.build/Objects-normal/i386/IphoneTimerAppDelegate.o0#
+
+CCompileC build/IphoneTimer.build/Debug-iphonesimulator/IphoneTimer.build/Objects-normal/i386/IphoneTimerViewController.o /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s345226059.870351
+e345226060.659683
+r1
+xCompileC
+xbuild/IphoneTimer.build/Debug-iphonesimulator/IphoneTimer.build/Objects-normal/i386/IphoneTimerViewController.o
+x/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.m: In function '-[IphoneTimerViewController viewDidLoad]':
+o/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.m:97: warning: invalid receiver type 'BOOL'
+o/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.m:97: warning: cast to pointer from integer of different size
+o/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.m:98: warning: invalid receiver type 'BOOL'
+o/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.m:98: warning: cast to pointer from integer of different size
+o/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.m: In function '-[IphoneTimerViewController dealloc]':
+o/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.m:137: warning: invalid receiver type 'BOOL'
+o/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.m:137: warning: cast to pointer from integer of different size
+o/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.m:138: warning: invalid receiver type 'BOOL'
+o/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.m:138: warning: cast to pointer from integer of different size
+o/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.m: At top level:
+o/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.m:319: warning: incomplete implementation of class 'IphoneTimerViewController'
+o/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.m:319: warning: method definition for '-pickTime' not found
+lSLF07#2@111"Compile /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.m345226059#345226060#0(2024"/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.m: In function '-[IphoneTimerViewController viewDidLoad]':/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.m:97: warning: invalid receiver type 'BOOL'/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.m:97: warning: cast to pointer from integer of different size/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.m:98: warning: invalid receiver type 'BOOL'/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.m:98: warning: cast to pointer from integer of different size/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.m: In function '-[IphoneTimerViewController dealloc]':/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.m:137: warning: invalid receiver type 'BOOL'/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.m:137: warning: cast to pointer from integer of different size/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.m:138: warning: invalid receiver type 'BOOL'/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.m:138: warning: cast to pointer from integer of different size/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.m: At top level:/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.m:319: warning: incomplete implementation of class 'IphoneTimerViewController'/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.m:319: warning: method definition for '-pickTime' not found11(22@28"Invalid receiver type 'BOOL'345226060#161#146#0(6@103"/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.m345225696#97#0#97#0#0"0(22@46"Cast to pointer from integer of different size345226060#307#164#0(6@103"/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.m345225696#97#0#97#0#46"cast to pointer from integer of different size0(22@28"Invalid receiver type 'BOOL'345226060#471#146#0(6@103"/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.m345225696#98#0#98#0#0"0(22@46"Cast to pointer from integer of different size345226060#617#164#0(6@103"/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.m345225696#98#0#98#0#46"cast to pointer from integer of different size0(22@28"Invalid receiver type 'BOOL'345226060#938#147#0(6@103"/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.m345225696#137#0#137#0#0"0(22@46"Cast to pointer from integer of different size345226060#1085#165#0(6@103"/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.m345225696#137#0#137#0#46"cast to pointer from integer of different size0(22@28"Invalid receiver type 'BOOL'345226060#1250#147#0(6@103"/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.m345225696#138#0#138#0#0"0(22@46"Cast to pointer from integer of different size345226060#1397#165#0(6@103"/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.m345225696#138#0#138#0#46"cast to pointer from integer of different size0(23@13"At top level:345226060#1562#119#0(6@103"/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.m345225696#0#0#0#0#0"0(22@62"Incomplete implementation of class 'IphoneTimerViewController'345226060#1681#181#0(6@103"/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.m345225696#319#0#319#0#38"incomplete implementation of class '*'0(22@43"Method definition for '-pickTime' not found345226060#1862#162#0(6@103"/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.m345225696#319#0#319#0#35"method definition for '*' not found0(0#0#103"/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.m8614259968#2469"    cd /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/IphoneTimer.build/Debug-iphonesimulator/IphoneTimer.build/IphoneTimer-generated-files.hmap -I/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/IphoneTimer.build/Debug-iphonesimulator/IphoneTimer.build/IphoneTimer-own-target-headers.hmap -I/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/IphoneTimer.build/Debug-iphonesimulator/IphoneTimer.build/IphoneTimer-all-target-headers.hmap -iquote /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/IphoneTimer.build/Debug-iphonesimulator/IphoneTimer.build/IphoneTimer-project-headers.hmap -F/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator -I/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/IphoneTimer.build/Debug-iphonesimulator/IphoneTimer.build/DerivedSources/i386 -I/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/IphoneTimer.build/Debug-iphonesimulator/IphoneTimer.build/DerivedSources -include /var/folders/0G/0GqOsYTuHmSXA0GZ+LYyhU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IphoneTimer_Prefix-bfbotdfukidoyebujzjcmvbtjlbk/IphoneTimer_Prefix.pch -c /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/Classes/IphoneTimerViewController.m -o /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/IphoneTimer.build/Debug-iphonesimulator/IphoneTimer.build/Objects-normal/i386/IphoneTimerViewController.o0#
+
+CCompileC build/IphoneTimer.build/Debug-iphonesimulator/IphoneTimer.build/Objects-normal/i386/main.o /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s345225928.867879
+e345225929.579293
+r1
+xCompileC
+xbuild/IphoneTimer.build/Debug-iphonesimulator/IphoneTimer.build/Objects-normal/i386/main.o
+x/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/main.m345225928#345225929#0(0"0(0#0#74"/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/main.m8600995968#2419"    cd /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/IphoneTimer.build/Debug-iphonesimulator/IphoneTimer.build/IphoneTimer-generated-files.hmap -I/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/IphoneTimer.build/Debug-iphonesimulator/IphoneTimer.build/IphoneTimer-own-target-headers.hmap -I/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/IphoneTimer.build/Debug-iphonesimulator/IphoneTimer.build/IphoneTimer-all-target-headers.hmap -iquote /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/IphoneTimer.build/Debug-iphonesimulator/IphoneTimer.build/IphoneTimer-project-headers.hmap -F/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator -I/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/IphoneTimer.build/Debug-iphonesimulator/IphoneTimer.build/DerivedSources/i386 -I/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/IphoneTimer.build/Debug-iphonesimulator/IphoneTimer.build/DerivedSources -include /var/folders/0G/0GqOsYTuHmSXA0GZ+LYyhU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IphoneTimer_Prefix-bfbotdfukidoyebujzjcmvbtjlbk/IphoneTimer_Prefix.pch -c /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/main.m -o /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/IphoneTimer.build/Debug-iphonesimulator/IphoneTimer.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/IphoneTimerViewController.xib
+s345225902.824786
+e345225905.117619
+r1
+xCompileXIB
+x/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/IphoneTimerViewController.xib
+lSLF07#2@40"CompileXIB IphoneTimerViewController.xib345225902#345225905#0(0"0(0#0#97"/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/IphoneTimerViewController.xib8622304416#691"    cd /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator/IphoneTimer.app/IphoneTimerViewController.nib /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/IphoneTimerViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/MainWindow.xib
+s345225870.475467
+e345225902.824548
+r1
+xCompileXIB
+x/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib345225870#345225902#0(0"0(0#0#82"/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/MainWindow.xib8619874368#661"    cd /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator/IphoneTimer.app/MainWindow.nib /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCopyPlistFile /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator/IphoneTimer.app/settings.plist settings.plist
+s345226535.861557
+e345226536.346837
+r1
+xCopyPlistFile
+x/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator/IphoneTimer.app/settings.plist
+xsettings.plist
+lSLF07#2@19"Copy settings.plist345226535#345226536#0(0"0(0#0#82"/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/settings.plist8622500224#451"    cd /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 settings.plist --outdir /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator/IphoneTimer.app0#
+
+CGenerateDSYMFile /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator/IphoneTimer.app.dSYM /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator/IphoneTimer.app/IphoneTimer
+s345226061.686806
+e345226061.932322
+r1
+xGenerateDSYMFile
+x/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator/IphoneTimer.app.dSYM
+x/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator/IphoneTimer.app/IphoneTimer
+lSLF07#2@121"GenerateDSYMFile build/Debug-iphonesimulator/IphoneTimer.app.dSYM build/Debug-iphonesimulator/IphoneTimer.app/IphoneTimer345226061#345226061#0(0"0(0#0#123"/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator/IphoneTimer.app/IphoneTimer8622136352#482"    cd /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator/IphoneTimer.app/IphoneTimer -o /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator/IphoneTimer.app.dSYM0#
+
+CLd /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator/IphoneTimer.app/IphoneTimer normal i386
+s345226060.659800
+e345226061.686504
+r1
+xLd
+x/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator/IphoneTimer.app/IphoneTimer
+xnormal
+xi386
+lSLF07#2@128"Link /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator/IphoneTimer.app/IphoneTimer345226060#345226061#0(0"0(0#0#0"8611140896#1089"    cd /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator -F/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator -filelist /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/IphoneTimer.build/Debug-iphonesimulator/IphoneTimer.build/Objects-normal/i386/IphoneTimer.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework AudioToolbox -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator/IphoneTimer.app/IphoneTimer0#
+
+CProcessInfoPlistFile /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator/IphoneTimer.app/Info.plist IphoneTimer-Info.plist
+s345225870.398561
+e345225870.475287
+r1
+xProcessInfoPlistFile
+x/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator/IphoneTimer.app/Info.plist
+xIphoneTimer-Info.plist
+lSLF07#2@30"Process IphoneTimer-Info.plist345225870#345225870#0(0"0(0#0#90"/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/IphoneTimer-Info.plist32370056120631408#578"    cd /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility IphoneTimer-Info.plist -genpkginfo /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator/IphoneTimer.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator/IphoneTimer.app/Info.plist0#
+
+CProcessPCH /var/folders/0G/0GqOsYTuHmSXA0GZ+LYyhU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IphoneTimer_Prefix-bfbotdfukidoyebujzjcmvbtjlbk/IphoneTimer_Prefix.pch.gch IphoneTimer_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s345225905.118085
+e345225928.867634
+r1
+xProcessPCH
+x/var/folders/0G/0GqOsYTuHmSXA0GZ+LYyhU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IphoneTimer_Prefix-bfbotdfukidoyebujzjcmvbtjlbk/IphoneTimer_Prefix.pch.gch
+xIphoneTimer_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile IphoneTimer_Prefix.pch345225905#345225928#0(0"0(0#0#90"/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/IphoneTimer_Prefix.pch8621900384#2278"    cd /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/IphoneTimer.build/Debug-iphonesimulator/IphoneTimer.build/IphoneTimer-generated-files.hmap -I/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/IphoneTimer.build/Debug-iphonesimulator/IphoneTimer.build/IphoneTimer-own-target-headers.hmap -I/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/IphoneTimer.build/Debug-iphonesimulator/IphoneTimer.build/IphoneTimer-all-target-headers.hmap -iquote /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/IphoneTimer.build/Debug-iphonesimulator/IphoneTimer.build/IphoneTimer-project-headers.hmap -F/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator -I/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/IphoneTimer.build/Debug-iphonesimulator/IphoneTimer.build/DerivedSources/i386 -I/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/IphoneTimer.build/Debug-iphonesimulator/IphoneTimer.build/DerivedSources -c /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/IphoneTimer_Prefix.pch -o /var/folders/0G/0GqOsYTuHmSXA0GZ+LYyhU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IphoneTimer_Prefix-bfbotdfukidoyebujzjcmvbtjlbk/IphoneTimer_Prefix.pch.gch0#
+
+CTouch /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator/IphoneTimer.app
+s345226536.351367
+e345226536.365781
+r1
+xTouch
+x/Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator/IphoneTimer.app
+lSLF07#2@117"Touch /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator/IphoneTimer.app345226536#345226536#0(0"0(0#0#0"8621912640#340"    cd /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/rongjianlan/workspace/guitar/example-aut/iph-aut/IphoneTimer/build/Debug-iphonesimulator/IphoneTimer.app0#
+

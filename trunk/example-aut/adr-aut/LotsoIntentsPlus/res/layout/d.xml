@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/TextViewD"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="60dip"
+        android:text="This is D_Activity"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/ButtonD1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Call Activity D1" >
+    </Button>
+
+    <Button
+        android:id="@+id/ButtonD2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Call Activity D2" >
+    </Button>
+
+    <Button
+        android:id="@+id/ButtonD3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Call Activity D3" >
+    </Button>
+
+    <Button
+        android:id="@+id/ButtonD4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Call Activity D4" >
+    </Button>
+
+</LinearLayout>

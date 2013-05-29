@@ -1,0 +1,32 @@
+How to use.
+
+Run IntentFinder-workflow.sh:
+sh ./IntentFinder-workflow.sh [path to the app directory from this directory] [name of the app (without spaces)]
+
+Example: sh ./IntentFinder-workflow.sh ../guitar/example-aut/adr-aut/LotsoIntents16Activities Lotso16
+Example: sh ./IntentFinder-workflow.sh ../guitar/example-aut/adr-aut/LotsoIntents16ActivitiesPlus Lotso16Plus
+Example: sh ./IntentFinder-workflow.sh ../AUT/LotsoIntentsImplicit LotsoImplicit
+Example: sh ./IntentFinder-workflow.sh ../guitar/example-aut/adr-aut/TippyTipper TippyTipper
+Example: sh ./IntentFinder-workflow.sh ../guitar/example-aut/adr-aut/ToDoManager ToDoManager
+Example: sh ./IntentFinder-workflow.sh ../guitar/example-aut/adr-aut/ContactManager ContactManager
+Example: sh ./IntentFinder-workflow.sh ../guitar/example-aut/adr-aut/HelloAUT HelloAUT
+
+OR
+
+Do the following manually:
+
+1- Compile all java class
+	javac *.java
+
+2- Run ExplicitIntent passing arguments of the directories of the java class you want to process (returns out.txt)
+
+Example:  java ExplicitIntent ~/privateLine/androidintents-code/guitar/example-aut/adr-aut/TippyTipper/src/net/mandaria/tippytipper/activities/*.java
+
+	java ExplicitIntent *.java
+
+3- Place AndroidManifest.xml in the same directory as ParseManifest.rb. Run ParseManifest.rb (returns parsedManifest.txt)
+
+4- Run TestCaseGenerator with argument of out.txt (prints out the sequences of activites and sequences of intents)
+
+
+Note: The output file is called sequence_[2nd command line argument].txt placed in the androidintents-code/IntentOutputs folder

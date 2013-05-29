@@ -1,0 +1,1 @@
+"%JAVA_HOME%"\bin\xjc -xmlschema guitar.xsd -b bind.xjb

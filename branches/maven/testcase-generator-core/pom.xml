@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>edu.umd.cs.guitar</groupId>
+		<artifactId>guitar-parent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../guitar-parent/pom.xml</relativePath>
+	</parent>
+	<artifactId>testcase-generator-core</artifactId>
+
+	<dependencies>
+		<dependency>
+			<groupId>edu.umd.cs.guitar</groupId>
+			<artifactId>gui-model-core</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>args4j</groupId>
+			<artifactId>args4j</artifactId>
+			<version>2.0.16</version>
+		</dependency>
+	</dependencies>
+</project>

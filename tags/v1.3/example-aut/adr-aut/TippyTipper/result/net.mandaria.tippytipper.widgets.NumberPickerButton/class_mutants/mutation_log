@@ -1,0 +1,6 @@
+IPC_1:22:super( context, attrs, defStyle ) is deleted
+IPC_2:27:super( context, attrs ) is deleted
+IPC_3:32:super( context ) is deleted
+IOD_1:40:public boolean onTouchEvent(android.view.MotionEvent event) is deleted.
+IOD_2:46:public boolean onTrackballEvent(android.view.MotionEvent event) is deleted.
+IOD_3:52:public boolean onKeyUp(int keyCode, android.view.KeyEvent event) is deleted.

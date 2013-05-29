@@ -1,0 +1,305 @@
+
+#content {
+    width:675px;
+    height:1000px;
+    font-family:'Lucida Casual', 'Comic Sans MS';
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background-color:#d1d0f4;
+    color:#593478;
+    border-style:solid;
+    float:left;
+}
+
+#cntnt {
+    width:800px;
+    height:1000px;
+    font-family:'Lucida Casual', 'Comic Sans MS';
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background-color:#d1d0f4;
+    color:#593478;
+    border-style:solid;
+    float:left;
+    padding:10px;
+}
+
+
+
+#filter {
+    width:250px;
+    height:510px;
+    margin:20px;
+    float:left;
+}
+
+#sort {
+    width:350px;
+    height:100px;
+    margin:20px;
+    float:right;
+}
+
+#test {
+    width:350px;
+    height:100px;
+    margin: 20 20px 50px 0;
+    float:right;
+}
+
+#master {
+    width:350px;
+    height:100px;
+    margin:20px;
+    margin-top:85px;
+    float:right;
+}
+
+#header {
+    width:650px;
+    height:200px;
+    margin:20px;
+}
+
+#main {
+    width:675px;
+    height:550px;
+}
+
+#btn {
+    width:350px;
+    height:100px;
+    margin:20px;
+    margin-top: 100px;
+    float:right;
+}
+
+#logo {
+    width:200px;
+    height:200px;
+    float:left;
+}
+
+#logo img {
+    width:200px;
+    height:200px;
+}
+
+#instr {
+    width:400px;
+    height:200px;
+    float:right;
+}
+
+#submit {
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    height:50px;
+    width:200px;
+}
+
+select {
+     -moz-border-radius: 15px;
+    border-radius: 15px;
+    height:30px;
+    width:250px;
+    font-size:16px;
+}
+
+#act-text {
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    height:30px;
+    width:250px;
+    font-size:16px;
+}
+
+#cat-text {
+      -moz-border-radius: 15px;
+    border-radius: 15px;
+    height:30px;
+    width:250px;
+    font-size:16px;
+}
+
+#cmp-text {
+      -moz-border-radius: 15px;
+    border-radius: 15px;
+    height:30px;
+    width:250px;
+    font-size:16px;
+}
+
+#oth-text {
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    height:30px;
+    width:250px;
+    font-size:16px;
+}
+
+#masterLog {
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    height:30px;
+    width:250px;
+    font-size:16px;
+}
+
+#testName {
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    height:30px;
+    width:250px;
+    font-size:16px;
+}
+
+#autName {
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    height:30px;
+    width:250px;
+    font-size:16px;
+}
+
+#category {
+    width:350px;
+    height:550px;
+    float:right;
+}
+
+#graph {
+    width:350px;
+    height:20px;
+    margin:20px;
+    float:right;
+}
+
+#btns {
+    width:440px;
+    height:50px;
+    margin:5px;
+    margin: auto;
+}
+
+#log-btn {
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    height:50px;
+    width:100px;
+    padding:5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#xml-btn {
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    height:50px;
+    width:100px;
+    padding:5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.index-btn{
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    height:50px; 
+}
+
+.index-img{
+    height: 400px;
+    width: 400px;
+    border: solid; 
+    margin: 20px;
+    margin-left: 50px;
+}
+#index-descr{
+    
+}
+
+#cr-btn{
+    width: 250px;
+    margin-right:15px;
+}
+
+#cre-btn{
+    width: 250px;
+    margin-right:15px;
+    float:right;
+}
+
+#rip-btn{
+    width: 250px;
+    margin-right:15px;
+    float:left;
+}
+
+#options {
+    width:800px;
+    height:50px;
+}
+
+#graph-btn {
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    height:50px;
+    width:100px;
+    padding:5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#page {
+    width:1400px;
+    height:800px;
+}
+#mleft{
+    float: left;
+}
+#mright{
+    float: right;
+    width: 525px;
+    background-color:#d1d0f4;
+    color:#593478;
+    border-style:solid;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    height: 1000px;
+    font-family:'Lucida Casual', 'Verdana', 'Comic Sans MS';
+    text-align: center;
+
+}
+#output{
+    width: 400px;
+    height: 1000px;
+}
+
+iframe {
+    width: 500px;
+    height: 675px;
+    background-color: #FFF;
+    margin-left: 10px;
+    margin-right: auto;
+}
+#command {
+    color: green;
+    text-align: center;
+    border: dotted;
+    padding: 5px;
+    
+}
+
+.special{
+    color: green;
+}
+.graph{
+    width: 500px;
+    height: 500px;
+    margin-left: 10px;
+}
+
+#index-warning{
+    font-size:10px;
+}

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    Copyright (c) 2009-@year@. The  GUITAR group  at the University of
+    Maryland. Names of owners of this group may be obtained by sending
+    an e-mail to atif@cs.umd.edu
+
+    Permission is hereby granted, free of charge, to any person obtaining
+    a copy of this software and associated documentation files
+    (the "Software"), to deal in the Software without restriction,
+    including without limitation  the rights to use, copy, modify, merge,
+    publish,  distribute, sublicense, and/or sell copies of the Software,
+    and to  permit persons  to whom  the Software  is furnished to do so,
+    subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included
+    in all copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+    OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+    MERCHANTABILITY,  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+    IN NO  EVENT SHALL THE  AUTHORS OR COPYRIGHT  HOLDERS BE LIABLE FOR ANY
+    CLAIM, DAMAGES OR  OTHER LIABILITY,  WHETHER IN AN  ACTION OF CONTRACT,
+    TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+    SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+<!--++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   Purpose:  Manage at tool level of guitar modules
+
+             Ant-Download: http://jakarta.apache.org/ant
+             Ant-Manual:   http://jakarta.apache.org/ant/manual/index.html
+
+             GUITAR-Homepage:    http://guitar.sourceforge.net
+
+   Precondition: 1. Ant should be installed.
+                 2. JAVA_HOME environment variable contains the path
+                       to JDK1.6 or higher
+                 3. ANT_HOME environment variable contains the path
+                       to ant 1.8.2 or higher
+
+   Language: XML
+   Compiler: Ant
+   $Author: Bao N. Nguyen$
+  Version:   $Revision: 1$
+             $Date: 2011-07-02$
+
+   Version:  $Revision: 1$
+             $Date: 2009-09-18$
+             $Author: Atif M Memon$
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+<project name="main.tool" default="replay" basedir=".">
+    <property name="guitar.dir" value="."/>
+    <property name="modules.dir" value="/media/Data/Ore_no_documents/Research/Repository/guitar-sf-svn-trunk/modules"/>
+
+
+    <property name="aut.classpath" value="/media/Data/Ore_no_documents/Research/Repository/guitar-sf-svn-trunk/dist/guitar/jfc-aut/RadioButton/bin"/>
+
+    <path id="guitar.classpath">
+        <pathelement  location="${modules.dir}/gui-model-core/bin"/>
+        <pathelement  location="${modules.dir}/gui-replayer-core/bin"/>
+        <pathelement  location="${modules.dir}/gui-replayer-jfc/bin"/>
+        <pathelement  location="${aut.classpath}"/>
+
+        <pathelement  location="."/>
+         <fileset dir="${guitar.dir}">
+            <include name="jars/**/*.jar" />
+            <include name="jars/guitar-lib/**/*.jar" />
+        </fileset>
+   </path>
+
+    <taskdef classpathref="guitar.classpath" resource="tasks.properties" />
+    <taskdef name="jfc-replay" classname="edu.umd.cs.guitar.replayer.ant.JFCReplayerTask" classpathref = "guitar.classpath"/>
+
+    <!-- Replay -->
+    <target name="replay">
+        <echo message = "${aut.classpath}" />
+        <jfc-replay  configuration = "configuration.xml" classname = "Project" efg = "Demo/Demo.EFG" gui = "Demo/Demo.GUI" stateDir = "Demo/stateDir" logDir = "Demo/logDir">
+            <fileset dir = "Demo/testcases">
+                <include name = "**/t_e1333120240*.tst" />
+            </fileset>
+        </jfc-replay>
+
+    </target>
+
+
+</project>

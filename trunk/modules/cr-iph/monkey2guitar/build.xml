@@ -1,0 +1,36 @@
+<?xml version='1.0'?>
+<project name="GraphBuilder" default="build.dist" basedir=".">
+
+	<property name="project.name" value="Monkey2GUITAR" />
+    <property name="src.dir" value="src"/>
+    <property name="class.dir" value="classes"/>
+	<property name="dist.dir" value="dist" />
+	
+    <target name="init">
+        <mkdir dir="${class.dir}"/>
+    </target>
+
+    <target name="compile" depends="init"
+            description="Compiles all source code">
+        <javac srcdir="${src.dir}"
+               destdir="${class.dir}"
+        />
+    </target>
+	
+	<target name="build.dist" depends="clean, compile" description="Build distributable jar file">
+		<jar destfile="${dist.dir}/${project.name}.jar" basedir="${src.dir}">
+			<fileset dir="${class.dir}" />
+			<manifest>
+				 <attribute name="Main-Class" value="FromMonkeyToGuitar"/>
+				 <attribute name="Built-By" value="${user.name}"/>
+			</manifest>
+		</jar>
+		<delete dir="${class.dir}"/>
+	</target>
+	
+    <target name="clean" description="Erases contents of classes dir">
+        <delete dir="${class.dir}"/>
+		<delete dir="${dist.dir}" />
+    </target>
+
+</project>

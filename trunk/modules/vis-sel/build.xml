@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="vis-sel" default="help" basedir=".">
+	<property file="build.properties" />
+	<property name="root.dir" value="../.."/>
+	<property name="dist.dir" value="${root.dir}/dist/guitar"/>
+	
+	<!-- Visualizer dependencies -->
+	<property name="lib.dir" value="${root.dir}/lib/platforms/sel"/>
+    <path id="vis_classpath">
+        <fileset dir="${lib.dir}" includes="**/*.jar"/>
+        <fileset dir="${dist.dir}/jars" includes="selenium-server-standalone-2.13.0.jar"/>
+    </path>
+    
+	<target name="dist">
+		<mkdir dir="bin"/>
+        <javac srcdir="src" destdir="bin" classpathref="vis_classpath"/>
+        <jar destfile="${dist.dir}/ValidationVisualizer.jar" basedir="bin">
+            <manifest>
+            	<attribute name="Class-Path" value="${lib.dir}/piccolo2d-core-1.3.1.jar ${lib.dir}/piccolo2d-extras-1.3.1.jar jars/selenium-server-standalone-2.13.0.jar"/>
+                <attribute name="Main-Class" value="overlayGraph.VisualizationDriver"/>
+            </manifest>
+        </jar>
+	</target>
+	
+	<target name="help">
+		<echo message="This builds vis-sel."> </echo> 
+		<echo message="To build, run: ant dist"> </echo> 
+	</target>
+</project>

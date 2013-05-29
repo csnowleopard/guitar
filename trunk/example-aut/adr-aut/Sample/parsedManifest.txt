@@ -1,0 +1,14 @@
+package: cz.romario.opensudoku
+activity: .gui.FolderListActivity (main launcher activity)
+activity: .gui.SudokuListActivity
+activity: .gui.SudokuEditActivity
+activity: .gui.FileImportActivity
+activity: .gui.ImportSudokuActivity
+activity: .gui.SudokuImportActivity
+activity: .gui.SudokuExportActivity
+activity: .gui.SudokuPlayActivity
+activity: .gui.GameSettingsActivity
+activity: .gui.FileListActivity
+permission: android.permission.INTERNET
+permission: android.permission.GET_TASKS
+permission: android.permission.WRITE_EXTERNAL_STORAGE

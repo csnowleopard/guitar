@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="cr-sel" default="help" basedir=".">
+    <property name="root.dir" value="../.."/>
+    <property name="dist.dir" value="${root.dir}/dist/guitar"/>
+    <property name="modules.dir" value="${root.dir}/modules"/>
+    
+    <path id="vis_classpath">
+		<pathelement path="../gui-model-core/bin"/>
+		<pathelement path="../gui-model-sel/bin"/>
+		<pathelement path="../gui-replayer-core/bin"/> 
+		<pathelement path="../gui-replayer-sel/bin"/>
+		<pathelement path="../guistructure2graph-core/bin"/> 
+		<pathelement path="../guistructure2graph-efg/bin"/> 
+        <fileset dir="${dist.dir}/jars" includes="selenium-server-standalone-2.13.0.jar"/>
+        <fileset dir="${root.dir}/lib" includes="**/*.jar"/>
+    </path>
+    
+    <target name="dist">
+        <mkdir dir="bin"/>
+        <javac srcdir="src" destdir="bin" classpathref="vis_classpath"/>
+        <jar destfile="${dist.dir}/CaptureReplay.jar" basedir="bin">
+			<fileset dir="${modules.dir}/gui-model-core/bin">  
+      			<include name="edu/**/*"/>  
+   			</fileset>
+			<fileset dir="${modules.dir}/gui-model-sel/bin">  
+      			<include name="edu/**/*"/>  
+   			</fileset> 
+			<fileset dir="${modules.dir}/gui-replayer-core/bin">  
+      			<include name="edu/**/*"/>  
+   			</fileset> 
+			<fileset dir="${modules.dir}/gui-replayer-sel/bin">  
+      			<include name="edu/**/*"/>  
+   			</fileset> 
+			<fileset dir="${modules.dir}/guistructure2graph-core/bin">  
+      			<include name="edu/**/*"/>  
+   			</fileset> 
+			<fileset dir="${modules.dir}/guistructure2graph-efg/bin">  
+      			<include name="edu/**/*"/>  
+   			</fileset>    			   			   			   			   			  
+            <manifest>
+                <attribute name="Class-Path" value="../../lib/args4j-2.0.10.jar ../../lib/commons-cli-1.2.jar ../../lib/log4j-1.2.15.jar jars/selenium-server-standalone-2.13.0.jar"/>
+                <attribute name="Main-Class" value="SeleniumXMLParser"/>
+            </manifest>
+        </jar>
+        <jar destfile="${dist.dir}/TCReplay.jar" basedir="bin">
+			<fileset dir="${modules.dir}/gui-model-core/bin">  
+      			<include name="edu/**/*"/>  
+   			</fileset>
+			<fileset dir="${modules.dir}/gui-model-sel/bin">  
+      			<include name="edu/**/*"/>  
+   			</fileset> 
+			<fileset dir="${modules.dir}/gui-replayer-core/bin">  
+      			<include name="edu/**/*"/>  
+   			</fileset> 
+			<fileset dir="${modules.dir}/gui-replayer-sel/bin">  
+      			<include name="edu/**/*"/>  
+   			</fileset> 
+			<fileset dir="${modules.dir}/guistructure2graph-core/bin">  
+      			<include name="edu/**/*"/>  
+   			</fileset> 
+			<fileset dir="${modules.dir}/guistructure2graph-efg/bin">  
+      			<include name="edu/**/*"/>  
+   			</fileset>    			   			   			   			   			  
+            <manifest>
+                <attribute name="Class-Path" value="../../lib/args4j-2.0.10.jar ../../lib/commons-cli-1.2.jar ../../lib/log4j-1.2.15.jar jars/selenium-server-standalone-2.13.0.jar"/>
+                <attribute name="Main-Class" value="ReplayTC"/>
+            </manifest>
+        </jar>        
+
+    </target>
+    
+    <target name="help">
+        <echo message="This builds cr-sel."> </echo> 
+        <echo message="To build, run: ant dist"> </echo> 
+    </target>
+</project>

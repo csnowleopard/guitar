@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    Copyright (c) 2009-@year@. The  GUITAR group  at the University of
+    Maryland. Names of owners of this group may be obtained by sending
+    an e-mail to atif@cs.umd.edu
+  
+    Permission is hereby granted, free of charge, to any person obtaining
+    a copy of this software and associated documentation files
+    (the "Software"), to deal in the Software without restriction,
+    including without limitation  the rights to use, copy, modify, merge,
+    publish,  distribute, sublicense, and/or sell copies of the Software,
+    and to  permit persons  to whom  the Software  is furnished to do so,
+    subject to the following conditions:
+  
+    The above copyright notice and this permission notice shall be included
+    in all copies or substantial portions of the Software.
+  
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+    OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+    MERCHANTABILITY,  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+    IN NO  EVENT SHALL THE  AUTHORS OR COPYRIGHT  HOLDERS BE LIABLE FOR ANY
+    CLAIM, DAMAGES OR  OTHER LIABILITY,  WHETHER IN AN  ACTION OF CONTRACT,
+    TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+    SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+<!--++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   Purpose:  Manage at tool level of guitar modules
+
+             Ant-Download: http://jakarta.apache.org/ant
+             Ant-Manual:   http://jakarta.apache.org/ant/manual/index.html
+
+             GUITAR-Homepage:    http://guitar.sourceforge.net
+
+   Precondition: 1. Ant should be installed.
+                 2. JAVA_HOME environment variable contains the path
+                       to JDK1.6 or higher
+                 3. ANT_HOME environment variable contains the path
+                       to ant 1.8.2 or higher
+
+   Language: XML
+   Compiler: Ant
+   Authors:  Atif M Memon, atif@cs.umd.edu
+             
+  Version:   $Revision: 1$
+             $Date: 2011-07-02$
+             $Author: Bao N. Nguyen$
+             
+   Version:  $Revision: 1$
+             $Date: 2009-09-18$
+             $Author: Atif M Memon$
+ 
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+<project name="jfc.tool" default="dist" basedir=".">
+	<import file="build-utils.xml" as="utils" />
+	
+	<include file="${basedir}/build-core.xml" as="core" />
+	
+	
+
+	<!-- tool constants -->
+	<property name="jfc.name" value="jfc" />
+
+	<property name="jrp.name" value="${jfc.name}-ripper" />
+	<property name="jrp-spec.modules" value="gui-ripper-core,gui-ripper-${jfc.name}" />
+	<property name="jrp.modules" value="gui-model-core,gui-model-${jfc.name},${jrp-spec.modules}" />
+
+	<property name="jrl.name" value="${jfc.name}-replayer" />
+	<property name="jrl-spec.modules" value="gui-replayer-core,gui-replayer-${jfc.name}" />
+	<property name="jrl.modules" value="gui-model-core,gui-model-${jfc.name},${jrl-spec.modules}" />
+
+	<!-- ${jfc.name}-guitar config -->
+	<property name="jg.name" value="${jfc.name}-guitar" />
+	<property name="jg.modules" value="gui-model-core,gui-model-${jfc.name},${jrp-spec.modules},${jrl-spec.modules},${s2g-spec.modules},${tg-spec.modules},${g2g-spec.modules},${a2e-spec.modules},testcase-generator-bytecode-analysis" />
+	
+	
+	<!-- ${jfc.name}-replayer -->
+	<target name="dist-rl" description="distribute ${jfc.name}replayer tool">
+		<antcall target="dist-tool">
+			<param name="modules" value="${jrl.modules}" />
+			<param name="platform" value="${jfc.name}" />
+		</antcall>
+	</target>
+
+	<property name="tmp.dir" value="${global.dist.guitar.dir}.bak" />
+	<target name="backup-guitar" description="backup">
+		<move todir="${tmp.dir}" failonerror="false">
+			<fileset dir="${global.dist.guitar.dir}" />
+		</move>
+	</target>
+
+	<target name="pack-rl" depends="backup-guitar,dist-rl" description="pack ${jfc.name}replayer tool">
+		<!-- package -->
+		<antcall target="pack-tool">
+			<param name="tool" value="${jrl.name}" />
+		</antcall>
+		<!-- restore guitar -->
+		<delete dir="${global.dist.guitar.dir}" />
+		<move todir="${global.dist.guitar.dir}" failonerror="false">
+			<fileset dir="${tmp.dir}" />
+		</move>
+
+	</target>
+	
+
+	<target name="pack-rl-ver" depends="backup-guitar,dist-rl" description="pack ${jfc.name}replayer tool">
+		<!-- package -->
+		<antcall target="pack-tool-ver">
+			<param name="tool" value="${jrl.name}" />
+			<param name="ver" value="${ver}" />
+		</antcall>
+		<!-- restore guitar -->
+		<delete dir="${global.dist.guitar.dir}" />
+		<move todir="${global.dist.guitar.dir}" failonerror="false">
+			<fileset dir="${tmp.dir}" />
+		</move>
+
+	</target>
+
+	<!-- ${jfc.name}ripper -->
+	<target name="dist-rp" description="distribute ${jfc.name}ripper tool">
+		<antcall target="dist-tool">
+			<param name="modules" value="${jrp.modules}" />
+			<param name="platform" value="${jfc.name}" />
+		</antcall>
+
+	</target>
+
+	<target name="pack-rp" depends="backup-guitar,dist-rp">
+		<!-- package -->
+		<antcall target="pack-tool">
+			<param name="tool" value="${jrp.name}" />
+		</antcall>
+		<!-- restore guitar -->
+		<delete dir="${global.dist.guitar.dir}" />
+		<move todir="${global.dist.guitar.dir}" failonerror="false">
+			<fileset dir="${tmp.dir}" />
+		</move>
+
+	</target>
+	
+	<target name="pack-rp-ver" depends="backup-guitar,dist-rp">
+		<!-- package -->
+		<antcall target="pack-tool-ver">
+			<param name="tool" value="${jrp.name}" />
+			<param name="ver" value="${ver}" />
+
+		</antcall>
+		<!-- restore guitar -->
+		<delete dir="${global.dist.guitar.dir}" />
+		<move todir="${global.dist.guitar.dir}" failonerror="false">
+			<fileset dir="${tmp.dir}" />
+		</move>
+
+	</target>
+
+	<!-- ${jfc.name}guitar  -->
+	<target name="dist" description="distribute jfc-guitar tool">
+		<antcall target="dist-tool">
+			<param name="modules" value="${jg.modules}" />
+			<param name="platform" value="${jfc.name}" />
+		</antcall>
+		<chmod perm="+x">
+			<fileset dir="${basedir}/dist/guitar/" includes="*.sh"/>
+		</chmod>
+		<!-- OUR CALLS! -->
+                <!--
+		<antcall target="jfc.viz"/>
+		<antcall target="jfc.cr" />
+                -->
+	</target>
+
+	<target name="pack" depends="backup-guitar, dist">
+		<antcall target="pack-tool">
+			<param name="tool" value="${jg.name}" />
+		</antcall>
+		<!-- restore guitar -->
+		<delete dir="${global.dist.guitar.dir}" />
+		<move todir="${global.dist.guitar.dir}" failonerror="false" >
+			<fileset dir="${tmp.dir}" />
+		</move>
+
+	</target>
+
+	<target name="pack-ver" depends="backup-guitar, dist">
+		<antcall target="pack-tool-ver">
+			<param name="tool" value="${jg.name}" />
+			<param name="ver" value="${ver}" />
+		</antcall>
+		
+		<!-- restore guitar -->
+		<delete dir="${global.dist.guitar.dir}" />
+		<move todir="${global.dist.guitar.dir}" failonerror="false" >
+			<fileset dir="${tmp.dir}" />
+		</move>
+
+	</target>
+
+  <property name="module_dir" value="modules/vis-jfc"/>
+
+  <target name="viz" depends="create_dirs,copy-scripts,copy-resources,compile_converter,converter_dist,compile_viz,viz_dist"/>
+
+  <target name="create_dirs">
+    <mkdir dir="${module_dir}/bin/converter"/>
+    <mkdir dir="${module_dir}/bin/viz"/>
+  </target>
+
+  <target name="copy-scripts">
+    <copy toDir="dist/guitar/" file="${module_dir}/scripts/runVis.sh"/>
+    <chmod file="dist/guitar/runVis.sh" perm="+x"/>
+  </target>
+
+  <target name="copy-resources">
+    <copy toDir="dist/guitar/jars">
+	<fileset dir="${module_dir}/resources/" includes="**"/>
+    </copy>
+    <chmod dir="dist/guitar/jars/batch/" perm="+x" includes="*.sh"/>
+  </target>
+
+  <target name="compile_converter">
+    <javac srcdir="${module_dir}/visualize_src" destdir="${module_dir}/bin/converter"/>
+  </target>
+
+  <target name="converter_dist">
+    <jar jarfile="dist/guitar/jars/visualize.jar" basedir="${module_dir}/bin/converter">
+	<manifest>
+	    <attribute name="Main-Class" value="Converter"/>
+	    <attribute name="Class-Path" value="."/>
+	</manifest>
+    </jar>
+    <delete dir="${module_dir}/bin/converter"/>
+  </target>
+
+  <target name="compile_viz">
+    <javac srcdir="${module_dir}/viz_src" destdir="${module_dir}/bin/viz" classpath="dist/guitar/jars/visualize.jar"/>
+  </target>
+
+  <target name="viz_dist">
+    <jar jarfile="dist/guitar/jars/viz.jar" basedir="${module_dir}/bin/viz">
+	<manifest>
+	    <attribute name="Main-Class" value="Viz"/>
+	    <attribute name="Class-Path" value="."/>
+	</manifest>
+	<zipfileset src="dist/guitar/jars/visualize.jar"/>
+    </jar>
+    <delete dir="${module_dir}/bin/viz"/>
+    <delete dir="${module_dir}/bin"/> 
+  </target>
+
+ <property name="module_dir_jfc_cr" value="modules/cr-jfc"/>
+
+  <target name="cr" depends="create_dir,copy_script,compile_cr,cr_dist"/>
+
+  <target name="create_dir">
+    <mkdir dir="${module_dir_jfc_cr}/bin/cr"/>
+  </target>
+
+  <target name="copy_script">
+    <copy toDir="dist/guitar/" file="${module_dir_jfc_cr}/scripts/runCR.sh"/>
+    <chmod file="dist/guitar/runCR.sh" perm="+x"/>
+  </target>
+
+  <target name="compile_cr">
+    <javac destdir="${module_dir_jfc_cr}/bin/cr">
+      <src path="${module_dir_jfc_cr}/cr_src"/>
+      <classpath path="dist/guitar/jars/guitar-lib/gui-model-jfc.jar:dist/guitar/jars/guitar-lib/gui-model-core.jar:dist/guitar/jars/guitar-lib/guistructure2graph-efg.jar:dist/guitar/jars/guitar-lib/guistructure2graph-core.jar"/>
+    </javac>
+  </target>
+  
+  <target name="cr_dist">
+    <jar jarfile="dist/guitar/jars/cr-jfc.jar" basedir="${module_dir_jfc_cr}/bin/cr">
+	    <manifest>
+	        <attribute name="Main-Class" value="CaptureReplay"/>
+	        <attribute name="Class-Path" value="."/>
+	    </manifest>
+	    <zipgroupfileset dir="dist/guitar/jars/guitar-lib/" includes="**/*.jar"/>
+    </jar>
+    <delete dir="${module_dir_jfc_cr}/bin/cr"/>
+  </target>
+
+</project>

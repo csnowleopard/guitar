@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<FrameLayout android:layout_height="wrap_content"
+		android:text="@string/shapes" android:layout_width="match_parent"
+		android:id="@+id/frameLayout1">
+		<RadioGroup android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:id="@+id/rg_shape"
+			android:orientation="horizontal">
+			<RadioButton android:text="@string/shape1"
+				android:layout_height="wrap_content" android:id="@+id/shape_circle"
+				android:layout_width="wrap_content" android:checked="true"></RadioButton>
+			<RadioButton android:text="@string/shape2"
+				android:layout_height="wrap_content" android:id="@+id/shape_square"
+				android:layout_width="wrap_content"></RadioButton>
+		</RadioGroup>
+	</FrameLayout>
+	<LinearLayout android:id="@+id/linearLayout1"
+		android:layout_height="wrap_content" android:text="@string/colors"
+		android:layout_width="match_parent" android:orientation="horizontal">
+		<RadioGroup android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:id="@+id/rg_color"
+			android:orientation="horizontal">
+			<RadioButton android:text="@string/color"
+				android:layout_height="wrap_content" android:id="@+id/color_color"
+				android:layout_width="wrap_content"></RadioButton>
+			<RadioButton android:text="@string/color0"
+				android:layout_height="wrap_content" android:id="@+id/color_none"
+				android:layout_width="wrap_content" android:checked="true"></RadioButton>
+		</RadioGroup>
+		<EditText android:layout_width="match_parent" android:id="@+id/color_text"
+			android:layout_height="wrap_content">
+			<requestFocus></requestFocus>
+		</EditText>
+	</LinearLayout>
+	<LinearLayout android:id="@+id/linearLayout2"
+		android:layout_height="wrap_content" android:layout_width="match_parent">
+		<Button android:text="@string/create" android:id="@+id/create"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+		<Button android:text="@string/reset" android:id="@+id/reset"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+	</LinearLayout>
+	<FrameLayout android:layout_width="match_parent"
+		android:text="@string/render" android:id="@+id/canvas"
+		android:layout_height="match_parent"></FrameLayout>
+</LinearLayout>

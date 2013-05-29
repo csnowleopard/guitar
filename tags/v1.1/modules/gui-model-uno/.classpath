@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/gui-model-core"/>
+	<classpathentry kind="lib" path="/media/Data/Ore_no_documents/Research/Repository/guitar-sf-svn-trunk/lib/platforms/uno/args-1.0.jar"/>
+	<classpathentry kind="lib" path="/media/Data/Ore_no_documents/Research/Repository/guitar-sf-svn-trunk/lib/platforms/uno/java_uno.jar"/>
+	<classpathentry kind="lib" path="/media/Data/Ore_no_documents/Research/Repository/guitar-sf-svn-trunk/lib/platforms/uno/jhall.jar"/>
+	<classpathentry kind="lib" path="/media/Data/Ore_no_documents/Research/Repository/guitar-sf-svn-trunk/lib/platforms/uno/juh.jar"/>
+	<classpathentry kind="lib" path="/media/Data/Ore_no_documents/Research/Repository/guitar-sf-svn-trunk/lib/platforms/uno/jurt.jar"/>
+	<classpathentry kind="lib" path="/media/Data/Ore_no_documents/Research/Repository/guitar-sf-svn-trunk/lib/platforms/uno/qizx.jar"/>
+	<classpathentry kind="lib" path="/media/Data/Ore_no_documents/Research/Repository/guitar-sf-svn-trunk/lib/platforms/uno/qizxstudio.jar"/>
+	<classpathentry kind="lib" path="/media/Data/Ore_no_documents/Research/Repository/guitar-sf-svn-trunk/lib/platforms/uno/qizxstudio_help.jar"/>
+	<classpathentry kind="lib" path="/media/Data/Ore_no_documents/Research/Repository/guitar-sf-svn-trunk/lib/platforms/uno/resolver.jar"/>
+	<classpathentry kind="lib" path="/media/Data/Ore_no_documents/Research/Repository/guitar-sf-svn-trunk/lib/platforms/uno/ridl.jar"/>
+	<classpathentry kind="lib" path="/media/Data/Ore_no_documents/Research/Repository/guitar-sf-svn-trunk/lib/platforms/uno/sandbox.jar"/>
+	<classpathentry kind="lib" path="/media/Data/Ore_no_documents/Research/Repository/guitar-sf-svn-trunk/lib/platforms/uno/saxon9.jar"/>
+	<classpathentry kind="lib" path="/media/Data/Ore_no_documents/Research/Repository/guitar-sf-svn-trunk/lib/platforms/uno/saxon9-dom.jar"/>
+	<classpathentry kind="lib" path="/media/Data/Ore_no_documents/Research/Repository/guitar-sf-svn-trunk/lib/platforms/uno/saxon9-dom4j.jar"/>
+	<classpathentry kind="lib" path="/media/Data/Ore_no_documents/Research/Repository/guitar-sf-svn-trunk/lib/platforms/uno/saxon9-jdom.jar"/>
+	<classpathentry kind="lib" path="/media/Data/Ore_no_documents/Research/Repository/guitar-sf-svn-trunk/lib/platforms/uno/saxon9-s9api.jar"/>
+	<classpathentry kind="lib" path="/media/Data/Ore_no_documents/Research/Repository/guitar-sf-svn-trunk/lib/platforms/uno/saxon9-sql.jar"/>
+	<classpathentry kind="lib" path="/media/Data/Ore_no_documents/Research/Repository/guitar-sf-svn-trunk/lib/platforms/uno/saxon9-xom.jar"/>
+	<classpathentry kind="lib" path="/media/Data/Ore_no_documents/Research/Repository/guitar-sf-svn-trunk/lib/platforms/uno/saxon9-xpath.jar"/>
+	<classpathentry kind="lib" path="/media/Data/Ore_no_documents/Research/Repository/guitar-sf-svn-trunk/lib/platforms/uno/saxon9-xqj.jar"/>
+	<classpathentry kind="lib" path="/media/Data/Ore_no_documents/Research/Repository/guitar-sf-svn-trunk/lib/platforms/uno/unoil.jar"/>
+	<classpathentry kind="lib" path="/media/Data/Ore_no_documents/Research/Repository/guitar-sf-svn-trunk/lib/platforms/uno/unoloader.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

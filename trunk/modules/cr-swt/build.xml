@@ -1,0 +1,47 @@
+<project name="SWTRecorder">
+    
+    <property file="build.properties" />
+    
+	<property name="src.dir" location="./src"/>
+	<property name="bin.dir" location="./bin"/>
+	<property name="dist.jars.dir"  location="../../../guitar/dist/guitar/jars"/>
+	<property name="dist.guitar.dir"  location="../../../guitar/dist/guitar"/>
+	
+	<path id="build.classpath">
+		<fileset dir="${dist.jars.dir}">
+		</fileset>
+		<fileset dir="${dist.jars.dir}/guitar-lib">
+            		<include name="gui-model-core.jar" />
+			<include name="gui-ripper-core.jar" />
+			<include name="gui-model-swt.jar" />
+			<include name="gui-ripper-swt.jar" />
+		</fileset>
+	</path>
+	
+    <target name="clean">
+        <delete dir="${bin.dir}"/>
+    </target>
+
+    <target name="compile" depends="clean">
+        <mkdir dir="${bin.dir}"/>
+        <javac srcdir="${src.dir}" destdir="${bin.dir}" classpathref="build.classpath" includeantruntime="false"/>
+    </target>
+
+	<target name="dist" depends="compile">
+	        <manifestclasspath property="jar.classpath" jarfile="${dist.guitar.dir}/jars/guitar-lib/${module}.jar" maxParentLevels="4">
+	            <classpath refid="build.classpath"/>
+	        </manifestclasspath> 
+	        <jar destfile="${dist.guitar.dir}/jars/guitar-lib/${module}.jar" basedir="${bin.dir}">
+	            <manifest>
+	                <attribute name="Main-Class" value="recorder.RecorderControlPanel"/>
+	                <attribute name="Class-Path" value="${jar.classpath}"/>
+	            </manifest>
+	        </jar>
+		<copy todir="${dist.guitar.dir}" flatten="true">
+			<fileset dir="resources" erroronmissingdir="false">
+				<include name="user-scripts/*" />
+			</fileset>
+		</copy>
+	</target>
+
+</project>

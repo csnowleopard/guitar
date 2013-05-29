@@ -1,0 +1,41 @@
+In order to reflect your env., update the project (once) as follows:
+...$ android update project --name adr-server --target android-8 --path .
+
+Update manifest file with AUT package name
+...$ python rename.py AndroidManifest.xml <pkg>
+
+Build the project
+...$ ant debug
+
+And sign the apk using system key
+...$ ./resign.sh bin/adr-server-debug.apk bin/adr-server.apk
+
+If it's already installed, uninstall it
+...$ adb uninstall edu.umd.cs.guitar
+
+Install the apk
+...$ adb install bin/adr-server.apk
+
+After starting emulator, start adr-server:
+...$ adb shell am startservice -n edu.umd.cs.guitar/.Server -e AUT <pkg>
+
+e.g. ...$ ... -e AUT com.example.android.apis.ApiDemos
+
+Forward adr-server's port:
+...$ adb forward tcp:10737 tcp:10737
+
+Then, we can connect to the adr-server:
+...$ telnet 127.0.0.1 10737
+
+And type the commands:
+
+> getAllViews<cr>
+......
+> click<cr>
+> Views<cr>
+> getAllViews<cr>
+......
+> down
+> up
+> back<cr>
+> finish<cr>

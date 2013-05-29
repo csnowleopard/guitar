@@ -1,0 +1,31 @@
+<html>
+<a href="http://www.google.com">Google</a>
+
+<form name="myform" action="http://www.mydomain.com/myformhandler.cgi" method="POST">
+<div align="left"><br>
+<input type="radio" name="group1" value="Milk"> Milk<br>
+<input type="radio" name="group1" value="Butter" checked> Butter<br>
+<input type="radio" name="group1" value="Cheese"> Cheese
+<hr>
+<input type="radio" name="group2" value="Water"> Water<br>
+<input type="radio" name="group2" value="Beer"> Beer<br>
+<input type="radio" name="group2" value="Wine" checked> Wine<br>
+</div>
+</form>
+<hr>
+<form>
+First name: <input type="text" name="firstname"/><br />
+Last name: <input type="text" name="lastname"/>
+</form> 
+<hr>
+<form>
+<input type="checkbox" name="vehicle" value="Bike"/> I have a bike<br />
+<input type="checkbox" name="vehicle" value="Car"/> I have a car
+</form> 
+<hr>
+<form name="input" action="html_form_action.asp" method="get">
+Username: <input type="text" name="user" />
+<input type="submit" value="Submit" disabled="disabled"/>
+</form> 
+</html>
+
