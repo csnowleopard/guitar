@@ -1,0 +1,7 @@
+0      [main] INFO  edu.umd.cs.guitar.util.GUITARLog - ===========================================
+0      [main] INFO  edu.umd.cs.guitar.util.GUITARLog - GUIStructure2GraphConverter
+0      [main] INFO  edu.umd.cs.guitar.util.GUITARLog - 
+0      [main] INFO  edu.umd.cs.guitar.util.GUITARLog - 	Plugin: 	EFGConverter
+0      [main] INFO  edu.umd.cs.guitar.util.GUITARLog - 	Input file: 	./Demo/Demo.GUI
+1      [main] INFO  edu.umd.cs.guitar.util.GUITARLog - 	Output file: 	./Demo/Demo.EFG
+1      [main] INFO  edu.umd.cs.guitar.util.GUITARLog - ===========================================
