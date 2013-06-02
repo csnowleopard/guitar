@@ -14,7 +14,7 @@ java.lang.NullPointerException
 	at edu.umd.cs.guitar.replayer.Replayer.execute(Replayer.java:218)
 	at edu.umd.cs.guitar.replayer.IphReplayer.execute(IphReplayer.java:161)
 	at edu.umd.cs.guitar.replayer.IphReplayerMain.main(IphReplayerMain.java:48)
-[main] INFO  Time Elapsed: 00 : 00 : 00: 650
+[main] INFO  Time Elapsed: 00 : 00 : 00: 584
 [main] INFO  Testcase: /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/testcases/t_e921760096_e921760158.tst
 [main] INFO  Log file: /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/logs/t_e921760096_e921760158.log
 [main] INFO  GUI state file: /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/states/t_e921760096_e921760158.sta

@@ -4,8 +4,383 @@ Build settings from command line:
 === BUILD NATIVE TARGET TestScriptRunner OF PROJECT HelloWorld WITH CONFIGURATION Debug ===
 Check dependencies
 
+CompileC build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/Objects-normal/i386/HelloWorldAppDelegate.o Classes/HelloWorldAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
+    cd /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld
+    setenv LANG en_US.US-ASCII
+    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/csnowleopard/.rvm/gems/ruby-1.9.3-p286/bin:/Users/csnowleopard/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/csnowleopard/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/csnowleopard/.rvm/bin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/mysql/bin"
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DSCRIPT_DRIVEN_TEST_MODE_ENABLED -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -fprofile-arcs -ftest-coverage -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/HelloWorld-generated-files.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/HelloWorld-own-target-headers.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/HelloWorld-all-target-headers.hmap -iquote /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/HelloWorld-project-headers.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/usr/include/libxml2 -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/DerivedSources/i386 -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/DerivedSources -F/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/Debug-iphonesimulator -c /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Classes/HelloWorldAppDelegate.m -o /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/Objects-normal/i386/HelloWorldAppDelegate.o
+
+CompileC build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/Objects-normal/i386/HelloWorldViewController.o Classes/HelloWorldViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+    cd /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld
+    setenv LANG en_US.US-ASCII
+    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/csnowleopard/.rvm/gems/ruby-1.9.3-p286/bin:/Users/csnowleopard/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/csnowleopard/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/csnowleopard/.rvm/bin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/mysql/bin"
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DSCRIPT_DRIVEN_TEST_MODE_ENABLED -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -fprofile-arcs -ftest-coverage -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/HelloWorld-generated-files.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/HelloWorld-own-target-headers.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/HelloWorld-all-target-headers.hmap -iquote /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/HelloWorld-project-headers.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/usr/include/libxml2 -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/DerivedSources/i386 -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/DerivedSources -F/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/Debug-iphonesimulator -c /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Classes/HelloWorldViewController.m -o /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/Objects-normal/i386/HelloWorldViewController.o
+
+CompileC build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/Objects-normal/i386/main.o main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+    cd /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld
+    setenv LANG en_US.US-ASCII
+    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/csnowleopard/.rvm/gems/ruby-1.9.3-p286/bin:/Users/csnowleopard/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/csnowleopard/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/csnowleopard/.rvm/bin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/mysql/bin"
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DSCRIPT_DRIVEN_TEST_MODE_ENABLED -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -fprofile-arcs -ftest-coverage -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/HelloWorld-generated-files.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/HelloWorld-own-target-headers.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/HelloWorld-all-target-headers.hmap -iquote /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/HelloWorld-project-headers.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/usr/include/libxml2 -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/DerivedSources/i386 -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/DerivedSources -F/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/Debug-iphonesimulator -c /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/main.m -o /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/Objects-normal/i386/main.o
+
 CompileC build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/Objects-normal/i386/CircleOrSquareView.o Classes/CircleOrSquareView.m normal i386 objective-c com.apple.compilers.llvmgcc42
     cd /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld
     setenv LANG en_US.US-ASCII
     setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/csnowleopard/.rvm/gems/ruby-1.9.3-p286/bin:/Users/csnowleopard/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/csnowleopard/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/csnowleopard/.rvm/bin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/mysql/bin"
     /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DSCRIPT_DRIVEN_TEST_MODE_ENABLED -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -fprofile-arcs -ftest-coverage -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/HelloWorld-generated-files.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/HelloWorld-own-target-headers.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/HelloWorld-all-target-headers.hmap -iquote /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/HelloWorld-project-headers.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/usr/include/libxml2 -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/DerivedSources/i386 -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/DerivedSources -F/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/Debug-iphonesimulator -c /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Classes/CircleOrSquareView.m -o /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/Objects-normal/i386/CircleOrSquareView.o
+
+CompileC build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/Objects-normal/i386/TouchSynthesis.o Classes/../TouchSynthesis.m normal i386 objective-c com.apple.compilers.llvmgcc42
+    cd /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld
+    setenv LANG en_US.US-ASCII
+    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/csnowleopard/.rvm/gems/ruby-1.9.3-p286/bin:/Users/csnowleopard/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/csnowleopard/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/csnowleopard/.rvm/bin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/mysql/bin"
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DSCRIPT_DRIVEN_TEST_MODE_ENABLED -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -fprofile-arcs -ftest-coverage -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/HelloWorld-generated-files.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/HelloWorld-own-target-headers.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/HelloWorld-all-target-headers.hmap -iquote /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/HelloWorld-project-headers.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/usr/include/libxml2 -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/DerivedSources/i386 -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/DerivedSources -F/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/Debug-iphonesimulator -c /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Classes/../TouchSynthesis.m -o /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/Objects-normal/i386/TouchSynthesis.o
+
+CompileC build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/Objects-normal/i386/UIView+FullDescription.o Classes/../UIView+FullDescription.m normal i386 objective-c com.apple.compilers.llvmgcc42
+    cd /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld
+    setenv LANG en_US.US-ASCII
+    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/csnowleopard/.rvm/gems/ruby-1.9.3-p286/bin:/Users/csnowleopard/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/csnowleopard/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/csnowleopard/.rvm/bin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/mysql/bin"
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DSCRIPT_DRIVEN_TEST_MODE_ENABLED -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -fprofile-arcs -ftest-coverage -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/HelloWorld-generated-files.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/HelloWorld-own-target-headers.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/HelloWorld-all-target-headers.hmap -iquote /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/HelloWorld-project-headers.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/usr/include/libxml2 -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/DerivedSources/i386 -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/DerivedSources -F/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/Debug-iphonesimulator -c /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Classes/../UIView+FullDescription.m -o /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/Objects-normal/i386/UIView+FullDescription.o
+
+CompileC build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/Objects-normal/i386/ScriptRunner.o Classes/../ScriptRunner.m normal i386 objective-c com.apple.compilers.llvmgcc42
+    cd /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld
+    setenv LANG en_US.US-ASCII
+    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/csnowleopard/.rvm/gems/ruby-1.9.3-p286/bin:/Users/csnowleopard/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/csnowleopard/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/csnowleopard/.rvm/bin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/mysql/bin"
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DSCRIPT_DRIVEN_TEST_MODE_ENABLED -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -fprofile-arcs -ftest-coverage -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/HelloWorld-generated-files.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/HelloWorld-own-target-headers.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/HelloWorld-all-target-headers.hmap -iquote /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/HelloWorld-project-headers.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/usr/include/libxml2 -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/DerivedSources/i386 -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/DerivedSources -F/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/Debug-iphonesimulator -c /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Classes/../ScriptRunner.m -o /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/Objects-normal/i386/ScriptRunner.o
+/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Classes/../ScriptRunner.m: In function '-[ScriptRunner init]':
+/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Classes/../ScriptRunner.m:106: warning: 'return' with no value, in function returning non-void
+/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Classes/../ScriptRunner.m: In function '-[ScriptRunner touchWindow:x:y:]':
+/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Classes/../ScriptRunner.m:190: warning: 'ScriptRunner' may not respond to '-performTouchInView:'
+/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Classes/../ScriptRunner.m:190: warning: (Messages without a matching method signature
+/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Classes/../ScriptRunner.m:190: warning: will be assumed to return 'id' and accept
+/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Classes/../ScriptRunner.m:190: warning: '...' as arguments.)
+/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Classes/../ScriptRunner.m: In function '-[ScriptRunner stream:handleEvent:]':
+/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Classes/../ScriptRunner.m:249: warning: passing argument 2 of 'rangeOfString:options:range:' makes integer from pointer without a cast
+/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Classes/../ScriptRunner.m:288: warning: passing argument 2 of 'rangeOfString:options:range:' makes integer from pointer without a cast
+/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Classes/../ScriptRunner.m:297: warning: passing argument 2 of 'rangeOfString:options:range:' makes integer from pointer without a cast
+/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Classes/../ScriptRunner.m:317: warning: passing argument 2 of 'rangeOfString:options:range:' makes integer from pointer without a cast
+/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Classes/../ScriptRunner.m:277: warning: unused variable 'startMe'
+/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Classes/../ScriptRunner.m:358: warning: 'ScriptRunner' may not respond to '-performTouchInView:'
+/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Classes/../ScriptRunner.m:389: warning: 'ScriptRunner' may not respond to '-performPickerWheel:'
+/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Classes/../ScriptRunner.m: In function '-[ScriptRunner viewsForXPath:]':
+/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Classes/../ScriptRunner.m:482: warning: incompatible Objective-C types initializing 'struct NSString *', expected 'struct NSDictionary *'
+
+CompileC build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/Objects-normal/i386/XPathQuery.o Classes/../XPathQuery.m normal i386 objective-c com.apple.compilers.llvmgcc42
+    cd /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld
+    setenv LANG en_US.US-ASCII
+    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/csnowleopard/.rvm/gems/ruby-1.9.3-p286/bin:/Users/csnowleopard/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/csnowleopard/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/csnowleopard/.rvm/bin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/mysql/bin"
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DSCRIPT_DRIVEN_TEST_MODE_ENABLED -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -fprofile-arcs -ftest-coverage -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/HelloWorld-generated-files.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/HelloWorld-own-target-headers.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/HelloWorld-all-target-headers.hmap -iquote /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/HelloWorld-project-headers.hmap -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/usr/include/libxml2 -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/DerivedSources/i386 -I/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/DerivedSources -F/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/Debug-iphonesimulator -c /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Classes/../XPathQuery.m -o /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/Objects-normal/i386/XPathQuery.o
+
+Ld build/Debug-iphonesimulator/HelloWorld.app/HelloWorld normal i386
+    cd /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld
+    setenv MACOSX_DEPLOYMENT_TARGET 10.6
+    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/csnowleopard/.rvm/gems/ruby-1.9.3-p286/bin:/Users/csnowleopard/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/csnowleopard/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/csnowleopard/.rvm/bin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/mysql/bin"
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -L/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/Debug-iphonesimulator "-L\"/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Classes\"" -F/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/Debug-iphonesimulator -filelist /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/Objects-normal/i386/HelloWorld.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -lgcov -framework Foundation -framework UIKit -framework CoreGraphics -lxml2.2.7.3 -o /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/Debug-iphonesimulator/HelloWorld.app/HelloWorld
+ld: warning: directory not found for option '-L"/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Classes"'
+
+GenerateDSYMFile build/Debug-iphonesimulator/HelloWorld.app.dSYM build/Debug-iphonesimulator/HelloWorld.app/HelloWorld
+    cd /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld
+    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/csnowleopard/.rvm/gems/ruby-1.9.3-p286/bin:/Users/csnowleopard/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/csnowleopard/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/csnowleopard/.rvm/bin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/mysql/bin"
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/dsymutil /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/Debug-iphonesimulator/HelloWorld.app/HelloWorld -o /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/Debug-iphonesimulator/HelloWorld.app.dSYM
+
+PhaseScriptExecution "Run Script" build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/Script-3DDCC2D2144BF13A008D0BB2.sh
+    cd /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld
+    setenv ACTION build
+    setenv ALTERNATE_GROUP staff
+    setenv ALTERNATE_MODE u+w,go-w,a+rX
+    setenv ALTERNATE_OWNER csnowleopard
+    setenv ALWAYS_SEARCH_USER_PATHS NO
+    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer
+    setenv APPLE_INTERNAL_DIR /AppleInternal
+    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation
+    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library
+    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools
+    setenv APPLY_RULES_IN_COPY_FILES NO
+    setenv ARCHS i386
+    setenv ARCHS_STANDARD_32_BIT i386
+    setenv ARCHS_UNIVERSAL_IPHONE_OS i386
+    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"
+    setenv BUILD_COMPONENTS "headers build"
+    setenv BUILD_DIR /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build
+    setenv BUILD_ROOT /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build
+    setenv BUILD_STYLE 
+    setenv BUILD_VARIANTS normal
+    setenv BUILT_PRODUCTS_DIR /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/Debug-iphonesimulator
+    setenv CACHE_ROOT /var/folders/sd/284rxfz927zcxwcpfc_h9wph0000gn/C/com.apple.Xcode.501
+    setenv CCHROOT /var/folders/sd/284rxfz927zcxwcpfc_h9wph0000gn/C/com.apple.Xcode.501
+    setenv CHMOD /bin/chmod
+    setenv CHOWN /usr/sbin/chown
+    setenv CLASS_FILE_DIR /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/JavaClasses
+    setenv CLEAN_PRECOMPS YES
+    setenv CLONE_HEADERS NO
+    setenv CODESIGNING_FOLDER_PATH /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/Debug-iphonesimulator/HelloWorld.app
+    setenv CODE_SIGN_IDENTITY "iPhone Developer"
+    setenv COMMAND_MODE legacy
+    setenv COMPOSITE_SDK_DIRS /var/folders/sd/284rxfz927zcxwcpfc_h9wph0000gn/C/com.apple.Xcode.501/CompositeSDKs
+    setenv COMPRESS_PNG_FILES YES
+    setenv CONFIGURATION Debug
+    setenv CONFIGURATION_BUILD_DIR /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/Debug-iphonesimulator
+    setenv CONFIGURATION_TEMP_DIR /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator
+    setenv CONTENTS_FOLDER_PATH HelloWorld.app
+    setenv COPYING_PRESERVES_HFS_DATA NO
+    setenv COPY_PHASE_STRIP NO
+    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES
+    setenv CP /bin/cp
+    setenv CURRENT_ARCH i386
+    setenv CURRENT_VARIANT normal
+    setenv DEAD_CODE_STRIPPING NO
+    setenv DEBUGGING_SYMBOLS YES
+    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym
+    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0
+    setenv DEPLOYMENT_LOCATION NO
+    setenv DEPLOYMENT_POSTPROCESSING NO
+    setenv DERIVED_FILES_DIR /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/DerivedSources
+    setenv DERIVED_FILE_DIR /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/DerivedSources
+    setenv DERIVED_SOURCES_DIR /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/DerivedSources
+    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications
+    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin
+    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer
+    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks
+    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""
+    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library
+    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs
+    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools
+    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr
+    setenv DEVELOPMENT_LANGUAGE English
+    setenv DOCUMENTATION_FOLDER_PATH HelloWorld.app/English.lproj/Documentation
+    setenv DO_HEADER_SCANNING_IN_JAM NO
+    setenv DSTROOT /tmp/HelloWorld.dst
+    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain
+    setenv DWARF_DSYM_FILE_NAME HelloWorld.app.dSYM
+    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO
+    setenv DWARF_DSYM_FOLDER_PATH /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/Debug-iphonesimulator
+    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator
+    setenv ENABLE_HEADER_DEPENDENCIES YES
+    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"
+    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"
+    setenv EXECUTABLES_FOLDER_PATH HelloWorld.app/Executables
+    setenv EXECUTABLE_FOLDER_PATH HelloWorld.app
+    setenv EXECUTABLE_NAME HelloWorld
+    setenv EXECUTABLE_PATH HelloWorld.app/HelloWorld
+    setenv FILE_LIST /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/Objects/LinkFileList
+    setenv FIXED_FILES_DIR /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/FixedFiles
+    setenv FRAMEWORKS_FOLDER_PATH HelloWorld.app/Frameworks
+    setenv FRAMEWORK_FLAG_PREFIX -framework
+    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/Debug-iphonesimulator\" "
+    setenv FRAMEWORK_VERSION A
+    setenv FULL_PRODUCT_NAME HelloWorld.app
+    setenv GCC3_VERSION 3.3
+    setenv GCC_C_LANGUAGE_STANDARD c99
+    setenv GCC_DYNAMIC_NO_PIC NO
+    setenv GCC_GENERATE_TEST_COVERAGE_FILES YES
+    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES
+    setenv GCC_INSTRUMENT_PROGRAM_FLOW_ARCS YES
+    setenv GCC_OBJC_LEGACY_DISPATCH YES
+    setenv GCC_OPTIMIZATION_LEVEL 0
+    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"
+    setenv GCC_PRECOMPILE_PREFIX_HEADER YES
+    setenv GCC_PREPROCESSOR_DEFINITIONS SCRIPT_DRIVEN_TEST_MODE_ENABLED
+    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES
+    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO
+    setenv GCC_VERSION com.apple.compilers.llvmgcc42
+    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvmgcc42
+    setenv GCC_WARN_ABOUT_RETURN_TYPE YES
+    setenv GCC_WARN_UNUSED_VARIABLE YES
+    setenv GENERATE_MASTER_OBJECT_FILE NO
+    setenv GENERATE_PKGINFO_FILE YES
+    setenv GENERATE_PROFILING_CODE NO
+    setenv GID 20
+    setenv GROUP staff
+    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES
+    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES
+    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES
+    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES
+    setenv HEADER_SEARCH_PATHS "\"/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/Debug-iphonesimulator/include\" /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/usr/include/libxml2"
+    setenv ICONV /usr/bin/iconv
+    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES
+    setenv INFOPLIST_FILE TestScriptRunner-Info.plist
+    setenv INFOPLIST_OUTPUT_FORMAT binary
+    setenv INFOPLIST_PATH HelloWorld.app/Info.plist
+    setenv INFOPLIST_PREPROCESS NO
+    setenv INFOSTRINGS_PATH HelloWorld.app/English.lproj/InfoPlist.strings
+    setenv INSTALL_DIR /tmp/HelloWorld.dst/Users/csnowleopard/Applications
+    setenv INSTALL_GROUP staff
+    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX
+    setenv INSTALL_OWNER csnowleopard
+    setenv INSTALL_PATH /Users/csnowleopard/Applications
+    setenv INSTALL_ROOT /tmp/HelloWorld.dst
+    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1
+    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"
+    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub
+    setenv JAVA_ARCHIVE_CLASSES YES
+    setenv JAVA_ARCHIVE_TYPE JAR
+    setenv JAVA_COMPILER /usr/bin/javac
+    setenv JAVA_FOLDER_PATH HelloWorld.app/Java
+    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources
+    setenv JAVA_JAR_FLAGS cv
+    setenv JAVA_SOURCE_SUBDIR .
+    setenv JAVA_USE_DEPENDENCIES YES
+    setenv JAVA_ZIP_FLAGS -urg
+    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"
+    setenv KEEP_PRIVATE_EXTERNS NO
+    setenv LD_GENERATE_MAP_FILE NO
+    setenv LD_MAP_FILE_PATH /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/HelloWorld-LinkMap-normal-i386.txt
+    setenv LD_NO_PIE NO
+    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer
+    setenv LEX lex
+    setenv LIBRARY_FLAG_NOSPACE YES
+    setenv LIBRARY_FLAG_PREFIX -l
+    setenv LIBRARY_SEARCH_PATHS "\"/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/Debug-iphonesimulator\"  \\\"/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Classes\\\"/**"
+    setenv LINKER_DISPLAYS_MANGLED_NAMES NO
+    setenv LINK_FILE_LIST_normal_i386 /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/Objects-normal/i386/HelloWorld.LinkFileList
+    setenv LINK_WITH_STANDARD_LIBRARIES YES
+    setenv LOCALIZED_RESOURCES_FOLDER_PATH HelloWorld.app/English.lproj
+    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities
+    setenv LOCAL_APPS_DIR /Applications
+    setenv LOCAL_DEVELOPER_DIR /Library/Developer
+    setenv LOCAL_LIBRARY_DIR /Library
+    setenv MACH_O_TYPE mh_execute
+    setenv MACOSX_DEPLOYMENT_TARGET 10.6
+    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 11G63b
+    setenv MAC_OS_X_VERSION_ACTUAL 1075
+    setenv MAC_OS_X_VERSION_MAJOR 1070
+    setenv MAC_OS_X_VERSION_MINOR 0705
+    setenv NATIVE_ARCH i386
+    setenv NATIVE_ARCH_32_BIT i386
+    setenv NATIVE_ARCH_64_BIT x86_64
+    setenv NATIVE_ARCH_ACTUAL x86_64
+    setenv NO_COMMON YES
+    setenv OBJC_ABI_VERSION 2
+    setenv OBJECT_FILE_DIR /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/Objects
+    setenv OBJECT_FILE_DIR_normal /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/Objects-normal
+    setenv OBJROOT /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build
+    setenv ONLY_ACTIVE_ARCH YES
+    setenv OPTIMIZATION_LEVEL 0
+    setenv OS MACOS
+    setenv OSAC /usr/bin/osacompile
+    setenv OTHER_LDFLAGS -lgcov
+    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application
+    setenv PASCAL_STRINGS YES
+    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/csnowleopard/.rvm/gems/ruby-1.9.3-p286/bin:/Users/csnowleopard/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/csnowleopard/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/csnowleopard/.rvm/bin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/mysql/bin"
+    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"
+    setenv PBDEVELOPMENTPLIST_PATH HelloWorld.app/pbdevelopment.plist
+    setenv PFE_FILE_C_DIALECTS objective-c
+    setenv PKGINFO_FILE_PATH /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/PkgInfo
+    setenv PKGINFO_PATH HelloWorld.app/PkgInfo
+    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications
+    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin
+    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library
+    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs
+    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools
+    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr
+    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform
+    setenv PLATFORM_NAME iphonesimulator
+    setenv PLATFORM_PREFERRED_ARCH i386
+    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 50100
+    setenv PLIST_FILE_OUTPUT_FORMAT binary
+    setenv PLUGINS_FOLDER_PATH HelloWorld.app/PlugIns
+    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES
+    setenv PRECOMP_DESTINATION_DIR /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/PrefixHeaders
+    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO
+    setenv PRIVATE_HEADERS_FOLDER_PATH HelloWorld.app/PrivateHeaders
+    setenv PRODUCT_NAME HelloWorld
+    setenv PRODUCT_SETTINGS_PATH /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/TestScriptRunner-Info.plist
+    setenv PRODUCT_TYPE com.apple.product-type.application
+    setenv PROFILING_CODE NO
+    setenv PROJECT HelloWorld
+    setenv PROJECT_DERIVED_FILE_DIR /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/DerivedSources
+    setenv PROJECT_DIR /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld
+    setenv PROJECT_FILE_PATH /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/HelloWorld.xcodeproj
+    setenv PROJECT_NAME HelloWorld
+    setenv PROJECT_TEMP_DIR /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build
+    setenv PUBLIC_HEADERS_FOLDER_PATH HelloWorld.app/Headers
+    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES
+    setenv REMOVE_CVS_FROM_RESOURCES YES
+    setenv REMOVE_GIT_FROM_RESOURCES YES
+    setenv REMOVE_HG_FROM_RESOURCES YES
+    setenv REMOVE_SVN_FROM_RESOURCES YES
+    setenv REZ_COLLECTOR_DIR /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/ResourceManagerResources
+    setenv REZ_OBJECTS_DIR /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/ResourceManagerResources/Objects
+    setenv REZ_SEARCH_PATHS "\"/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/Debug-iphonesimulator\" "
+    setenv RUN_CLANG_STATIC_ANALYZER NO
+    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO
+    setenv SCRIPTS_FOLDER_PATH HelloWorld.app/Scripts
+    setenv SCRIPT_INPUT_FILE_COUNT 0
+    setenv SCRIPT_OUTPUT_FILE_COUNT 0
+    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk
+    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk
+    setenv SDK_NAME iphonesimulator5.1
+    setenv SDK_PRODUCT_BUILD_VERSION 9B176
+    setenv SED /usr/bin/sed
+    setenv SEPARATE_STRIP NO
+    setenv SEPARATE_SYMBOL_EDIT NO
+    setenv SET_DIR_MODE_OWNER_GROUP YES
+    setenv SET_FILE_MODE_OWNER_GROUP NO
+    setenv SHALLOW_BUNDLE YES
+    setenv SHARED_DERIVED_FILE_DIR /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/Debug-iphonesimulator/DerivedSources
+    setenv SHARED_FRAMEWORKS_FOLDER_PATH HelloWorld.app/SharedFrameworks
+    setenv SHARED_PRECOMPS_DIR /var/folders/sd/284rxfz927zcxwcpfc_h9wph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders
+    setenv SHARED_SUPPORT_FOLDER_PATH HelloWorld.app/SharedSupport
+    setenv SKIP_INSTALL YES
+    setenv SOURCE_ROOT /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld
+    setenv SRCROOT /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld
+    setenv STRINGS_FILE_OUTPUT_ENCODING binary
+    setenv STRIP_INSTALLED_PRODUCT YES
+    setenv STRIP_STYLE all
+    setenv SUPPORTED_DEVICE_FAMILIES "1 2"
+    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"
+    setenv SYMROOT /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build
+    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities
+    setenv SYSTEM_APPS_DIR /Applications
+    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices
+    setenv SYSTEM_DEMOS_DIR /Applications/Extras
+    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications
+    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin
+    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"
+    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer
+    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"
+    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"
+    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"
+    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"
+    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"
+    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools
+    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"
+    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"
+    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr
+    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities
+    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation
+    setenv SYSTEM_LIBRARY_DIR /System/Library
+    setenv TARGETED_DEVICE_FAMILY 1
+    setenv TARGETNAME TestScriptRunner
+    setenv TARGET_BUILD_DIR /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/Debug-iphonesimulator
+    setenv TARGET_NAME TestScriptRunner
+    setenv TARGET_TEMP_DIR /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build
+    setenv TEMP_DIR /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build
+    setenv TEMP_FILES_DIR /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build
+    setenv TEMP_FILE_DIR /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build
+    setenv TEMP_ROOT /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build
+    setenv TEST_AFTER_BUILD NO
+    setenv UID 501
+    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH HelloWorld.app
+    setenv UNSTRIPPED_PRODUCT NO
+    setenv USER csnowleopard
+    setenv USER_APPS_DIR /Users/csnowleopard/Applications
+    setenv USER_LIBRARY_DIR /Users/csnowleopard/Library
+    setenv USE_DYNAMIC_NO_PIC YES
+    setenv USE_HEADERMAP YES
+    setenv USE_HEADER_SYMLINKS NO
+    setenv VALIDATE_PRODUCT NO
+    setenv VALID_ARCHS i386
+    setenv VERBOSE_PBXCP NO
+    setenv VERSIONPLIST_PATH HelloWorld.app/version.plist
+    setenv VERSION_INFO_BUILDER csnowleopard
+    setenv VERSION_INFO_FILE HelloWorld_vers.c
+    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:HelloWorld  PROJECT:HelloWorld-\""
+    setenv WRAPPER_EXTENSION app
+    setenv WRAPPER_NAME HelloWorld.app
+    setenv WRAPPER_SUFFIX .app
+    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode
+    setenv XCODE_PRODUCT_BUILD_VERSION 4E3002
+    setenv XCODE_VERSION_ACTUAL 0433
+    setenv XCODE_VERSION_MAJOR 0400
+    setenv XCODE_VERSION_MINOR 0430
+    setenv YACC yacc
+    /bin/sh -c /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/Script-3DDCC2D2144BF13A008D0BB2.sh

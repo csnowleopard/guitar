@@ -1,7 +1,7 @@
-2013-05-30 23:55:02.757 HelloWorld[53623:f803] SBSetAccelerometerClientEventsEnabled failed: (ipc/send) invalid destination port
-2013-05-30 23:55:02.791 HelloWorld[53623:f803] Handle event.
-2013-05-30 23:55:02.792 HelloWorld[53623:f803] NSStreamEventOpenCompleted
-2013-05-30 23:55:03.757 HelloWorld[53623:f803] Performing guitar commands: (
+2013-06-02 16:01:18.624 HelloWorld[62674:f803] SBSetAccelerometerClientEventsEnabled failed: (ipc/send) invalid destination port
+2013-06-02 16:01:18.687 HelloWorld[62674:f803] Handle event.
+2013-06-02 16:01:18.688 HelloWorld[62674:f803] NSStreamEventOpenCompleted
+2013-06-02 16:01:19.625 HelloWorld[62674:f803] Performing guitar commands: (
         {
         action = "INVOKE_TOUCH";
         class = UIRoundedRectButton;
@@ -9,20 +9,20 @@
         y = 214;
     }
 )
-2013-05-30 23:55:03.758 HelloWorld[53623:f803] Performing guitar command: {
+2013-06-02 16:01:19.625 HelloWorld[62674:f803] Performing guitar command: {
     action = "INVOKE_TOUCH";
     class = UIRoundedRectButton;
     x = 27;
     y = 214;
 }
-2013-05-30 23:55:03.759 HelloWorld[53623:f803] [Current view: UIWindow (addr: 109232224)] Looking for view: UIRoundedRectButton, with x: 27, and y:214
-2013-05-30 23:55:03.759 HelloWorld[53623:f803] [Current view: UIView (addr: 115460944)] Looking for view: UIRoundedRectButton, with x: 27, and y:214
-2013-05-30 23:55:03.760 HelloWorld[53623:f803] [Current view: UILabel (addr: 115455776)] Looking for view: UIRoundedRectButton, with x: 27, and y:214
-2013-05-30 23:55:03.760 HelloWorld[53623:f803] [Current view: UILabel (addr: 115461952)] Looking for view: UIRoundedRectButton, with x: 27, and y:214
-2013-05-30 23:55:03.760 HelloWorld[53623:f803] [Current view: UIRoundedRectButton (addr: 113327728)] Looking for view: UIRoundedRectButton, with x: 27, and y:214
-2013-05-30 23:55:03.761 HelloWorld[53623:f803] ...class names are equal
-2013-05-30 23:55:03.761 HelloWorld[53623:f803] ...x and y coordinates are equal too!
-2013-05-30 23:55:03.762 HelloWorld[53623:f803] action: INVOKE_TOUCH
-2013-05-30 23:55:03.762 HelloWorld[53623:f803] Performing touch replay.
-2013-05-30 23:55:03.763 HelloWorld[53623:f803] Trying to draw shape
-2013-05-30 23:55:03.763 HelloWorld[53623:f803] Drawing shape
+2013-06-02 16:01:19.626 HelloWorld[62674:f803] [Current view: UIWindow (addr: 113734592)] Looking for view: UIRoundedRectButton, with x: 27, and y:214
+2013-06-02 16:01:19.627 HelloWorld[62674:f803] [Current view: UIView (addr: 112692752)] Looking for view: UIRoundedRectButton, with x: 27, and y:214
+2013-06-02 16:01:19.627 HelloWorld[62674:f803] [Current view: UILabel (addr: 112736304)] Looking for view: UIRoundedRectButton, with x: 27, and y:214
+2013-06-02 16:01:19.628 HelloWorld[62674:f803] [Current view: UILabel (addr: 112744048)] Looking for view: UIRoundedRectButton, with x: 27, and y:214
+2013-06-02 16:01:19.628 HelloWorld[62674:f803] [Current view: UIRoundedRectButton (addr: 113744224)] Looking for view: UIRoundedRectButton, with x: 27, and y:214
+2013-06-02 16:01:19.629 HelloWorld[62674:f803] ...class names are equal
+2013-06-02 16:01:19.629 HelloWorld[62674:f803] ...x and y coordinates are equal too!
+2013-06-02 16:01:19.630 HelloWorld[62674:f803] action: INVOKE_TOUCH
+2013-06-02 16:01:19.630 HelloWorld[62674:f803] Performing touch replay.
+2013-06-02 16:01:19.631 HelloWorld[62674:f803] Trying to draw shape
+2013-06-02 16:01:19.632 HelloWorld[62674:f803] Drawing shape
