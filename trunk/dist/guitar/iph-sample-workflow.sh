@@ -26,7 +26,7 @@ if [ -z $testcase_num ]; then
 fi
 
 # server port number
-port=8082
+port=8081
 
 # application main class
 mainclass=$iph_project
@@ -42,14 +42,14 @@ jvm_options=""
 configuration="$aut_dir/guitar-config/configuration.xml"
 
 # xcode startup and compile time.
-xcode_build_time=5
-xcode_replay_time=50
+xcode_build_time=$2
+xcode_replay_time=$3
 
 if [ -z $xcode_build_time ]; then
-    xcode_build_time=5
+    xcode_build_time=10
 fi
 if [ -z $xcode_replay_time ]; then
-    xcode_replay_time=5
+    xcode_replay_time=10
 fi
 
 # intial waiting time
@@ -57,17 +57,17 @@ fi
 initial_wait=100
 
 # delay time between two events during ripping 
-ripper_delay=2
+ripper_delay=100
 
 # the length of test suite
 tc_length=2
 
 # delay time between two events during replaying  
 # this number is generally smaller than the $ripper_delay
-replayer_delay=1
+replayer_delay=1000
 
 # delay time between two steps during replaying
-replayer_so=1
+replayer_so=10000
 
 #------------------------
 # Output artifacts 
@@ -105,7 +105,7 @@ replayer_dir="$output_dir/replayer"
 # Command to run iphonesim
 path=`pwd`
 #run_iphonesim="../iphonesim/Build/Release/iphonesim launch /Users/cmhill/tmp/guitar/example-aut/iph-aut/${iph_project}/build/Debug-iphonesimulator/${iph_project}.app &> /dev/null"
-run_iphonesim="../iphonesim/Build/Release/iphonesim launch $aut_dir/build/Debug-iphonesimulator/${iph_project}.app &> /dev/null"
+run_iphonesim="../ios-sim/Build/Release/ios-sim launch $aut_dir/build/Debug-iphonesimulator/${iph_project}.app &> /dev/null"
 
 #------------------------
 # Main workflow 
@@ -122,7 +122,7 @@ mkdir -p $screenshots_dir
 
 # Build iphonesim first
 echo "Building iPhone Simulator."
-cmd="xcodebuild -project iph-aut/iphonesim/iphonesim.xcodeproj -configuration \"Release\" -target \"iphonesim\" > /dev/null"
+cmd="xcodebuild -project iph-aut/ios-sim/ios-sim.xcodeproj -configuration \"Release\" -target \"ios-sim\" > /dev/null"
 eval $cmd
 
 # Ripping
@@ -170,8 +170,8 @@ eval $kill_iph_skd
 rm build/$iph_project.build/Debug-iphonesimulator/TestScriptRunner.build/Objects-normal/i386/*
 
 # Converting GUI structure to EFG
-echo ""
-echo "About to convert GUI structure file to Event Flow Graph (EFG) file" 
+#echo ""
+#echo "About to convert GUI structure file to Event Flow Graph (EFG) file" 
 #read -p "Press ENTER to continue..."
 cmd="$SCRIPT_DIR/gui2efg.sh -g $gui_file -e $efg_file"
 echo $cmd

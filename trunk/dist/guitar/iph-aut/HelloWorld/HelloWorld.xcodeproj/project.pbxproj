@@ -20,6 +20,7 @@
 		3DDCC247144BEAFA008D0BB2 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DDCC240144BEAF9008D0BB2 /* XPathQuery.m */; };
 		3DDCC248144BEAFA008D0BB2 /* ScriptRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DDCC242144BEAF9008D0BB2 /* ScriptRunner.m */; };
 		3DDCC249144BEAFA008D0BB2 /* TouchSynthesis.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DDCC244144BEAF9008D0BB2 /* TouchSynthesis.m */; };
+		3DDCC255144BEBF4008D0BB2 /* libxml2.2.7.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DDCC254144BEBF4008D0BB2 /* libxml2.2.7.3.dylib */; };
 		3DDCC25A144BEC6E008D0BB2 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		3DDCC25B144BEC6E008D0BB2 /* HelloWorldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* HelloWorldViewController.xib */; };
 		3DDCC25D144BEC6E008D0BB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
@@ -33,12 +34,10 @@
 		3DDCC266144BEC6E008D0BB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		3DDCC267144BEC6E008D0BB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		3DDCC268144BEC6E008D0BB2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		3DDCC269144BEC6E008D0BB2 /* libxml2.2.7.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DDCC254144BEBF4008D0BB2 /* libxml2.2.7.3.dylib */; };
 		3DDCC280144BEDAB008D0BB2 /* TestScript.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3DDCC27F144BEDAB008D0BB2 /* TestScript.plist */; };
 		3DDCC281144BEDAB008D0BB2 /* TestScript.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3DDCC27F144BEDAB008D0BB2 /* TestScript.plist */; };
 		3DDCC2A2144BEDBA008D0BB2 /* TestScriptRunner-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3DDCC2A1144BEDBA008D0BB2 /* TestScriptRunner-Info.plist */; };
-		3DDCC2A3144BEDBA008D0BB2 /* TestScriptRunner-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3DDCC2A1144BEDBA008D0BB2 /* TestScriptRunner-Info.plist */; };
-		BF6986E31755FDB400C900BC /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF6986E21755FDB400C900BC /* libxml2.dylib */; };
-		BF6986E41755FDF300C900BC /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF6986E21755FDB400C900BC /* libxml2.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,7 +69,6 @@
 		3DDCC27F144BEDAB008D0BB2 /* TestScript.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TestScript.plist; sourceTree = "<group>"; };
 		3DDCC2A1144BEDBA008D0BB2 /* TestScriptRunner-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TestScriptRunner-Info.plist"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* HelloWorld-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "HelloWorld-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		BF6986E21755FDB400C900BC /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +76,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF6986E41755FDF300C900BC /* libxml2.dylib in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				3DDCC255144BEBF4008D0BB2 /* libxml2.2.7.3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,10 +87,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF6986E31755FDB400C900BC /* libxml2.dylib in Frameworks */,
 				3DDCC266144BEC6E008D0BB2 /* Foundation.framework in Frameworks */,
 				3DDCC267144BEC6E008D0BB2 /* UIKit.framework in Frameworks */,
 				3DDCC268144BEC6E008D0BB2 /* CoreGraphics.framework in Frameworks */,
+				3DDCC269144BEC6E008D0BB2 /* libxml2.2.7.3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,7 +118,6 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				BF6986E21755FDB400C900BC /* libxml2.dylib */,
 				3DDCC2A1144BEDBA008D0BB2 /* TestScriptRunner-Info.plist */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -235,6 +232,9 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "HelloWorld" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -274,7 +274,6 @@
 				3DDCC25A144BEC6E008D0BB2 /* MainWindow.xib in Resources */,
 				3DDCC25B144BEC6E008D0BB2 /* HelloWorldViewController.xib in Resources */,
 				3DDCC281144BEDAB008D0BB2 /* TestScript.plist in Resources */,
-				3DDCC2A3144BEDBA008D0BB2 /* TestScriptRunner-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +282,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		3DDCC2D2144BF13A008D0BB2 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 12;
+			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
@@ -292,7 +291,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\nexport DYLD_ROOT_PATH=\"$SDKROOT\"\nexport DYLD_FRAMEWORK_PATH=\"$CONFIGURATION_BUILD_DIR\"\nexport IPHONE_SIMULATOR_ROOT=\"$SDKROOT\"\nexport CFFIXED_USER_HOME=\"$USER_LIBRARY_DIR/Application Support/iPhone Simulator/User\"\n\"$TARGET_BUILD_DIR/$EXECUTABLE_PATH\" -RegisterForSystemEvents";
+			shellScript = "export DYLD_ROOT_PATH=\"$SDKROOT\"\nexport DYLD_FRAMEWORK_PATH=\"$CONFIGURATION_BUILD_DIR\"\nexport IPHONE_SIMULATOR_ROOT=\"$SDKROOT\"\nexport CFFIXED_USER_HOME=\"$USER_LIBRARY_DIR/Application Support/iPhone Simulator/User\"\n\"$TARGET_BUILD_DIR/$EXECUTABLE_PATH\" -RegisterForSystemEvents 2> \"$PROJECT_DIR/errorLogFromLastBuild.txt\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -340,13 +339,14 @@
 				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = "HelloWorld-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = "-lgcov";
 				PRODUCT_NAME = HelloWorld;
 			};
 			name = Debug;
@@ -358,11 +358,13 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = HelloWorld_Prefix.pch;
+				GCC_VERSION = "";
 				INFOPLIST_FILE = "HelloWorld-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
+				OTHER_LDFLAGS = "-lgcov";
 				PRODUCT_NAME = HelloWorld;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -380,6 +382,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = SCRIPT_DRIVEN_TEST_MODE_ENABLED;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				"HEADER_SEARCH_PATHS[arch=*]" = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = "TestScriptRunner-Info.plist";
@@ -389,11 +392,10 @@
 					"\\\"$(SRCROOT)/Classes\\\"/**",
 				);
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = "-lgcov";
 				PRODUCT_NAME = HelloWorld;
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
-				TEST_AFTER_BUILD = YES;
 			};
 			name = Debug;
 		};
@@ -402,16 +404,15 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
-				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = HelloWorld_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "HelloWorld-Info copy.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\\\"$(SRCROOT)\\\"",
 				);
 				PRODUCT_NAME = HelloWorld;
-				TEST_AFTER_BUILD = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -424,8 +425,6 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				LIBRARY_SEARCH_PATHS = "$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib";
-				PREBINDING = NO;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -438,9 +437,7 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				LIBRARY_SEARCH_PATHS = "$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib";
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PREBINDING = NO;
 				SDKROOT = iphoneos;
 			};
 			name = Release;

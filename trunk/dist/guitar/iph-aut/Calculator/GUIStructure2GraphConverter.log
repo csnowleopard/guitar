@@ -1,11 +1,7 @@
-[main] ERROR javax.xml.bind.UnmarshalException
- - with linked exception:
-[java.io.FileNotFoundException: /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/Calculator/Demo/Demo.GUI (No such file or directory)]
-[main] INFO  Unknown ERROR
-[main] INFO  ===========================================
-[main] INFO  GUIStructure2GraphConverter
-[main] INFO  	Plugin: 	EFGConverter
-[main] INFO  	Input GUI: 	/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/Calculator/Demo/Demo.GUI
-[main] INFO  	Output EFG: 	/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/Calculator/Demo/Demo.EFG
-[main] INFO  ===========================================
-[main] INFO  
+0      [main] INFO  edu.umd.cs.guitar.util.GUITARLog - ===========================================
+0      [main] INFO  edu.umd.cs.guitar.util.GUITARLog - GUIStructure2GraphConverter
+0      [main] INFO  edu.umd.cs.guitar.util.GUITARLog - 
+0      [main] INFO  edu.umd.cs.guitar.util.GUITARLog - 	Plugin: 	EFGConverter
+0      [main] INFO  edu.umd.cs.guitar.util.GUITARLog - 	Input file: 	./Demo/Demo.GUI
+1      [main] INFO  edu.umd.cs.guitar.util.GUITARLog - 	Output file: 	./Demo/Demo.EFG
+1      [main] INFO  edu.umd.cs.guitar.util.GUITARLog - ===========================================

@@ -1,0 +1,5 @@
+Build settings from command line:
+    SDKROOT = iphonesimulator5.1
+
+=== BUILD NATIVE TARGET TestScriptRunner OF PROJECT HelloWorld WITH CONFIGURATION Debug ===
+Check dependencies

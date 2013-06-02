@@ -32,9 +32,7 @@
 	NSArray *buttonsFrom;
 	
 	NSMutableArray *prevGUI;
-  //	NSUInteger numWindows;
-//	NSArray *buttonsTo;
-//	NSArray *buttonsFrom;
+
 }
 
 @property(nonatomic, retain) id delegate;

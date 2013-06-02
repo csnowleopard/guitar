@@ -3,7 +3,6 @@ Build settings from command line:
 
 === BUILD NATIVE TARGET TestScriptRunner OF PROJECT HelloWorld WITH CONFIGURATION Debug ===
 Check dependencies
-Warning: The Copy Bundle Resources build phase contains this target's Info.plist file 'TestScriptRunner-Info.plist'.
 
 PhaseScriptExecution "Run Script" build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/Script-3DDCC2D2144BF13A008D0BB2.sh
     cd /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld
@@ -104,7 +103,8 @@ PhaseScriptExecution "Run Script" build/HelloWorld.build/Debug-iphonesimulator/T
     setenv GCC_PREPROCESSOR_DEFINITIONS SCRIPT_DRIVEN_TEST_MODE_ENABLED
     setenv GCC_SYMBOLS_PRIVATE_EXTERN YES
     setenv GCC_TREAT_WARNINGS_AS_ERRORS NO
-    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0
+    setenv GCC_VERSION com.apple.compilers.llvmgcc42
+    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvmgcc42
     setenv GCC_WARN_ABOUT_RETURN_TYPE YES
     setenv GCC_WARN_UNUSED_VARIABLE YES
     setenv GENERATE_MASTER_OBJECT_FILE NO
@@ -151,7 +151,7 @@ PhaseScriptExecution "Run Script" build/HelloWorld.build/Debug-iphonesimulator/T
     setenv LEX lex
     setenv LIBRARY_FLAG_NOSPACE YES
     setenv LIBRARY_FLAG_PREFIX -l
-    setenv LIBRARY_SEARCH_PATHS "\"/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/Debug-iphonesimulator\" /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib \\\"/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Classes\\\"/**"
+    setenv LIBRARY_SEARCH_PATHS "\"/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/Debug-iphonesimulator\"  \\\"/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Classes\\\"/**"
     setenv LINKER_DISPLAYS_MANGLED_NAMES NO
     setenv LINK_FILE_LIST_normal_i386 /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/Objects-normal/i386/HelloWorld.LinkFileList
     setenv LINK_WITH_STANDARD_LIBRARIES YES
@@ -179,6 +179,7 @@ PhaseScriptExecution "Run Script" build/HelloWorld.build/Debug-iphonesimulator/T
     setenv OPTIMIZATION_LEVEL 0
     setenv OS MACOS
     setenv OSAC /usr/bin/osacompile
+    setenv OTHER_LDFLAGS -lgcov
     setenv PACKAGE_TYPE com.apple.package-type.wrapper.application
     setenv PASCAL_STRINGS YES
     setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/csnowleopard/.rvm/gems/ruby-1.9.3-p286/bin:/Users/csnowleopard/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/csnowleopard/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/csnowleopard/.rvm/bin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/mysql/bin"
@@ -199,7 +200,6 @@ PhaseScriptExecution "Run Script" build/HelloWorld.build/Debug-iphonesimulator/T
     setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 50100
     setenv PLIST_FILE_OUTPUT_FORMAT binary
     setenv PLUGINS_FOLDER_PATH HelloWorld.app/PlugIns
-    setenv PREBINDING NO
     setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES
     setenv PRECOMP_DESTINATION_DIR /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/PrefixHeaders
     setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO
@@ -307,28 +307,7 @@ PhaseScriptExecution "Run Script" build/HelloWorld.build/Debug-iphonesimulator/T
     setenv XCODE_VERSION_MINOR 0430
     setenv YACC yacc
     /bin/sh -c /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/Script-3DDCC2D2144BF13A008D0BB2.sh
-Props
-export DYLD_ROOT_PATH=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk
-export DYLD_FRAMEWORK_PATH=/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/Debug-iphonesimulator
-export IPHONE_SIMULATOR_ROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk
-export CFFIXED_USER_HOME=/Users/csnowleopard/Library/Application Support/iPhone Simulator/User
-Starting the build
-2013-05-29 07:12:14.772 HelloWorld[42453:f803] SBSetAccelerometerClientEventsEnabled failed: (ipc/send) invalid destination port
-2013-05-29 07:12:14.780 HelloWorld[42453:f803] Handle event.
-2013-05-29 07:12:14.780 HelloWorld[42453:f803] NSStreamEventErrorOccurred
-2013-05-29 07:12:14.787 HelloWorld[42453:f803] The operation couldn’t be completed. Connection refused
-2013-05-29 07:12:15.773 HelloWorld[42453:f803] Performing guitar commands: (null)
-2013-05-29 07:12:15.774 HelloWorld[42453:f803] Waiting for an action...
-Detected an attempt to call a symbol in system libraries that is not present on the iPhone:
-fopen$UNIX2003 called from function llvm_gcda_start_file in image HelloWorld.
-Build passed? fail
-fail=pass
-Exit w/ failure
 
 
-** BUILD FAILED **
+** BUILD SUCCEEDED **
 
-
-The following build commands failed:
-	PhaseScriptExecution "Run Script" build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/Script-3DDCC2D2144BF13A008D0BB2.sh
-(1 failure)

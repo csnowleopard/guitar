@@ -1,0 +1,18 @@
+[main] INFO  Testcase: /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/testcases/t_e921760096_e921760282.tst
+[main] INFO  Log file: /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/logs/t_e921760096_e921760282.log
+[main] INFO  GUI state file: /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/states/t_e921760096_e921760282.sta
+[main] INFO  ------ BEGIN TESTCASE -----
+[main] INFO  -------- END STEP ---------
+[main] INFO  ------- END TESTCASE ------
+[main] ERROR General Exception thrown
+java.lang.NullPointerException
+	at edu.umd.cs.guitar.model.IphCommServer.waitForConnection(IphCommServer.java:51)
+	at edu.umd.cs.guitar.model.IphApplication.connect(IphApplication.java:55)
+	at edu.umd.cs.guitar.replayer.IphReplayerMonitor.setUp(IphReplayerMonitor.java:109)
+	at edu.umd.cs.guitar.replayer.Replayer.execute(Replayer.java:218)
+	at edu.umd.cs.guitar.replayer.IphReplayer.execute(IphReplayer.java:161)
+	at edu.umd.cs.guitar.replayer.IphReplayerMain.main(IphReplayerMain.java:48)
+[main] INFO  Time Elapsed: 00 : 00 : 00: 586
+[main] INFO  Testcase: /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/testcases/t_e921760096_e921760282.tst
+[main] INFO  Log file: /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/logs/t_e921760096_e921760282.log
+[main] INFO  GUI state file: /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/states/t_e921760096_e921760282.sta

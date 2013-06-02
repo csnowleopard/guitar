@@ -1,3 +1,52 @@
 [main] INFO  Plugin: SequenceLengthCoverage
 [main] INFO  Reading EFG
-[main] ERROR /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/Demo.EFG not found!!!
+[main] INFO  Graph total events: 6
+[main] INFO  Graph initial events: 6
+[main] INFO  Parsing follow relations
+[main] INFO  Added 0 edges
+[main] INFO  Getting initial events
+[main] INFO  Initial event count: 6
+[main] INFO  InteractionEventList size: 6
+[main] INFO  Skipped, duplicate /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/testcases/t_e921760096_e921760096.tst
+[main] INFO  Skipped, duplicate /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/testcases/t_e921760096_e921760158.tst
+[main] INFO  Skipped, duplicate /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/testcases/t_e921760096_e921760282.tst
+[main] INFO  Skipped, duplicate /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/testcases/t_e921760096_e921760344.tst
+[main] INFO  Skipped, duplicate /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/testcases/t_e921760096_e921760406.tst
+[main] INFO  Skipped, duplicate /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/testcases/t_e921760096_e921760468.tst
+[main] INFO  Skipped, duplicate /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/testcases/t_e921760158_e921760096.tst
+[main] INFO  Skipped, duplicate /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/testcases/t_e921760158_e921760158.tst
+[main] INFO  Skipped, duplicate /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/testcases/t_e921760158_e921760282.tst
+[main] INFO  Skipped, duplicate /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/testcases/t_e921760158_e921760344.tst
+[main] INFO  Skipped, duplicate /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/testcases/t_e921760158_e921760406.tst
+[main] INFO  Skipped, duplicate /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/testcases/t_e921760158_e921760468.tst
+[main] INFO  Skipped, duplicate /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/testcases/t_e921760282_e921760096.tst
+[main] INFO  Skipped, duplicate /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/testcases/t_e921760282_e921760158.tst
+[main] INFO  Skipped, duplicate /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/testcases/t_e921760282_e921760282.tst
+[main] INFO  Skipped, duplicate /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/testcases/t_e921760282_e921760344.tst
+[main] INFO  Skipped, duplicate /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/testcases/t_e921760282_e921760406.tst
+[main] INFO  Skipped, duplicate /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/testcases/t_e921760282_e921760468.tst
+[main] INFO  Skipped, duplicate /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/testcases/t_e921760344_e921760096.tst
+[main] INFO  Skipped, duplicate /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/testcases/t_e921760344_e921760158.tst
+[main] INFO  Skipped, duplicate /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/testcases/t_e921760344_e921760282.tst
+[main] INFO  Skipped, duplicate /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/testcases/t_e921760344_e921760344.tst
+[main] INFO  Skipped, duplicate /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/testcases/t_e921760344_e921760406.tst
+[main] INFO  Skipped, duplicate /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/testcases/t_e921760344_e921760468.tst
+[main] INFO  Skipped, duplicate /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/testcases/t_e921760406_e921760096.tst
+[main] INFO  Skipped, duplicate /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/testcases/t_e921760406_e921760158.tst
+[main] INFO  Skipped, duplicate /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/testcases/t_e921760406_e921760282.tst
+[main] INFO  Skipped, duplicate /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/testcases/t_e921760406_e921760344.tst
+[main] INFO  Skipped, duplicate /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/testcases/t_e921760406_e921760406.tst
+[main] INFO  Skipped, duplicate /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/testcases/t_e921760406_e921760468.tst
+[main] INFO  Skipped, duplicate /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/testcases/t_e921760468_e921760096.tst
+[main] INFO  Skipped, duplicate /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/testcases/t_e921760468_e921760158.tst
+[main] INFO  Skipped, duplicate /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/testcases/t_e921760468_e921760282.tst
+[main] INFO  Skipped, duplicate /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/testcases/t_e921760468_e921760344.tst
+[main] INFO  Skipped, duplicate /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/testcases/t_e921760468_e921760406.tst
+[main] INFO  Skipped, duplicate /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/testcases/t_e921760468_e921760468.tst
+[main] INFO  Generated 0 SkippedDup 36 SkippedPath 0
+[main] INFO  ================================
+[main] INFO  EFG File: /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/Demo.EFG
+[main] INFO  Plugin: SequenceLengthCoverage
+[main] INFO  Test cases #: 0
+[main] INFO  Output dir: /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/testcases
+[main] INFO  ================================
