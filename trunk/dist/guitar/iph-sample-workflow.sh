@@ -105,7 +105,7 @@ replayer_dir="$output_dir/replayer"
 # Command to run iphonesim
 path=`pwd`
 #run_iphonesim="../iphonesim/Build/Release/iphonesim launch /Users/cmhill/tmp/guitar/example-aut/iph-aut/${iph_project}/build/Debug-iphonesimulator/${iph_project}.app &> /dev/null"
-run_iphonesim="../ios-sim/Build/Release/ios-sim launch $aut_dir/build/Debug-iphonesimulator/${iph_project}.app &> /dev/null"
+run_iphonesim="../ios-sim/Build/Release/ios-sim launch $aut_dir/build/Debug-iphonesimulator/${iph_project}.app -exit &> /dev/null"
 
 #------------------------
 # Main workflow 
@@ -159,7 +159,7 @@ sleep $xcode_build_time
 echo "Starting up iphone sdk, please wait $xcode_build_time seconds."
 #echo $run_iphonesim
 
-#sleep $xcode_build_time
+sleep $xcode_build_time
 eval $run_iphonesim
 kill_iph_skd="ps aux | grep i[pP]hone | awk '{print \$2}' | xargs -n 1 -I {} kill -9 {} &> /dev/null"
 echo "Cleaning up iphone sdk/client."

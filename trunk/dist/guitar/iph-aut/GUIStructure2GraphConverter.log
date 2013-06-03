@@ -5,7 +5,7 @@
 [main] INFO  ===========================================
 [main] INFO  GUIStructure2GraphConverter
 [main] INFO  	Plugin: 	EFGConverter
-[main] INFO  	Input GUI: 	/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut//Demo/Demo.GUI
+[main] INFO  	Input GUI: 	/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut//Demo//Demo.GUI
 [main] INFO  	Output EFG: 	/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut//Demo/Demo.EFG
 [main] INFO  ===========================================
 [main] INFO  
