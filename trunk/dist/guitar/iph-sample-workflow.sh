@@ -194,7 +194,7 @@ for testcase in `find $testcases_dir -name "*.tst"| head -n$testcase_num`
     do
     	cmd2="lsof -n -i4TCP:${port} | grep LISTEN | awk '{print $2}' | xargs kill"
     #kill everything running on the needed port
-    eval cmd2
+    eval $cmd2
     # getting test name 
    	test_name=`basename $testcase`
    	test_name=${test_name%.*}
