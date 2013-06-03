@@ -17,13 +17,18 @@
  *      IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR 
  *      THE USE OR OTHER DEALINGS IN THE SOFTWARE. 
  */
-package cn.edu.nju.software.ripper.filter;
 
-import cn.edu.nju.software.GuitarModule.GComponent;
-import cn.edu.nju.software.GuitarModule.GWindow;
 
-import cn.edu.nju.software.ripper.core.Ripper;
-import cn.edu.nju.software.ripperModuleData.ComponentType;
+
+
+
+package edu.umd.cs.guitar.ripper.filter;
+
+import edu.umd.cs.guitar.model.GComponent;
+import edu.umd.cs.guitar.model.GWindow;
+
+import edu.umd.cs.guitar.ripper.Ripper;
+import edu.umd.cs.guitar.model.data.ComponentType;
 
 
 
@@ -43,16 +48,17 @@ public abstract class GComponentFilter {
         
         Ripper ripper;
 
-        /**
-         * @param ripper the ripper to set
-         */
+        
+         
+         
         public void setRipper(Ripper ripper) {
                 this.ripper = ripper;
         }
-
-        public abstract boolean isProcess(GComponent component, GWindow window );
         
-        public abstract ComponentType ripComponent(GComponent component, GWindow window);
+
+    public abstract boolean isProcess(GComponent component, GWindow window );//{return false;}
+        
+    public abstract ComponentType ripComponent(GComponent component, GWindow window);//{return null;}
 
 //      public void setRipper(cn.edu.nju.software.ripperCore.Ripper ripper) {
 //              // TODO Auto-generated method stub

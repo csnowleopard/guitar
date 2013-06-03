@@ -2,17 +2,57 @@
 [main] INFO  Log file: /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/logs/t_e921760096_e921760282.log
 [main] INFO  GUI state file: /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/states/t_e921760096_e921760282.sta
 [main] INFO  ------ BEGIN TESTCASE -----
+[main] INFO  Initial waiting: 100ms...
+[main] INFO  Connecting to application
+[main] INFO  Application is connected.
+[main] INFO  Test monitor: edu.umd.cs.guitar.replayer.monitor.StateMonitor is initialized
+[main] INFO  Test monitor: edu.umd.cs.guitar.replayer.monitor.TimeMonitor is initialized
+[main] INFO  Testcase size 2 steps
+[main] INFO  ------- BEGIN STEP --------
+[main] INFO  Executing Step EventID = e921760096
+[main] INFO  Waiting for window:
+[main] INFO   + Window Title = Window 1
+[main] INFO   + Widget ID    = w921760096
+[main] INFO  FOUND window
+[main] INFO   + Window Title = Window 1
+[main] INFO  
+[main] INFO  Searching for widget:
+[main] INFO   + Widget ID = w921760096
+[main] INFO  FOUND widget
+[main] INFO   + Widget Title = UIRoundedRectButton
+[main] INFO   + Action: *edu.umd.cs.guitar.event.IphTouchEvent
+[main] INFO  
+[main] INFO  Delaying for 1000 ms to get a stable GUI state....
+[main] INFO  Recording GUI state....
+[main] INFO  DONE
+[main] INFO  Dumping out state ... 
+[main] INFO  DONE
+[main] INFO  Step Timer elapsed Time: 574
+[main] INFO  -------- END STEP ---------
+[main] INFO  ------- BEGIN STEP --------
+[main] INFO  Executing Step EventID = e921760282
+[main] INFO  Waiting for window:
+[main] INFO   + Window Title = Window 1
+[main] INFO   + Widget ID    = w921760282
+[main] INFO  FOUND window
+[main] INFO   + Window Title = Window 1
+[main] INFO  
+[main] INFO  Searching for widget:
+[main] INFO   + Widget ID = w921760282
+[main] INFO  FOUND widget
+[main] INFO   + Widget Title = UIRoundedRectButton
+[main] INFO   + Action: *edu.umd.cs.guitar.event.IphTouchEvent
+[main] INFO  
+[main] INFO  Delaying for 1000 ms to get a stable GUI state....
+[main] INFO  Recording GUI state....
+[main] INFO  DONE
+[main] INFO  Dumping out state ... 
+[main] INFO  DONE
+[main] INFO  Step Timer elapsed Time: 158
 [main] INFO  -------- END STEP ---------
 [main] INFO  ------- END TESTCASE ------
-[main] ERROR General Exception thrown
-java.lang.NullPointerException
-	at edu.umd.cs.guitar.model.IphCommServer.waitForConnection(IphCommServer.java:51)
-	at edu.umd.cs.guitar.model.IphApplication.connect(IphApplication.java:55)
-	at edu.umd.cs.guitar.replayer.IphReplayerMonitor.setUp(IphReplayerMonitor.java:109)
-	at edu.umd.cs.guitar.replayer.Replayer.execute(Replayer.java:218)
-	at edu.umd.cs.guitar.replayer.IphReplayer.execute(IphReplayer.java:161)
-	at edu.umd.cs.guitar.replayer.IphReplayerMain.main(IphReplayerMain.java:48)
-[main] INFO  Time Elapsed: 00 : 00 : 00: 664
+[main] INFO  NORMALLY TERMINATED
+[main] INFO  Time Elapsed: 00 : 00 : 05: 544
 [main] INFO  Testcase: /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/testcases/t_e921760096_e921760282.tst
 [main] INFO  Log file: /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/logs/t_e921760096_e921760282.log
 [main] INFO  GUI state file: /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/states/t_e921760096_e921760282.sta

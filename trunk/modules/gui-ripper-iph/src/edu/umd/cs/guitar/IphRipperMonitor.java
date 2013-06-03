@@ -22,6 +22,7 @@ import edu.umd.cs.guitar.exception.ApplicationConnectException;
 
 import edu.umd.cs.guitar.model.CommClient;
 import edu.umd.cs.guitar.model.GComponent;
+import edu.umd.cs.guitar.model.GObject;
 import edu.umd.cs.guitar.model.GUITARConstants;
 import edu.umd.cs.guitar.model.GWindow;
 import edu.umd.cs.guitar.model.IphApplication;
@@ -29,6 +30,8 @@ import edu.umd.cs.guitar.model.IphCommServer;
 import edu.umd.cs.guitar.model.IphCommServerConstants;
 import edu.umd.cs.guitar.model.IphComponent;
 import edu.umd.cs.guitar.model.IphConstants;
+
+import edu.umd.cs.guitar.ripper.GRipperMonitor;
 
 import edu.umd.cs.guitar.util.GUITARLog;
 
@@ -247,7 +250,7 @@ public class IphRipperMonitor extends GRipperMonitor {
 
 	// Complete -Rongjian Lan
 	@Override
-	public void expandGUI(GComponent component) {
+	public void expandGUI(GObject component) {
 		if (component == null)
 			return;
 
@@ -275,7 +278,7 @@ public class IphRipperMonitor extends GRipperMonitor {
 
 	// Preliminary implementation - Rongjian Lan
 	@Override
-	boolean isExpandable(GComponent gComponent, GWindow window) {
+	public boolean isExpandable(GComponent gComponent, GWindow window) {
 		IphComponent component = (IphComponent) gComponent;
 		String ID = component.getTitle();
 		
@@ -318,7 +321,7 @@ public class IphRipperMonitor extends GRipperMonitor {
     */
    @Override
    public void
-   captureImage(GComponent component,
+   captureImage(GObject component,
                 String strFilePath)
    throws AWTException, IOException
    {

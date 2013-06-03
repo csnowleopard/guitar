@@ -2,19 +2,85 @@
 [main] INFO  Log file: /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/logs/t_e921760096_e921760096.log
 [main] INFO  GUI state file: /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/states/t_e921760096_e921760096.sta
 [main] INFO  ------ BEGIN TESTCASE -----
-Could not listen on port: 8081
-Could not listen on port: 8081
+Server set up successfully!
+Connection set up successfully!
+IOStream initialized successfully!
+Sending request: invoke main method
+Received response: Hello
+[main] INFO  Initial waiting: 100ms...
+[main] INFO  Connecting to application
+[main] INFO  Application is connected.
+[main] INFO  Test monitor: edu.umd.cs.guitar.replayer.monitor.StateMonitor is initialized
+Did request
+Sending request: get num windows
+Received response: 1
+Num windows: 1
+Sending request: get root window list
+Received response: <GUIStructure><GUI><Window><Attributes><Property><Name>x</Name><Value>0</Value></Property><Property><Name>y</Name><Value>0</Value></Property><Property><Name>width</Name><Value>320</Value></Property><Property><Name>height</Name><Value>480</Value></Property><Property><Name>className</Name><Value>UIWindow</Value></Property></Attributes></Window><Container><Attributes><Property><Name>x</Name><Value>0</Value></Property><Property><Name>y</Name><Value>20</Value></Property><Property><Name>width</Name><Value>320</Value></Property><Property><Name>height</Name><Value>460</Value></Property><Property><Name>className</Name><Value>UIView</Value></Property></Attributes><Contents><Container><Attributes><Property><Name>x</Name><Value>102</Value></Property><Property><Name>y</Name><Value>16</Value></Property><Property><Name>width</Name><Value>110</Value></Property><Property><Name>height</Name><Value>21</Value></Property><Property><Name>className</Name><Value>UILabel</Value></Property></Attributes></Container><Container><Attributes><Property><Name>x</Name><Value>94</Value></Property><Property><Name>y</Name><Value>117</Value></Property><Property><Name>width</Name><Value>131</Value></Property><Property><Name>height</Name><Value>21</Value></Property><Property><Name>className</Name><Value>UILabel</Value></Property></Attributes></Container><Container><Attributes><Property><Name>x</Name><Value>27</Value></Property><Property><Name>y</Name><Value>214</Value></Property><Property><Name>width</Name><Value>121</Value></Property><Property><Name>height</Name><Value>37</Value></Property><Property><Name>className</Name><Value>UIRoundedRectButton</Value></Property><Property><Name>INVOKE</Name><Value>TOUCH</Value></Property></Attributes><Contents><Container><Attributes><Property><Name>x</Name><Value>12</Value></Property><Property><Name>y</Name><Value>9</Value></Property><Property><Name>width</Name><Value>96</Value></Property><Property><Name>height</Name><Value>19</Value></Property><Property><Name>className</Name><Value>UIButtonLabel</Value></Property></Attributes></Container></Contents></Container><Container><Attributes><Property><Name>x</Name><Value>175</Value></Property><Property><Name>y</Name><Value>214</Value></Property><Property><Name>width</Name><Value>121</Value></Property><Property><Name>height</Name><Value>37</Value></Property><Property><Name>className</Name><Value>UIRoundedRectButton</Value></Property><Property><Name>INVOKE</Name><Value>TOUCH</Value></Property></Attributes><Contents><Container><Attributes><Property><Name>x</Name><Value>40</Value></Property><Property><Name>y</Name><Value>9</Value></Property><Property><Name>width</Name><Value>41</Value></Property><Property><Name>height</Name><Value>19</Value></Property><Property><Name>className</Name><Value>UIButtonLabel</Value></Property></Attributes></Container></Contents></Container><Container><Attributes><Property><Name>x</Name><Value>72</Value></Property><Property><Name>y</Name><Value>270</Value></Property><Property><Name>width</Name><Value>175</Value></Property><Property><Name>height</Name><Value>175</Value></Property><Property><Name>className</Name><Value>CircleOrSquareView</Value></Property></Attributes><Contents><Container><Attributes><Property><Name>x</Name><Value>0</Value></Property><Property><Name>y</Name><Value>0</Value></Property><Property><Name>width</Name><Value>175</Value></Property><Property><Name>height</Name><Value>175</Value></Property><Property><Name>className</Name><Value>CircleOrSquareView</Value></Property></Attributes></Container></Contents></Container><Container><Attributes><Property><Name>x</Name><Value>10</Value></Property><Property><Name>y</Name><Value>48</Value></Property><Property><Name>width</Name><Value>26</Value></Property><Property><Name>height</Name><Value>26</Value></Property><Property><Name>className</Name><Value>UIRoundedRectButton</Value></Property><Property><Name>INVOKE</Name><Value>TOUCH</Value></Property></Attributes><Contents><Container><Attributes><Property><Name>x</Name><Value>8</Value></Property><Property><Name>y</Name><Value>3</Value></Property><Property><Name>width</Name><Value>9</Value></Property><Property><Name>height</Name><Value>19</Value></Property><Property><Name>className</Name><Value>UIButtonLabel</Value></Property></Attributes></Container></Contents></Container><Container><Attributes><Property><Name>x</Name><Value>10</Value></Property><Property><Name>y</Name><Value>80</Value></Property><Property><Name>width</Name><Value>26</Value></Property><Property><Name>height</Name><Value>26</Value></Property><Property><Name>className</Name><Value>UIRoundedRectButton</Value></Property><Property><Name>INVOKE</Name><Value>TOUCH</Value></Property></Attributes><Contents><Container><Attributes><Property><Name>x</Name><Value>0</Value></Property><Property><Name>y</Name><Value>0</Value></Property><Property><Name>width</Name><Value>0</Value></Property><Property><Name>height</Name><Value>0</Value></Property><Property><Name>className</Name><Value>UIButtonLabel</Value></Property></Attributes></Container></Contents></Container><Container><Attributes><Property><Name>x</Name><Value>10</Value></Property><Property><Name>y</Name><Value>144</Value></Property><Property><Name>width</Name><Value>26</Value></Property><Property><Name>height</Name><Value>26</Value></Property><Property><Name>className</Name><Value>UIRoundedRectButton</Value></Property><Property><Name>INVOKE</Name><Value>TOUCH</Value></Property></Attributes><Contents><Container><Attributes><Property><Name>x</Name><Value>8</Value></Property><Property><Name>y</Name><Value>3</Value></Property><Property><Name>width</Name><Value>9</Value></Property><Property><Name>height</Name><Value>19</Value></Property><Property><Name>className</Name><Value>UIButtonLabel</Value></Property></Attributes></Container></Contents></Container><Container><Attributes><Property><Name>x</Name><Value>10</Value></Property><Property><Name>y</Name><Value>175</Value></Property><Property><Name>width</Name><Value>26</Value></Property><Property><Name>height</Name><Value>26</Value></Property><Property><Name>className</Name><Value>UIRoundedRectButton</Value></Property><Property><Name>INVOKE</Name><Value>TOUCH</Value></Property></Attributes><Contents><Container><Attributes><Property><Name>x</Name><Value>0</Value></Property><Property><Name>y</Name><Value>0</Value></Property><Property><Name>width</Name><Value>0</Value></Property><Property><Name>height</Name><Value>0</Value></Property><Property><Name>className</Name><Value>UIButtonLabel</Value></Property></Attributes></Container></Contents></Container><Container><Attributes><Property><Name>x</Name><Value>51</Value></Property><Property><Name>y</Name><Value>50</Value></Property><Property><Name>width</Name><Value>77</Value></Property><Property><Name>height</Name><Value>21</Value></Property><Property><Name>className</Name><Value>UILabel</Value></Property></Attributes></Container><Container><Attributes><Property><Name>x</Name><Value>51</Value></Property><Property><Name>y</Name><Value>82</Value></Property><Property><Name>width</Name><Value>77</Value></Property><Property><Name>height</Name><Value>21</Value></Property><Property><Name>className</Name><Value>UILabel</Value></Property></Attributes></Container><Container><Attributes><Property><Name>x</Name><Value>56</Value></Property><Property><Name>y</Name><Value>146</Value></Property><Property><Name>width</Name><Value>77</Value></Property><Property><Name>height</Name><Value>21</Value></Property><Property><Name>className</Name><Value>UILabel</Value></Property></Attributes></Container><Container><Attributes><Property><Name>x</Name><Value>56</Value></Property><Property><Name>y</Name><Value>178</Value></Property><Property><Name>width</Name><Value>77</Value></Property><Property><Name>height</Name><Value>21</Value></Property><Property><Name>className</Name><Value>UILabel</Value></Property></Attributes></Container></Contents></Container></GUI></GUIStructure>
+Creating IphWindow, with attributes: 
+title : Window 1
+x	:	0 
+y	:	0 
+width	:	320 
+height	:	480 
+className	:	UIWindow 
+Exist 1 windows!
+[main] INFO  Test monitor: edu.umd.cs.guitar.replayer.monitor.TimeMonitor is initialized
+[main] INFO  Testcase size 2 steps
+[main] INFO  ------- BEGIN STEP --------
+[main] INFO  Executing Step EventID = e921760096
+[main] INFO  Waiting for window:
+[main] INFO   + Window Title = Window 1
+[main] INFO   + Widget ID    = w921760096
+Trying to find GWindow: Window 1
+Checking window : Window 1 (isRoot : true | isValid : true)
+[main] INFO  FOUND window
+[main] INFO   + Window Title = Window 1
+[main] INFO  
+[main] INFO  Searching for widget:
+[main] INFO   + Widget ID = w921760096
+[main] INFO  FOUND widget
+[main] INFO   + Widget Title = UIRoundedRectButton
+[main] INFO   + Action: *edu.umd.cs.guitar.event.IphTouchEvent
+[main] INFO  
+Send TOUCH message to iphone client.
+Sending request: INVOKE TOUCH UIRoundedRectButton 27 214
+Received response: Touch happened for UIRoundedRectButton!
+[main] INFO  Delaying for 1000 ms to get a stable GUI state....
+[main] INFO  Recording GUI state....
+[main] INFO  DONE
+[main] INFO  Dumping out state ... 
+[main] INFO  DONE
+[main] INFO  Step Timer elapsed Time: 617
+[main] INFO  -------- END STEP ---------
+[main] INFO  ------- BEGIN STEP --------
+[main] INFO  Executing Step EventID = e921760096
+[main] INFO  Waiting for window:
+[main] INFO   + Window Title = Window 1
+[main] INFO   + Widget ID    = w921760096
+Trying to find GWindow: Window 1
+Checking window : Window 1 (isRoot : true | isValid : true)
+[main] INFO  FOUND window
+[main] INFO   + Window Title = Window 1
+[main] INFO  
+[main] INFO  Searching for widget:
+[main] INFO   + Widget ID = w921760096
+[main] INFO  FOUND widget
+[main] INFO   + Widget Title = UIRoundedRectButton
+[main] INFO   + Action: *edu.umd.cs.guitar.event.IphTouchEvent
+[main] INFO  
+Send TOUCH message to iphone client.
+Sending request: INVOKE TOUCH UIRoundedRectButton 27 214
+[main] INFO  Delaying for 1000 ms to get a stable GUI state....
+[main] INFO  Recording GUI state....
+[main] INFO  DONE
+[main] INFO  Dumping out state ... 
+[main] INFO  DONE
+[main] INFO  Step Timer elapsed Time: 2169
 [main] INFO  -------- END STEP ---------
 [main] INFO  ------- END TESTCASE ------
-[main] ERROR General Exception thrown
-java.lang.NullPointerException
-	at edu.umd.cs.guitar.model.IphCommServer.waitForConnection(IphCommServer.java:51)
-	at edu.umd.cs.guitar.model.IphApplication.connect(IphApplication.java:55)
-	at edu.umd.cs.guitar.replayer.IphReplayerMonitor.setUp(IphReplayerMonitor.java:109)
-	at edu.umd.cs.guitar.replayer.Replayer.execute(Replayer.java:218)
-	at edu.umd.cs.guitar.replayer.IphReplayer.execute(IphReplayer.java:161)
-	at edu.umd.cs.guitar.replayer.IphReplayerMain.main(IphReplayerMain.java:48)
-[main] INFO  Time Elapsed: 00 : 00 : 01: 160
+[main] INFO  NORMALLY TERMINATED
+[main] INFO  Time Elapsed: 00 : 00 : 07: 677
 [main] INFO  Testcase: /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/testcases/t_e921760096_e921760096.tst
 [main] INFO  Log file: /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/logs/t_e921760096_e921760096.log
 [main] INFO  GUI state file: /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/states/t_e921760096_e921760096.sta
