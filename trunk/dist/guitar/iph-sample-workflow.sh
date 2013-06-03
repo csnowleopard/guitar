@@ -192,7 +192,7 @@ echo "Enter the number of test case(s): "
 i=0 
 for testcase in `find $testcases_dir -name "*.tst"| head -n$testcase_num`  
     do
-    	cmd2="lsof -n -i4TCP:${port} | grep LISTEN | awk '{print $2}' | xargs kill"
+    cmd2="lsof -P | grep ':${port}' | awk '{print $2}' | xargs kill"
     #kill everything running on the needed port
     eval $cmd2
     # getting test name 
