@@ -183,7 +183,7 @@ echo "About to generate test cases to cover all possible $tc_length-way event in
 #read -p "Press ENTER to continue..."
 cmd="$SCRIPT_DIR/tc-gen-sq.sh -e $efg_file -l $tc_length -m 0 -d $testcases_dir"
 echo $cmd
-eval $cmd 	
+eval $cmd
 # Replaying generated test cases
 echo ""
 echo "About to replay test case(s)" 
@@ -192,6 +192,9 @@ echo "Enter the number of test case(s): "
 i=0 
 for testcase in `find $testcases_dir -name "*.tst"| head -n$testcase_num`  
     do
+    	cmd2="lsof -n -i4TCP:${port} | grep LISTEN | awk '{print $2}' | xargs kill"
+    #kill everything running on the needed port
+    eval cmd2
     # getting test name 
    	test_name=`basename $testcase`
    	test_name=${test_name%.*}
