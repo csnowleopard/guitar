@@ -159,7 +159,7 @@ sleep $xcode_build_time
 echo "Starting up iphone sdk, please wait $xcode_build_time seconds."
 #echo $run_iphonesim
 
-sleep $xcode_build_time
+#sleep $xcode_build_time
 eval $run_iphonesim
 kill_iph_skd="ps aux | grep i[pP]hone | awk '{print \$2}' | xargs -n 1 -I {} kill -9 {} &> /dev/null"
 echo "Cleaning up iphone sdk/client."
