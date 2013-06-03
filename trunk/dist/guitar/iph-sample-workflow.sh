@@ -120,6 +120,16 @@ mkdir -p $logs_dir
 mkdir -p $replayer_dir
 mkdir -p $screenshots_dir
 
+
+echo "All processes on port ${port}"
+lsof -i :${port}
+echo "Finished showing processes"
+
+cmd2="kill -9 $(tokens=($(lsof -i :${port} | tail -n 1)); echo ${tokens[1]})"
+#kill everything running on the needed port
+echo $cmd2
+eval $cmd2
+
 # Build iphonesim first
 echo "Building iPhone Simulator."
 cmd="xcodebuild -project iph-aut/ios-sim/ios-sim.xcodeproj -configuration \"Release\" -target \"ios-sim\" > /dev/null"
@@ -189,10 +199,16 @@ echo ""
 echo "About to replay test case(s)" 
 echo "Enter the number of test case(s): "
 #read testcase_num
+
+cmd2="kill -9 $(tokens=($(lsof -i :${port} | tail -n 1)); echo ${tokens[1]})"
+#kill everything running on the needed port
+echo $cmd2
+eval $cmd2
+
 i=0 
 for testcase in `find $testcases_dir -name "*.tst"| head -n$testcase_num`  
     do
-    cmd2="lsof -P | grep ':${port}' | awk '{print $2}' | xargs kill"
+    cmd2="kill -9 $(tokens=($(lsof -i :${port} | tail -n 1)); echo ${tokens[1]})"
     #kill everything running on the needed port
     eval $cmd2
     # getting test name 

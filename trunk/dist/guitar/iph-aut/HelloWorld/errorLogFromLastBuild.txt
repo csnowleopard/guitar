@@ -1,8 +1,62 @@
-2013-05-29 07:50:56.761 HelloWorld[43299:f803] SBSetAccelerometerClientEventsEnabled failed: (ipc/send) invalid destination port
-2013-05-29 07:50:56.771 HelloWorld[43299:f803] Handle event.
-2013-05-29 07:50:56.772 HelloWorld[43299:f803] NSStreamEventErrorOccurred
-2013-05-29 07:50:56.779 HelloWorld[43299:f803] The operation couldn’t be completed. Connection refused
-2013-05-29 07:50:57.761 HelloWorld[43299:f803] Performing guitar commands: (null)
-2013-05-29 07:50:57.763 HelloWorld[43299:f803] Waiting for an action...
-Detected an attempt to call a symbol in system libraries that is not present on the iPhone:
-fopen$UNIX2003 called from function llvm_gcda_start_file in image HelloWorld.
+2013-06-03 11:53:37.972 HelloWorld[8039:f803] SBSetAccelerometerClientEventsEnabled failed: (ipc/send) invalid destination port
+2013-06-03 11:53:38.060 HelloWorld[8039:f803] Handle event.
+2013-06-03 11:53:38.060 HelloWorld[8039:f803] NSStreamEventErrorOccurred
+2013-06-03 11:53:38.101 HelloWorld[8039:f803] The operation couldn’t be completed. Connection refused
+2013-06-03 11:53:39.007 HelloWorld[8039:f803] Performing guitar commands: (
+        {
+        action = "INVOKE_TOUCH";
+        class = UIRoundedRectButton;
+        x = 27;
+        y = 214;
+    },
+        {
+        action = "INVOKE_TOUCH";
+        class = UIRoundedRectButton;
+        x = 175;
+        y = 214;
+    }
+)
+2013-06-03 11:53:39.008 HelloWorld[8039:f803] Performing guitar command: {
+    action = "INVOKE_TOUCH";
+    class = UIRoundedRectButton;
+    x = 27;
+    y = 214;
+}
+2013-06-03 11:53:39.008 HelloWorld[8039:f803] [Current view: UIWindow (addr: 159894400)] Looking for view: UIRoundedRectButton, with x: 27, and y:214
+2013-06-03 11:53:39.009 HelloWorld[8039:f803] [Current view: UIView (addr: 218635664)] Looking for view: UIRoundedRectButton, with x: 27, and y:214
+2013-06-03 11:53:39.009 HelloWorld[8039:f803] [Current view: UILabel (addr: 218636272)] Looking for view: UIRoundedRectButton, with x: 27, and y:214
+2013-06-03 11:53:39.010 HelloWorld[8039:f803] [Current view: UILabel (addr: 218637264)] Looking for view: UIRoundedRectButton, with x: 27, and y:214
+2013-06-03 11:53:39.010 HelloWorld[8039:f803] [Current view: UIRoundedRectButton (addr: 209171440)] Looking for view: UIRoundedRectButton, with x: 27, and y:214
+2013-06-03 11:53:39.011 HelloWorld[8039:f803] ...class names are equal
+2013-06-03 11:53:39.011 HelloWorld[8039:f803] ...x and y coordinates are equal too!
+2013-06-03 11:53:39.012 HelloWorld[8039:f803] action: INVOKE_TOUCH
+2013-06-03 11:53:39.012 HelloWorld[8039:f803] Performing touch replay.
+2013-06-03 11:53:39.014 HelloWorld[8039:f803] Trying to draw shape
+2013-06-03 11:53:39.015 HelloWorld[8039:f803] Drawing shape
+2013-06-03 11:53:39.516 HelloWorld[8039:f803] Performing guitar commands: (
+        {
+        action = "INVOKE_TOUCH";
+        class = UIRoundedRectButton;
+        x = 175;
+        y = 214;
+    }
+)
+2013-06-03 11:53:39.518 HelloWorld[8039:f803] Performing guitar command: {
+    action = "INVOKE_TOUCH";
+    class = UIRoundedRectButton;
+    x = 175;
+    y = 214;
+}
+2013-06-03 11:53:39.519 HelloWorld[8039:f803] [Current view: UIWindow (addr: 159894400)] Looking for view: UIRoundedRectButton, with x: 175, and y:214
+2013-06-03 11:53:39.520 HelloWorld[8039:f803] [Current view: UIView (addr: 218635664)] Looking for view: UIRoundedRectButton, with x: 175, and y:214
+2013-06-03 11:53:39.521 HelloWorld[8039:f803] [Current view: UILabel (addr: 218636272)] Looking for view: UIRoundedRectButton, with x: 175, and y:214
+2013-06-03 11:53:39.522 HelloWorld[8039:f803] [Current view: UILabel (addr: 218637264)] Looking for view: UIRoundedRectButton, with x: 175, and y:214
+2013-06-03 11:53:39.523 HelloWorld[8039:f803] [Current view: UIRoundedRectButton (addr: 209171440)] Looking for view: UIRoundedRectButton, with x: 175, and y:214
+2013-06-03 11:53:39.523 HelloWorld[8039:f803] ...class names are equal
+2013-06-03 11:53:39.524 HelloWorld[8039:f803] [Current view: UIButtonLabel (addr: 209318816)] Looking for view: UIRoundedRectButton, with x: 175, and y:214
+2013-06-03 11:53:39.525 HelloWorld[8039:f803] [Current view: UIRoundedRectButton (addr: 218631040)] Looking for view: UIRoundedRectButton, with x: 175, and y:214
+2013-06-03 11:53:39.526 HelloWorld[8039:f803] ...class names are equal
+2013-06-03 11:53:39.527 HelloWorld[8039:f803] ...x and y coordinates are equal too!
+2013-06-03 11:53:39.528 HelloWorld[8039:f803] action: INVOKE_TOUCH
+2013-06-03 11:53:39.528 HelloWorld[8039:f803] Performing touch replay.
+2013-06-03 11:53:39.529 HelloWorld[8039:f803] Resetting shape.

@@ -1,0 +1,5 @@
+Build settings from command line:
+    SDKROOT = iphonesimulator5.1
+
+xcodebuild: error: The directory /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut does not contain an Xcode project.
+
