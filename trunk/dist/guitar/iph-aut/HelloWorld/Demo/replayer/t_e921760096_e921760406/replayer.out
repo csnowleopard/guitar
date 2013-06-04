@@ -51,7 +51,7 @@ Received response: Touch happened for UIRoundedRectButton!
 [main] INFO  DONE
 [main] INFO  Dumping out state ... 
 [main] INFO  DONE
-[main] INFO  Step Timer elapsed Time: 2172
+[main] INFO  Step Timer elapsed Time: 219
 [main] INFO  -------- END STEP ---------
 [main] INFO  ------- BEGIN STEP --------
 [main] INFO  Executing Step EventID = e921760406
@@ -71,16 +71,17 @@ Checking window : Window 1 (isRoot : true | isValid : true)
 [main] INFO  
 Send TOUCH message to iphone client.
 Sending request: INVOKE TOUCH UIRoundedRectButton 10 144
+Received response: Touch happened for UIRoundedRectButton!
 [main] INFO  Delaying for 1000 ms to get a stable GUI state....
 [main] INFO  Recording GUI state....
 [main] INFO  DONE
 [main] INFO  Dumping out state ... 
 [main] INFO  DONE
-[main] INFO  Step Timer elapsed Time: 2090
+[main] INFO  Step Timer elapsed Time: 227
 [main] INFO  -------- END STEP ---------
 [main] INFO  ------- END TESTCASE ------
 [main] INFO  NORMALLY TERMINATED
-[main] INFO  Time Elapsed: 00 : 00 : 10: 51
+[main] INFO  Time Elapsed: 00 : 00 : 04: 946
 [main] INFO  Testcase: /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/testcases/t_e921760096_e921760406.tst
 [main] INFO  Log file: /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/logs/t_e921760096_e921760406.log
 [main] INFO  GUI state file: /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Demo/states/t_e921760096_e921760406.sta

@@ -1,0 +1,85 @@
+2013-06-04 02:45:33.337 HelloWorld[8000:f803] SBSetAccelerometerClientEventsEnabled failed: (ipc/send) invalid destination port
+2013-06-04 02:45:33.349 HelloWorld[8000:f803] Handle event.
+2013-06-04 02:45:33.349 HelloWorld[8000:f803] NSStreamEventOpenCompleted
+2013-06-04 02:45:33.350 HelloWorld[8000:f803] Handle event.
+2013-06-04 02:45:33.351 HelloWorld[8000:f803] Received stream
+2013-06-04 02:45:33.351 HelloWorld[8000:f803] invoke main method
+2013-06-04 02:45:33.352 HelloWorld[8000:f803] In main method call.
+2013-06-04 02:45:33.353 HelloWorld[8000:f803] Done sending message.
+2013-06-04 02:45:33.353 HelloWorld[8000:f803] Finishing main method call.
+2013-06-04 02:45:33.456 HelloWorld[8000:f803] Handle event.
+2013-06-04 02:45:33.456 HelloWorld[8000:f803] Received stream
+2013-06-04 02:45:33.457 HelloWorld[8000:f803] get num windows
+2013-06-04 02:45:33.457 HelloWorld[8000:f803] Sent num windows.
+2013-06-04 02:45:33.458 HelloWorld[8000:f803] Done sending message.
+2013-06-04 02:45:33.459 HelloWorld[8000:f803] Handle event.
+2013-06-04 02:45:33.459 HelloWorld[8000:f803] Received stream
+2013-06-04 02:45:33.460 HelloWorld[8000:f803] get root window list
+2013-06-04 02:45:33.460 HelloWorld[8000:f803] Adding window tags.
+2013-06-04 02:45:33.461 HelloWorld[8000:f803] Header: <GUIStructure><GUI><Window>
+2013-06-04 02:45:33.466 HelloWorld[8000:f803] <GUIStructure><GUI><Window><Attributes><Property><Name>x</Name><Value>0</Value></Property><Property><Name>y</Name><Value>0</Value></Property><Property><Name>width</Name><Value>320</Value></Property><Property><Name>height</Name><Value>480</Value></Property><Property><Name>className</Name><Value>UIWindow</Value></Property></Attributes></Window><Container><Attributes><Property><Name>x</Name><Value>0</Value></Property><Property><Name>y</Name><Value>20</Value></Property><Property><Name>width</Name><Value>320</Value></Property><Property><Name>height</Name><Value>460</Value></Property><Property><Name>className</Name><Value>UIView</Value></Property></Attributes><Contents><Container><Attributes><Property><Name>x</Name><Value>102</Value></Property><Property><Name>y</Name><Value>16</Value></Property><Property><Name>width</Name><Value>110</Value></Property><Property><Name>height</Name><Value>21</Value></Property><Property><Name>className</Name><Value>UILabel</Value></Property></Attributes></Container><Container><Attributes><Property><Name>x</Name><Value>94</Value></Property><Property><Name>y</Name><Value>117</Value></Property><Property><Name>width</Name><Value>131</Value></Property><Property><Name>height</Name><Value>21</Value></Property><Property><Name>className</Name><Value>UILabel</Value></Property></Attributes></Container><Container><Attributes><Property><Name>x</Name><Value>27</Value></Property><Property><Name>y</Name><Value>214</Value></Property><Property><Name>width</Name><Value>121</Value></Property><Property><Name>height</Name><Value>37</Value></Property><Property><Name>className</Name><Value>UIRoundedRectButton</Value></Property><Property><Name>INVOKE</Name><Value>TOUCH</Value></Property></Attributes><Contents><Container><Attributes><Property><Name>x</Name><Value>12</Value></Property><Property><Name>y</Name><Value>9</Value></Property><Property><Name>width</Name><Value>96</Value></Property><Property><Name>height</Name><Value>19</Value></Property><Property><Name>className</Name><Value>UIButtonLabel</Value></Property></Attributes></Container></Contents></Container><Container><Attributes><Property><Name>x</Name><Value>175</Value></Property><Property><Name>y</Name><Value>214</Value></Property><Property><Name>width</Name><Value>121</Value></Property><Property><Name>height</Name><Value>37</Value></Property><Property><Name>className</Name><Value>UIRoundedRectButton</Value></Property><Property><Name>INVOKE</Name><Value>TOUCH</Value></Property></Attributes><Contents><Container><Attributes><Property><Name>x</Name><Value>40</Value></Property><Property><Name>y</Name><Value>9</Value></Property><Property><Name>width</Name><Value>41</Value></Property><Property><Name>height</Name><Value>19</Value></Property><Property><Name>className</Name><Value>UIButtonLabel</Value></Property></Attributes></Container></Contents></Container><Container><Attributes><Property><Name>x</Name><Value>72</Value></Property><Property><Name>y</Name><Value>270</Value></Property><Property><Name>width</Name><Value>175</Value></Property><Property><Name>height</Name><Value>175</Value></Property><Property><Name>className</Name><Value>CircleOrSquareView</Value></Property></Attributes><Contents><Container><Attributes><Property><Name>x</Name><Value>0</Value></Property><Property><Name>y</Name><Value>0</Value></Property><Property><Name>width</Name><Value>175</Value></Property><Property><Name>height</Name><Value>175</Value></Property><Property><Name>className</Name><Value>CircleOrSquareView</Value></Property></Attributes></Container></Contents></Container><Container><Attributes><Property><Name>x</Name><Value>10</Value></Property><Property><Name>y</Name><Value>48</Value></Property><Property><Name>width</Name><Value>26</Value></Property><Property><Name>height</Name><Value>26</Value></Property><Property><Name>className</Name><Value>UIRoundedRectButton</Value></Property><Property><Name>INVOKE</Name><Value>TOUCH</Value></Property></Attributes><Contents><Container><Attributes><Property><Name>x</Name><Value>8</Value></Property><Property><Name>y</Name><Value>3</Value></Property><Property><Name>width</Name><Value>9</Value></Property><Property><Name>height</Name><Value>19</Value></Property><Property><Name>className</Name><Value>UIButtonLabel</Value></Property></Attributes></Container></Contents></Container><Container><Attributes><Property><Name>x</Name><Value>10</Value></Property><Property><Name>y</Name><Value>80</Value></Property><Property><Name>width</Name><Value>26</Value></Property><Property><Name>height</Name><Value>26</Value></Property><Property><Name>className</Name><Value>UIRoundedRectButton</Value></Property><Property><Name>INVOKE</Name><Value>TOUCH</Value></Property></Attributes><Contents><Container><Attributes><Property><Name>x</Name><Value>0</Value></Property><Property><Name>y</Name><Value>0</Value></Property><Property><Name>width</Name><Value>0</Value></Property><Property><Name>height</Name><Value>0</Value></Property><Property><Name>className</Name><Value>UIButtonLabel</Value></Property></Attributes></Container></Contents></Container><Container><Attributes><Property><Name>x</Name><Value>10</Value></Property><Property><Name>y</Name><Value>144</Value></Property><Property><Name>width</Name><Value>26</Value></Property><Property><Name>height</Name><Value>26</Value></Property><Property><Name>className</Name><Value>UIRoundedRectButton</Value></Property><Property><Name>INVOKE</Name><Value>TOUCH</Value></Property></Attributes><Contents><Container><Attributes><Property><Name>x</Name><Value>8</Value></Property><Property><Name>y</Name><Value>3</Value></Property><Property><Name>width</Name><Value>9</Value></Property><Property><Name>height</Name><Value>19</Value></Property><Property><Name>className</Name><Value>UIButtonLabel</Value></Property></Attributes></Container></Contents></Container><Container><Attributes><Property><Name>x</Name><Value>10</Value></Property><Property><Name>y</Name><Value>175</Value></Property><Property><Name>width</Name><Value>26</Value></Property><Property><Name>height</Name><Value>26</Value></Property><Property><Name>className</Name><Value>UIRoundedRectButton</Value></Property><Property><Name>INVOKE</Name><Value>TOUCH</Value></Property></Attributes><Contents><Container><Attributes><Property><Name>x</Name><Value>0</Value></Property><Property><Name>y</Name><Value>0</Value></Property><Property><Name>width</Name><Value>0</Value></Property><Property><Name>height</Name><Value>0</Value></Property><Property><Name>className</Name><Value>UIButtonLabel</Value></Property></Attributes></Container></Contents></Container><Container><Attributes><Property><Name>x</Name><Value>51</Value></Property><Property><Name>y</Name><Value>50</Value></Property><Property><Name>width</Name><Value>77</Value></Property><Property><Name>height</Name><Value>21</Value></Property><Property><Name>className</Name><Value>UILabel</Value></Property></Attributes></Container><Container><Attributes><Property><Name>x</Name><Value>51</Value></Property><Property><Name>y</Name><Value>82</Value></Property><Property><Name>width</Name><Value>77</Value></Property><Property><Name>height</Name><Value>21</Value></Property><Property><Name>className</Name><Value>UILabel</Value></Property></Attributes></Container><Container><Attributes><Property><Name>x</Name><Value>56</Value></Property><Property><Name>y</Name><Value>146</Value></Property><Property><Name>width</Name><Value>77</Value></Property><Property><Name>height</Name><Value>21</Value></Property><Property><Name>className</Name><Value>UILabel</Value></Property></Attributes></Container><Container><Attributes><Property><Name>x</Name><Value>56</Value></Property><Property><Name>y</Name><Value>178</Value></Property><Property><Name>width</Name><Value>77</Value></Property><Property><Name>height</Name><Value>21</Value></Property><Property><Name>className</Name><Value>UILabel</Value></Property></Attributes></Container></Contents></Container></GUI></GUIStructure>
+2013-06-04 02:45:33.467 HelloWorld[8000:f803] Done sending message.
+2013-06-04 02:45:33.468 HelloWorld[8000:f803] finished sending root window.
+2013-06-04 02:45:33.533 HelloWorld[8000:13603] Named service 'com.apple.PersistentURLTranslator.Gatekeeper' not found. assetsd is down or misconfigured. Things will not work the way you expect them to.
+2013-06-04 02:45:33.549 HelloWorld[8000:f803] Unable to create library. This is bad. (Connection invalid)
+2013-06-04 02:45:33.735 HelloWorld[8000:f803] Handle event.
+2013-06-04 02:45:33.735 HelloWorld[8000:f803] Received stream
+2013-06-04 02:45:33.735 HelloWorld[8000:f803] INVOKE TOUCH UIRoundedRectButton 27 214
+2013-06-04 02:45:33.735 HelloWorld[8000:f803] Received TOUCH request.
+2013-06-04 02:45:33.736 HelloWorld[8000:f803] [Current view: UIWindow (addr: 111678128)] Looking for view: UIRoundedRectButton, with x: 27, and y:214
+2013-06-04 02:45:33.736 HelloWorld[8000:f803] [Current view: UIView (addr: 212470480)] Looking for view: UIRoundedRectButton, with x: 27, and y:214
+2013-06-04 02:45:33.736 HelloWorld[8000:f803] [Current view: UILabel (addr: 212477872)] Looking for view: UIRoundedRectButton, with x: 27, and y:214
+2013-06-04 02:45:33.736 HelloWorld[8000:f803] [Current view: UILabel (addr: 212478736)] Looking for view: UIRoundedRectButton, with x: 27, and y:214
+2013-06-04 02:45:33.736 HelloWorld[8000:f803] [Current view: UIRoundedRectButton (addr: 212323616)] Looking for view: UIRoundedRectButton, with x: 27, and y:214
+2013-06-04 02:45:33.736 HelloWorld[8000:f803] ...class names are equal
+2013-06-04 02:45:33.737 HelloWorld[8000:f803] ...x and y coordinates are equal too!
+2013-06-04 02:45:33.737 HelloWorld[8000:f803] Found a good view to touch!
+2013-06-04 02:45:33.737 HelloWorld[8000:f803] Trying to draw shape
+2013-06-04 02:45:33.737 HelloWorld[8000:f803] Sending response back
+2013-06-04 02:45:33.737 HelloWorld[8000:f803] Done sending message.
+2013-06-04 02:45:33.738 HelloWorld[8000:f803] Drawing shape
+2013-06-04 02:45:33.844 HelloWorld[8000:f803] Handle event.
+2013-06-04 02:45:33.845 HelloWorld[8000:f803] Received stream
+2013-06-04 02:45:33.845 HelloWorld[8000:f803] INVOKE TOUCH UIRoundedRectButton 10 80
+2013-06-04 02:45:33.845 HelloWorld[8000:f803] Received TOUCH request.
+2013-06-04 02:45:33.845 HelloWorld[8000:f803] [Current view: UIWindow (addr: 111678128)] Looking for view: UIRoundedRectButton, with x: 10, and y:80
+2013-06-04 02:45:33.845 HelloWorld[8000:f803] [Current view: UIView (addr: 212470480)] Looking for view: UIRoundedRectButton, with x: 10, and y:80
+2013-06-04 02:45:33.846 HelloWorld[8000:f803] [Current view: UILabel (addr: 212477872)] Looking for view: UIRoundedRectButton, with x: 10, and y:80
+2013-06-04 02:45:33.846 HelloWorld[8000:f803] [Current view: UILabel (addr: 212478736)] Looking for view: UIRoundedRectButton, with x: 10, and y:80
+2013-06-04 02:45:33.846 HelloWorld[8000:f803] [Current view: UIRoundedRectButton (addr: 212323616)] Looking for view: UIRoundedRectButton, with x: 10, and y:80
+2013-06-04 02:45:33.846 HelloWorld[8000:f803] ...class names are equal
+2013-06-04 02:45:33.846 HelloWorld[8000:f803] [Current view: UIButtonLabel (addr: 212470896)] Looking for view: UIRoundedRectButton, with x: 10, and y:80
+2013-06-04 02:45:33.846 HelloWorld[8000:f803] [Current view: UIRoundedRectButton (addr: 212473376)] Looking for view: UIRoundedRectButton, with x: 10, and y:80
+2013-06-04 02:45:33.847 HelloWorld[8000:f803] ...class names are equal
+2013-06-04 02:45:33.847 HelloWorld[8000:f803] [Current view: UIButtonLabel (addr: 212474224)] Looking for view: UIRoundedRectButton, with x: 10, and y:80
+2013-06-04 02:45:33.847 HelloWorld[8000:f803] [Current view: CircleOrSquareView (addr: 212478896)] Looking for view: UIRoundedRectButton, with x: 10, and y:80
+2013-06-04 02:45:33.847 HelloWorld[8000:f803] [Current view: CircleOrSquareView (addr: 212477696)] Looking for view: UIRoundedRectButton, with x: 10, and y:80
+2013-06-04 02:45:33.847 HelloWorld[8000:f803] [Current view: UIRoundedRectButton (addr: 212475904)] Looking for view: UIRoundedRectButton, with x: 10, and y:80
+2013-06-04 02:45:33.847 HelloWorld[8000:f803] ...class names are equal
+2013-06-04 02:45:33.847 HelloWorld[8000:f803] [Current view: UIButtonLabel (addr: 212476352)] Looking for view: UIRoundedRectButton, with x: 10, and y:80
+2013-06-04 02:45:33.848 HelloWorld[8000:f803] [Current view: UIRoundedRectButton (addr: 212475200)] Looking for view: UIRoundedRectButton, with x: 10, and y:80
+2013-06-04 02:45:33.848 HelloWorld[8000:f803] ...class names are equal
+2013-06-04 02:45:33.848 HelloWorld[8000:f803] ...x and y coordinates are equal too!
+2013-06-04 02:45:33.848 HelloWorld[8000:f803] Found a good view to touch!
+2013-06-04 02:45:33.848 HelloWorld[8000:f803] Selected circle button.
+2013-06-04 02:45:33.849 HelloWorld[8000:f803] Sending response back
+2013-06-04 02:45:33.849 HelloWorld[8000:f803] Done sending message.
+2013-06-04 02:45:33.953 HelloWorld[8000:f803] Handle event.
+2013-06-04 02:45:33.953 HelloWorld[8000:f803] Received stream
+2013-06-04 02:45:33.954 HelloWorld[8000:f803] Handle event.
+2013-06-04 02:45:33.954 HelloWorld[8000:f803] NSStreamEventEndEncountered
+2013-06-04 02:45:36.338 HelloWorld[8000:f803] Writing out guitar commands: (
+        {
+        action = "INVOKE_TOUCH";
+        class = UIRoundedRectButton;
+        x = 27;
+        y = 214;
+    },
+        {
+        action = "INVOKE_TOUCH";
+        class = UIRoundedRectButton;
+        x = 10;
+        y = 80;
+    }
+)
+2013-06-04 02:45:36.341 HelloWorld[8000:f803] Shutting down
