@@ -1,10 +1,2 @@
 [main] ERROR /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut//guitar-config/configuration.xml not found!!!
 [main] ERROR No configuration file. Using an empty one...
-[main] ERROR IphRipper: 
-java.lang.NullPointerException
-	at edu.umd.cs.guitar.model.IphCommServer.waitForConnection(IphCommServer.java:51)
-	at edu.umd.cs.guitar.model.IphApplication.connect(IphApplication.java:55)
-	at edu.umd.cs.guitar.ripper.IphRipperMonitor.setUp(IphRipperMonitor.java:145)
-	at edu.umd.cs.guitar.ripper.Ripper.execute(Ripper.java:161)
-	at edu.umd.cs.guitar.ripper.IphRipper.execute(IphRipper.java:84)
-	at edu.umd.cs.guitar.ripper.IphRipperMain.main(IphRipperMain.java:46)

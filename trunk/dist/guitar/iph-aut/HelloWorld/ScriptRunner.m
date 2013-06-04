@@ -103,7 +103,7 @@ const float SCRIPT_RUNNER_INTER_COMMAND_DELAY = .5;
 			NSURL *website = [NSURL URLWithString:urlStr];
 			if (!website) {
 				NSLog(@"%@ is not a valid URL");
-				return;
+				return 0;
 			}
 			
 			CFReadStreamRef readStream;

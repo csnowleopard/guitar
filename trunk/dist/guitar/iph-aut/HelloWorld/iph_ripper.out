@@ -3,6 +3,7 @@ Build settings from command line:
 
 === BUILD NATIVE TARGET TestScriptRunner OF PROJECT HelloWorld WITH CONFIGURATION Debug ===
 Check dependencies
+Warning: The Copy Bundle Resources build phase contains this target's Info.plist file 'TestScriptRunner-Info.plist'.
 
 PhaseScriptExecution "Run Script" build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/Script-3DDCC2D2144BF13A008D0BB2.sh
     cd /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld
@@ -103,8 +104,8 @@ PhaseScriptExecution "Run Script" build/HelloWorld.build/Debug-iphonesimulator/T
     setenv GCC_PREPROCESSOR_DEFINITIONS SCRIPT_DRIVEN_TEST_MODE_ENABLED
     setenv GCC_SYMBOLS_PRIVATE_EXTERN YES
     setenv GCC_TREAT_WARNINGS_AS_ERRORS NO
-    setenv GCC_VERSION com.apple.compilers.llvmgcc42
-    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvmgcc42
+    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0
+    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0
     setenv GCC_WARN_ABOUT_RETURN_TYPE YES
     setenv GCC_WARN_UNUSED_VARIABLE YES
     setenv GENERATE_MASTER_OBJECT_FILE NO
@@ -151,7 +152,7 @@ PhaseScriptExecution "Run Script" build/HelloWorld.build/Debug-iphonesimulator/T
     setenv LEX lex
     setenv LIBRARY_FLAG_NOSPACE YES
     setenv LIBRARY_FLAG_PREFIX -l
-    setenv LIBRARY_SEARCH_PATHS "\"/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/Debug-iphonesimulator\"  \\\"/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Classes\\\"/**"
+    setenv LIBRARY_SEARCH_PATHS "\"/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/Debug-iphonesimulator\" /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/** \\\"/Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/Classes\\\"/**"
     setenv LINKER_DISPLAYS_MANGLED_NAMES NO
     setenv LINK_FILE_LIST_normal_i386 /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/Objects-normal/i386/HelloWorld.LinkFileList
     setenv LINK_WITH_STANDARD_LIBRARIES YES
@@ -179,10 +180,9 @@ PhaseScriptExecution "Run Script" build/HelloWorld.build/Debug-iphonesimulator/T
     setenv OPTIMIZATION_LEVEL 0
     setenv OS MACOS
     setenv OSAC /usr/bin/osacompile
-    setenv OTHER_LDFLAGS -lgcov
     setenv PACKAGE_TYPE com.apple.package-type.wrapper.application
     setenv PASCAL_STRINGS YES
-    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/csnowleopard/.rvm/gems/ruby-1.9.3-p286/bin:/Users/csnowleopard/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/csnowleopard/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/csnowleopard/.rvm/bin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/mysql/bin"
+    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/Users/csnowleopard/.rvm/gems/ruby-1.9.3-p286/bin:/Users/csnowleopard/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/csnowleopard/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/csnowleopard/.rvm/bin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/mysql/bin"
     setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"
     setenv PBDEVELOPMENTPLIST_PATH HelloWorld.app/pbdevelopment.plist
     setenv PFE_FILE_C_DIALECTS objective-c
@@ -197,9 +197,11 @@ PhaseScriptExecution "Run Script" build/HelloWorld.build/Debug-iphonesimulator/T
     setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform
     setenv PLATFORM_NAME iphonesimulator
     setenv PLATFORM_PREFERRED_ARCH i386
+    setenv PLATFORM_PRODUCT_BUILD_VERSION 10B141
     setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 50100
     setenv PLIST_FILE_OUTPUT_FORMAT binary
     setenv PLUGINS_FOLDER_PATH HelloWorld.app/PlugIns
+    setenv PREBINDING NO
     setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES
     setenv PRECOMP_DESTINATION_DIR /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/PrefixHeaders
     setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO
@@ -214,6 +216,7 @@ PhaseScriptExecution "Run Script" build/HelloWorld.build/Debug-iphonesimulator/T
     setenv PROJECT_FILE_PATH /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/HelloWorld.xcodeproj
     setenv PROJECT_NAME HelloWorld
     setenv PROJECT_TEMP_DIR /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build
+    setenv PROJECT_TEMP_ROOT /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build
     setenv PUBLIC_HEADERS_FOLDER_PATH HelloWorld.app/Headers
     setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES
     setenv REMOVE_CVS_FROM_RESOURCES YES
@@ -281,6 +284,7 @@ PhaseScriptExecution "Run Script" build/HelloWorld.build/Debug-iphonesimulator/T
     setenv TEMP_FILE_DIR /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build
     setenv TEMP_ROOT /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build
     setenv TEST_AFTER_BUILD NO
+    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault
     setenv UID 501
     setenv UNLOCALIZED_RESOURCES_FOLDER_PATH HelloWorld.app
     setenv UNSTRIPPED_PRODUCT NO
@@ -301,10 +305,10 @@ PhaseScriptExecution "Run Script" build/HelloWorld.build/Debug-iphonesimulator/T
     setenv WRAPPER_NAME HelloWorld.app
     setenv WRAPPER_SUFFIX .app
     setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode
-    setenv XCODE_PRODUCT_BUILD_VERSION 4E3002
-    setenv XCODE_VERSION_ACTUAL 0433
+    setenv XCODE_PRODUCT_BUILD_VERSION 4H1003
+    setenv XCODE_VERSION_ACTUAL 0462
     setenv XCODE_VERSION_MAJOR 0400
-    setenv XCODE_VERSION_MINOR 0430
+    setenv XCODE_VERSION_MINOR 0460
     setenv YACC yacc
     /bin/sh -c /Users/csnowleopard/guitar/trunk/dist/guitar/iph-aut/HelloWorld/build/HelloWorld.build/Debug-iphonesimulator/TestScriptRunner.build/Script-3DDCC2D2144BF13A008D0BB2.sh
 
