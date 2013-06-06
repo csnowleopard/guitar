@@ -111,6 +111,28 @@ run_iphonesim="../ios-sim/Build/Release/ios-sim launch $aut_dir/build/Debug-ipho
 # Main workflow 
 #------------------------
 
+
+#'/downloads/download.action?path=Developer_Tools/xcode_4.6.2/xcode4620419895a.dmg', 'Xcode 4.6.2'
+
+#'/downloads/download.action?path=Developer_Tools/command_line_tools_os_x_mountain_lion_for_xcode__april_2013/xcode462_cltools_10_86938259a.dmg', 'Command Line Tools (OS X Mountain Lion) for Xcode - April 2013', 21488)">Command Line Tools (OS X Mountain Lion) for Xcode - April 2013</a>
+
+#<a href="#" onclick="callDow('/downloads/download.action?path=Developer_Tools/command_line_tools_os_x_lion_for_xcode__april_2013/xcode462_cltools_10_76938260a.dmg', 'Command Line Tools (OS X Lion) for Xcode - April 2013', 21490)">Command Line Tools (OS X Lion) for Xcode - April 2013</a>
+#!/bin/bash
+#VER=`ant -version 2>&1 | grep "Apache" | awk '{print $4}' | tr -d \" | awk '{split($0, array, ".")} END{print array[2]}'`
+#echo $VER
+#if [[ $VER = 8 ]]; then
+#    echo "ant 1.8 installed"
+#else
+#	echo "bad"
+    #cd /Library/Java/JavaVirtualMachines/
+    #curl -O
+#fi
+
+
+
+
+
+
 # Preparing output directories
 rm -rf ./Demo &> /dev/null
 mkdir -p $output_dir
